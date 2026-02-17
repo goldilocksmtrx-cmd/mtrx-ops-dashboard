@@ -2,15 +2,12 @@ import { Client } from "@notionhq/client";
 import { NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 60;
 
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 
 const DB = {
   deliverables: "23fc239d-6afc-80e2-9636-d30852777d90",
-  team: "305c239d-6afc-80a4-87d6-eb84e123a3dd",
   aiDeliverables: "291c239d-6afc-80ed-aaab-eae0a318a1f8",
-  aiBrands: "291c239d-6afc-8072-8e43-f87787ac6831",
   checkIn: "305c239d-6afc-8008-b0b2-dd5211d75e91",
   podLeader: "306c239d-6afc-80df-9257-f749d6bfd56d",
   pm: "306c239d-6afc-80db-a1cc-c4c9a599a1d0",
@@ -19,24 +16,7 @@ const DB = {
   opsTracker: "30ac239d-6afc-81f4-bd84-ce91fb66c464",
 };
 
-const DONE_STATUSES = ["Delivered", "Killed", "Archived"];
-const EXEMPT = ["Hamza Shah", "Aaron Bains", "Aneesha", "Cam"];
-
-async function queryAll(dbId, filter) {
-  let results = [];
-  let cursor;
-  do {
-    const r = await notion.databases.query({
-      database_id: dbId,
-      filter,
-      start_cursor: cursor,
-      page_size: 100,
-    });
-    results.push(...r.results);
-    cursor = r.has_more ? r.next_cursor : undefined;
-  } while (cursor);
-  return results;
-}
+const DONE = ["Delivered", "Killed", "Archived"];
 
 function getTitle(page) {
   for (const v of Object.values(page.properties)) {
@@ -44,48 +24,36 @@ function getTitle(page) {
   }
   return "";
 }
-
+function getSelect(page, name) {
+  const p = page.properties[name];
+  if (p?.type === "select") return p.select?.name || null;
+  if (p?.type === "status") return p.status?.name || null;
+  return null;
+}
+function getDate(page, name) {
+  const p = page.properties[name];
+  return p?.type === "date" ? p.date?.start || null : null;
+}
+function getPeople(page, name) {
+  const p = page.properties[name];
+  return p?.type === "people" ? p.people?.map(u => u.name || "Unknown") : [];
+}
 function getRichText(page, name) {
   const p = page.properties[name];
-  if (!p) return "";
-  if (p.type === "rich_text") return p.rich_text?.map(t => t.plain_text).join("") || "";
-  if (p.type === "title") return p.title?.map(t => t.plain_text).join("") || "";
+  if (p?.type === "rich_text") return p.rich_text?.map(t => t.plain_text).join("") || "";
   return "";
 }
 
-function getSelect(page, name) {
-  const p = page.properties[name];
-  if (!p) return null;
-  if (p.type === "select") return p.select?.name || null;
-  if (p.type === "status") return p.status?.name || null;
-  return null;
-}
-
-function getMultiSelect(page, name) {
-  const p = page.properties[name];
-  if (p?.type === "multi_select") return p.multi_select?.map(o => o.name) || [];
-  return [];
-}
-
-function getDate(page, name) {
-  const p = page.properties[name];
-  if (p?.type === "date") return p.date?.start || null;
-  return null;
-}
-
-function getPeople(page, name) {
-  const p = page.properties[name];
-  if (p?.type === "people") return p.people?.map(u => u.name || u.id) || [];
-  return [];
-}
-
-function getRollup(page, name) {
-  const p = page.properties[name];
-  if (p?.type === "rollup") {
-    if (p.rollup?.type === "array") return p.rollup.array;
-    return p.rollup;
+async function queryFiltered(dbId, filter, pageSize = 100) {
+  try {
+    const args = { database_id: dbId, page_size: pageSize };
+    if (filter) args.filter = filter;
+    const r = await notion.databases.query(args);
+    return r.results;
+  } catch (e) {
+    console.error(`Error querying ${dbId}:`, e.message);
+    return [];
   }
-  return null;
 }
 
 export async function GET() {
@@ -93,194 +61,143 @@ export async function GET() {
     const today = new Date().toISOString().split("T")[0];
     const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString().split("T")[0];
 
-    // Fetch all data in parallel
-    const [deliverables, aiDeliverables, team, checkIns, podLeaderForms, pmForms, headEditingForms, headCSForms, opsTasks, aiBrands] = await Promise.all([
-      queryAll(DB.deliverables),
-      queryAll(DB.aiDeliverables),
-      queryAll(DB.team),
-      queryAll(DB.checkIn),
-      queryAll(DB.podLeader),
-      queryAll(DB.pm),
-      queryAll(DB.headEditing),
-      queryAll(DB.headCS),
-      queryAll(DB.opsTracker),
-      queryAll(DB.aiBrands),
+    // Only fetch ACTIVE deliverables (not done) — much smaller dataset
+    const activeFilter = {
+      and: [
+        { property: "Status", select: { does_not_equal: "Delivered" } },
+        { property: "Status", select: { does_not_equal: "Killed" } },
+        { property: "Status", select: { does_not_equal: "Archived" } },
+        { property: "Status", select: { is_not_empty: true } },
+      ],
+    };
+
+    // Fetch in parallel but with filters
+    const [deliverables, aiDeliverables, checkIns, podLeaderForms, pmForms, headEditingForms, headCSForms, opsTasks] = await Promise.all([
+      queryFiltered(DB.deliverables, activeFilter),
+      queryFiltered(DB.aiDeliverables, activeFilter),
+      queryFiltered(DB.checkIn),
+      queryFiltered(DB.podLeader),
+      queryFiltered(DB.pm),
+      queryFiltered(DB.headEditing),
+      queryFiltered(DB.headCS),
+      queryFiltered(DB.opsTracker),
     ]);
 
-    // --- Team Directory ---
-    const teamMembers = team.map(p => ({
-      name: getTitle(p) || getRichText(p, "Full Name"),
-      fullName: getRichText(p, "Full Name") || getTitle(p),
-      role: getSelect(p, "Role"),
-      pods: getMultiSelect(p, "Pod"),
-      podLead: p.properties["Pod Lead"]?.checkbox || false,
-    }));
-
-    // --- Deliverables ---
-    const activeDeliverables = deliverables.filter(d => {
-      const status = getSelect(d, "Status");
-      return status && !DONE_STATUSES.includes(status);
-    });
-
-    const overdueDeliverables = deliverables.filter(d => {
-      const status = getSelect(d, "Status");
-      if (!status || DONE_STATUSES.includes(status)) return false;
-      // Check multiple date fields for overdue
+    // --- Overview ---
+    const overdue = deliverables.filter(d => {
       const dates = ["Edit Due Date", "Script Due Date", "Content Due Date"].map(n => getDate(d, n)).filter(Boolean);
       return dates.some(dt => dt < today);
     });
 
-    // Active editors (people assigned to active deliverables)
     const editorSet = new Set();
-    activeDeliverables.forEach(d => {
-      getPeople(d, "Editor").forEach(e => editorSet.add(e));
-    });
-
-    // --- Pod Health ---
-    // Pod is a relation in deliverables, so we need to use Pod (Inherited) rollup
-    const podMap = { "North Coast": [], "East Coast": [], "West Coast": [], "South Coast": [] };
-
-    activeDeliverables.forEach(d => {
-      const podRollup = getRollup(d, "Pod (Inherited)");
-      let podNames = [];
-      if (podRollup && Array.isArray(podRollup)) {
-        podRollup.forEach(item => {
-          if (item.type === "array") {
-            item.array?.forEach(a => {
-              if (a.type === "rich_text") podNames.push(...a.rich_text.map(t => t.plain_text));
-              if (a.type === "select") podNames.push(a.select?.name);
-            });
-          } else if (item.type === "rich_text") {
-            podNames.push(...item.rich_text.map(t => t.plain_text));
-          } else if (item.type === "select") {
-            podNames.push(item.select?.name);
-          }
-        });
-      }
-      podNames.forEach(pn => {
-        if (podMap[pn] !== undefined) podMap[pn].push(d);
-      });
-    });
-
-    const podHealth = Object.entries(podMap).map(([name, items]) => {
-      const overdue = items.filter(d => {
-        const dates = ["Edit Due Date", "Script Due Date", "Content Due Date"].map(n => getDate(d, n)).filter(Boolean);
-        return dates.some(dt => dt < today);
-      });
-      const editors = new Set();
-      items.forEach(d => getPeople(d, "Editor").forEach(e => editors.add(e)));
-      return {
-        name,
-        active: items.length,
-        overdue: overdue.length,
-        editors: [...editors],
-        health: overdue.length === 0 ? "green" : overdue.length <= 3 ? "yellow" : "red",
-      };
-    });
+    deliverables.forEach(d => getPeople(d, "Editor").forEach(e => editorSet.add(e)));
 
     // --- Delayed People ---
     const personOverdue = {};
-    overdueDeliverables.forEach(d => {
+    overdue.forEach(d => {
       const people = [...getPeople(d, "Editor"), ...getPeople(d, "Strategist")];
       people.forEach(name => {
-        if (!personOverdue[name]) {
-          const member = teamMembers.find(m => m.name === name || m.fullName === name);
-          personOverdue[name] = {
-            name,
-            role: member?.role || "Unknown",
-            pod: member?.pods?.[0] || "Unknown",
-            count: 0,
-          };
-        }
+        if (!personOverdue[name]) personOverdue[name] = { name, count: 0 };
         personOverdue[name].count++;
       });
     });
-    const delayedPeople = Object.values(personOverdue).sort((a, b) => b.count - a.count);
+    const delayedPeople = Object.values(personOverdue).sort((a, b) => b.count - a.count).slice(0, 15);
+
+    // --- Pod Health (from concept name patterns) ---
+    const pods = {
+      "Pod 1 (North Coast)": { active: 0, overdue: 0, editors: new Set() },
+      "Pod 2 (East Coast)": { active: 0, overdue: 0, editors: new Set() },
+      "Pod 3 (West Coast)": { active: 0, overdue: 0, editors: new Set() },
+      "Pod 4 (South Coast)": { active: 0, overdue: 0, editors: new Set() },
+    };
+
+    // Map brands to pods by code
+    const brandPodMap = {
+      PQ: "Pod 1 (North Coast)", UD: "Pod 1 (North Coast)", AU: "Pod 1 (North Coast)",
+      TEV: "Pod 2 (East Coast)", TC: "Pod 2 (East Coast)", LL: "Pod 2 (East Coast)", DT: "Pod 2 (East Coast)",
+      MN: "Pod 3 (West Coast)", BR: "Pod 3 (West Coast)", NX: "Pod 3 (West Coast)", NB: "Pod 3 (West Coast)",
+      DNC: "Pod 4 (South Coast)", DNH: "Pod 4 (South Coast)", YH: "Pod 4 (South Coast)", BB: "Pod 4 (South Coast)", TP: "Pod 4 (South Coast)", ME: "Pod 4 (South Coast)",
+    };
+
+    deliverables.forEach(d => {
+      const name = getTitle(d);
+      const match = name.match(/MTRX_([A-Z]+)/);
+      if (match) {
+        const code = match[1];
+        const podName = brandPodMap[code];
+        if (podName && pods[podName]) {
+          pods[podName].active++;
+          getPeople(d, "Editor").forEach(e => pods[podName].editors.add(e));
+          const dates = ["Edit Due Date", "Script Due Date", "Content Due Date"].map(n => getDate(d, n)).filter(Boolean);
+          if (dates.some(dt => dt < today)) pods[podName].overdue++;
+        }
+      }
+    });
+
+    const podHealth = Object.entries(pods).map(([name, data]) => ({
+      name,
+      active: data.active,
+      overdue: data.overdue,
+      editors: data.editors.size,
+      health: data.overdue === 0 ? "green" : data.overdue <= 5 ? "yellow" : "red",
+    }));
 
     // --- AI Branch ---
-    const activeAI = aiDeliverables.filter(d => {
-      const status = getSelect(d, "Status");
-      return status && !DONE_STATUSES.includes(status);
-    });
     const overdueAI = aiDeliverables.filter(d => {
-      const status = getSelect(d, "Status");
-      if (!status || DONE_STATUSES.includes(status)) return false;
       const due = getDate(d, "Due Date");
       return due && due < today;
     });
     const aiStatusMap = {};
-    activeAI.forEach(d => {
+    aiDeliverables.forEach(d => {
       const s = getSelect(d, "Status") || "Unknown";
       aiStatusMap[s] = (aiStatusMap[s] || 0) + 1;
     });
-    const aiBrandNames = aiBrands.map(b => getTitle(b));
 
-    // --- Forms Breakdown ---
-    const formDbs = [
-      { name: "Check In Tracker", data: checkIns, dateField: "Week", nameField: "Team Member", nameType: "rich_text" },
-      { name: "Pod Leader", data: podLeaderForms, dateField: "Week", nameField: null, nameType: "title" },
-      { name: "PM", data: pmForms, dateField: "Week", nameField: null, nameType: "title" },
-      { name: "Head of Editing", data: headEditingForms, dateField: "Week", nameField: null, nameType: "title" },
-      { name: "Head of CS", data: headCSForms, dateField: "Week", nameField: null, nameType: "title" },
+    // --- Forms (last 7 days by created_time) ---
+    const formsData = [
+      { name: "Check In Tracker", data: checkIns },
+      { name: "Pod Leader", data: podLeaderForms },
+      { name: "Project Manager", data: pmForms },
+      { name: "Head of Editing", data: headEditingForms },
+      { name: "Head of CS", data: headCSForms },
     ];
 
-    const formsBreakdown = formDbs.map(({ name, data, dateField, nameField, nameType }) => {
-      const recent = data.filter(d => {
-        const dt = getDate(d, dateField);
-        return dt && dt >= weekAgo;
-      });
-      const submitters = recent.map(d => {
-        if (nameField && nameType === "rich_text") return getRichText(d, nameField);
-        return getTitle(d);
-      }).filter(Boolean);
+    const forms = formsData.map(({ name, data }) => {
+      const recent = data.filter(d => d.created_time >= weekAgo);
+      const submitters = recent.map(d => getTitle(d) || getRichText(d, "Full Name") || getRichText(d, "Team Member") || "Unknown");
       return { name, total: recent.length, submitters: [...new Set(submitters)] };
     });
 
-    // Expected submitters per form (from team directory, minus exempt)
-    const nonExemptTeam = teamMembers.filter(m => !EXEMPT.some(e => m.name?.includes(e) || m.fullName?.includes(e)));
-
-    // --- Form Compliance ---
-    const totalExpected = formsBreakdown.reduce((sum, f) => {
-      if (f.name === "Check In Tracker") return sum + nonExemptTeam.filter(m => m.role === "Editor" || m.role === "Creative Strategist").length;
-      return sum + 1; // leadership forms expect 1 submission
-    }, 0);
-    const totalSubmitted = formsBreakdown.reduce((sum, f) => sum + f.total, 0);
-    const formCompliance = totalExpected > 0 ? Math.round((totalSubmitted / totalExpected) * 100) : 0;
+    const totalSubmitted = forms.reduce((s, f) => s + f.total, 0);
 
     // --- Ops Tracker ---
-    const opsTaskList = opsTasks.map(t => ({
+    const opsTaskList = opsTasks.slice(0, 15).map(t => ({
       task: getTitle(t),
       status: getSelect(t, "Status"),
       date: getDate(t, "Date"),
-      pod: getSelect(t, "Pod"),
-      brand: getSelect(t, "Brand"),
       hours: t.properties["Hours Spent"]?.number || 0,
-      completed: getRichText(t, "What I Completed") || getTitle(t),
-      pending: getRichText(t, "What's Pending & Why"),
-    })).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    }));
 
     return NextResponse.json({
       overview: {
-        activeDeliverables: activeDeliverables.length,
-        overdue: overdueDeliverables.length,
-        formCompliance,
+        activeDeliverables: deliverables.length,
+        overdue: overdue.length,
+        formCompliance: totalSubmitted,
         activeEditors: editorSet.size,
       },
       podHealth,
-      delayedPeople: delayedPeople.slice(0, 20),
+      delayedPeople,
       ai: {
-        active: activeAI.length,
+        active: aiDeliverables.length,
         overdue: overdueAI.length,
         statuses: aiStatusMap,
-        brands: aiBrandNames,
       },
-      forms: formsBreakdown,
-      opsTracker: opsTaskList.slice(0, 30),
-      teamMembers: nonExemptTeam.map(m => ({ name: m.name || m.fullName, role: m.role, pods: m.pods })),
+      forms,
+      opsTracker: opsTaskList,
       timestamp: new Date().toISOString(),
     });
   } catch (err) {
-    console.error("Dashboard API error:", err);
+    console.error("Dashboard error:", err);
     return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }
