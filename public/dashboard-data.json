@@ -1,0 +1,73 @@
+{
+  "overview": {
+    "activeDeliverables": 0,
+    "overdue": 0,
+    "formCompliance": 0,
+    "activeEditors": 0
+  },
+  "podHealth": [
+    {
+      "name": "Pod 1 (North Coast)",
+      "active": 0,
+      "overdue": 0,
+      "editors": 0,
+      "health": "green"
+    },
+    {
+      "name": "Pod 2 (East Coast)",
+      "active": 0,
+      "overdue": 0,
+      "editors": 0,
+      "health": "green"
+    },
+    {
+      "name": "Pod 3 (West Coast)",
+      "active": 0,
+      "overdue": 0,
+      "editors": 0,
+      "health": "green"
+    },
+    {
+      "name": "Pod 4 (South Coast)",
+      "active": 0,
+      "overdue": 0,
+      "editors": 0,
+      "health": "green"
+    }
+  ],
+  "delayedPeople": [],
+  "ai": {
+    "active": 0,
+    "overdue": 0,
+    "statuses": {}
+  },
+  "forms": [
+    {
+      "name": "Check In Tracker",
+      "total": 0,
+      "submitters": []
+    },
+    {
+      "name": "Pod Leader",
+      "total": 0,
+      "submitters": []
+    },
+    {
+      "name": "Project Manager",
+      "total": 0,
+      "submitters": []
+    },
+    {
+      "name": "Head of Editing",
+      "total": 0,
+      "submitters": []
+    },
+    {
+      "name": "Head of CS",
+      "total": 0,
+      "submitters": []
+    }
+  ],
+  "opsTracker": [],
+  "timestamp": "2026-02-17T23:44:41.897Z"
+}
