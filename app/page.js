@@ -5,6 +5,7 @@ export default function Dashboard() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState(null);
+  const [expandedForm, setExpandedForm] = useState(null);
 
   const fetchData = async () => {
     setLoading(true);
@@ -22,6 +23,10 @@ export default function Dashboard() {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const toggleForm = (formName) => {
+    setExpandedForm(expandedForm === formName ? null : formName);
+  };
 
   if (loading && !data) {
     return (
@@ -83,9 +88,15 @@ export default function Dashboard() {
 
         {/* Forms Breakdown */}
         <h2 className="text-xl font-bold mb-4">📋 Forms (Last 7 Days)</h2>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-4">
           {data?.forms?.map((form) => (
-            <div key={form.name} className="bg-[#1a1a2e] p-4 rounded-xl border border-green-500/30">
+            <div 
+              key={form.name} 
+              onClick={() => toggleForm(form.name)}
+              className={`bg-[#1a1a2e] p-4 rounded-xl border cursor-pointer transition hover:bg-[#252540] ${
+                expandedForm === form.name ? "border-green-400" : "border-green-500/30"
+              }`}
+            >
               <div className="font-bold mb-2">{form.name}</div>
               <div className="text-4xl font-bold text-green-400">{form.total}</div>
               <div className="text-gray-400 text-sm">submissions</div>
@@ -95,9 +106,54 @@ export default function Dashboard() {
                   {form.submitters.length > 3 && ` +${form.submitters.length - 3}`}
                 </div>
               )}
+              <div className="mt-2 text-xs text-purple-400">
+                {expandedForm === form.name ? "▼ Click to close" : "▶ Click for details"}
+              </div>
             </div>
           ))}
         </div>
+
+        {/* Expanded Form Details */}
+        {expandedForm && (
+          <div className="bg-[#1a1a2e] rounded-xl border border-green-400 p-6 mb-8">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-bold text-green-400">{expandedForm}</h3>
+              <button 
+                onClick={() => setExpandedForm(null)}
+                className="text-gray-400 hover:text-white"
+              >
+                ✕
+              </button>
+            </div>
+            
+            {data?.forms?.filter(f => f.name === expandedForm).map((form) => (
+              <div key={form.name}>
+                <div className="mb-4">
+                  <span className="text-gray-400">Total submissions: </span>
+                  <span className="text-green-400 font-bold text-xl">{form.total}</span>
+                </div>
+                
+                {form.submitters?.length > 0 ? (
+                  <div>
+                    <h4 className="text-sm text-gray-400 mb-2">Who submitted:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {form.submitters.map((submitter, i) => (
+                        <span 
+                          key={i} 
+                          className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm"
+                        >
+                          {submitter}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-gray-500">No submissions this week</p>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
