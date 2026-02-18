@@ -44,6 +44,9 @@ export default function Dashboard() {
     );
   }
 
+  const activeBrands = data?.ai?.brands?.filter(b => b.active > 0) || [];
+  const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0).map(b => b.name).sort() || [];
+
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white p-6">
       <div className="max-w-5xl mx-auto">
@@ -68,29 +71,54 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* AI Branch - By Brand */}
-        <h2 className="text-xl font-bold mb-4">🤖 AI Branch (by Brand)</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
-          {data?.ai?.brands?.map((brand) => (
-            <div 
-              key={brand.name}
-              onClick={() => toggleBrand(brand.name)}
-              className={`bg-[#1a1a2e] p-4 rounded-xl border cursor-pointer transition hover:bg-[#252540] ${
-                expandedBrand === brand.name ? "border-purple-400" : "border-purple-500/30"
-              }`}
-            >
-              <div className="font-bold mb-2 text-sm">{brand.name}</div>
-              <div className="text-3xl font-bold text-purple-400">{brand.active}</div>
-              <div className="text-gray-400 text-sm">active</div>
-              {brand.overdue > 0 && (
-                <div className="mt-2 text-xs text-red-400">⚠️ {brand.overdue} overdue</div>
-              )}
-              <div className="mt-2 text-xs text-purple-300">
-                {expandedBrand === brand.name ? "▼ Click to close" : "▶ Click for status"}
+        {/* AI Branch - Active Brands */}
+        <h2 className="text-xl font-bold mb-4">🤖 AI Branch</h2>
+        
+        {activeBrands.length > 0 && (
+          <>
+            <h3 className="text-sm text-gray-400 mb-3">Active Brands</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
+              {activeBrands.map((brand) => (
+                <div 
+                  key={brand.name}
+                  onClick={() => toggleBrand(brand.name)}
+                  className={`bg-[#1a1a2e] p-4 rounded-xl border cursor-pointer transition hover:bg-[#252540] ${
+                    expandedBrand === brand.name ? "border-purple-400" : "border-purple-500/30"
+                  }`}
+                >
+                  <div className="font-bold mb-2 text-sm">{brand.name}</div>
+                  <div className="text-3xl font-bold text-purple-400">{brand.active}</div>
+                  <div className="text-gray-400 text-sm">active</div>
+                  {brand.overdue > 0 && (
+                    <div className="mt-2 text-xs text-red-400">⚠️ {brand.overdue} overdue</div>
+                  )}
+                  <div className="mt-2 text-xs text-purple-300">
+                    {expandedBrand === brand.name ? "▼ Close" : "▶ Details"}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
+        {/* Inactive Brands - All in One Square */}
+        {inactiveBrands.length > 0 && (
+          <div className="mb-8">
+            <h3 className="text-sm text-gray-400 mb-3">Inactive Brands</h3>
+            <div className="bg-[#1a1a2e] p-4 rounded-xl border border-gray-700">
+              <div className="flex flex-wrap gap-2">
+                {inactiveBrands.map((brand) => (
+                  <span 
+                    key={brand} 
+                    className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm"
+                  >
+                    {brand}
+                  </span>
+                ))}
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        )}
 
         {/* Expanded Brand Details */}
         {expandedBrand && (
