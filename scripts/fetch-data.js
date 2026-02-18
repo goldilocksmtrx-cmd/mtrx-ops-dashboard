@@ -255,8 +255,14 @@ async function fetchAllData() {
       else if (code.startsWith("DT") || code === "DT") completedBrands.add("Drem Team");
       else if (code.startsWith("MM") || code === "MM") completedBrands.add("Mail Mend");
       else if (code.startsWith("EV") || code === "EV") completedBrands.add("Evervision");
+      else if (code.startsWith("LD") || code === "LD") completedBrands.add("Ledisa");
+      else if (code.startsWith("SM") || code === "SM") completedBrands.add("Smootheskin");
     }
   });
+  // Hardcode some completed brands that don't have deliverables with proper naming
+  const manualCompleted = ["Ledisa", "Smootheskin"];
+  manualCompleted.forEach(b => completedBrands.add(b));
+  
   console.log("Completed brands:", [...completedBrands]);
   
   // Initialize all brands with 0
