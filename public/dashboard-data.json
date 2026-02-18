@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 52,
+    "active": 49,
     "overdue": 0,
     "brands": [
       {
@@ -247,14 +247,16 @@
       },
       {
         "name": "Sidekick",
-        "active": 12,
+        "active": 9,
         "overdue": 0,
         "statuses": {
           "Video In Review": [
             {
               "name": "MTRX_SK_B1_AIPOD4",
               "due": "2026-02-20"
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD1",
               "due": "2026-02-20"
@@ -268,30 +270,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SK_B1_UGC1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_AIPOD5",
-              "due": "2026-02-20"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SK_B1_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_AIMUP2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_UGC4",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video Needs Revision": [
-            {
               "name": "MTRX_SK_B1_UGC2",
               "due": "2026-02-20"
             },
@@ -301,6 +279,16 @@
             },
             {
               "name": "MTRX_SK_B1_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_UGC1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Ready to Upload": [
+            {
+              "name": "MTRX_SK_B1_UGC4",
               "due": "2026-02-20"
             }
           ]
@@ -704,5 +692,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T09:00:18.228Z"
+  "timestamp": "2026-02-18T14:00:08.660Z"
 }
