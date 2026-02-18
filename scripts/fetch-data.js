@@ -175,13 +175,19 @@ async function fetchAllData() {
     queryAll(DB.headCS),
   ]);
 
-  // Build brand map
+  // Build brand map - use Brand Name field
   const brandMap = {};
+  const brandCreatedTimes = {};
   aiBrands.forEach(b => {
-    const name = getTitle(b);
-    if (name) brandMap[b.id] = name;
+    // Try "Brand Name" first, then fall back to "Name"
+    const name = b.properties["Brand Name"]?.rich_text?.[0]?.plain_text || getTitle(b);
+    if (name) {
+      brandMap[b.id] = name;
+      brandCreatedTimes[name] = b.created_time?.split("T")[0];
+    }
   });
   console.log("AI Brands:", Object.values(brandMap));
+  console.log("Brand created times:", brandCreatedTimes);
 
   // AI Branch - by brand
   const DONE = ["Delivered", "Killed", "Archived"];
@@ -308,7 +314,7 @@ async function fetchAllData() {
     active: data.active,
     overdue: data.overdue,
     statuses: data.statuses,
-    startDate: brandStartDates[name] || null
+    startDate: brandStartDates[name] || brandCreatedTimes[name] || null
   }));
 
   const completedBrandsList = [...completedBrands].filter(b => 
