@@ -315,7 +315,9 @@ async function fetchAllData() {
     }
   });
 
-  const aiBrandsList = Object.entries(brandStats).map(([name, data]) => ({
+  const aiBrandsList = Object.entries(brandStats)
+    .filter(([name]) => name !== "Unknown")
+    .map(([name, data]) => ({
     name,
     active: data.active,
     overdue: data.overdue,

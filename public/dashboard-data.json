@@ -202,20 +202,6 @@
           ]
         },
         "startDate": "2026-02-09"
-      },
-      {
-        "name": "Unknown",
-        "active": 1,
-        "overdue": 0,
-        "statuses": {
-          "Unknown": [
-            {
-              "name": "",
-              "due": null
-            }
-          ]
-        },
-        "startDate": null
       }
     ],
     "completed": [
@@ -614,5 +600,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T01:31:44.061Z"
+  "timestamp": "2026-02-18T01:36:33.085Z"
 }
