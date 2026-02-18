@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 28,
+    "active": 52,
     "overdue": 0,
     "brands": [
       {
@@ -61,10 +61,61 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 0,
+        "active": 12,
         "overdue": 0,
-        "statuses": {},
-        "startDate": "2026-02-08"
+        "statuses": {
+          "Scripting": [
+            {
+              "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIDEB2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ]
+        },
+        "startDate": "2026-02-18"
       },
       {
         "name": "Verso",
@@ -138,10 +189,61 @@
       },
       {
         "name": "Crumb",
-        "active": 0,
+        "active": 12,
         "overdue": 0,
-        "statuses": {},
-        "startDate": "2026-02-08"
+        "statuses": {
+          "Scripting": [
+            {
+              "name": "MTRX_CR_B1_AIMUP2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIUGC2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIUGC3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIMUP1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIUGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIDEB1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIPOD3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIDEB2",
+              "due": "2026-02-20"
+            }
+          ]
+        },
+        "startDate": "2026-02-18"
       },
       {
         "name": "Sidekick",
@@ -151,53 +253,53 @@
           "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD4",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIPOD1",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIMUP1",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIPOD3",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_UGC2",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_UGC3",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIPOD2",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_UGC1",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIPOD5",
-              "due": null
+              "due": "2026-02-20"
             }
           ],
           "Ready to Upload": [
             {
               "name": "MTRX_SK_B1_AIVSL1",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIMUP2",
-              "due": null
+              "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_UGC4",
-              "due": null
+              "due": "2026-02-20"
             }
           ]
         },
@@ -600,5 +702,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T01:36:33.085Z"
+  "timestamp": "2026-02-18T02:21:57.786Z"
 }
