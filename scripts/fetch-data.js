@@ -189,6 +189,12 @@ async function fetchAllData() {
   
   // Get ALL AI brands from the brands database
   const allBrands = aiBrands.map(b => getTitle(b)).filter(Boolean);
+  
+  // Add Sidekick manually since it's in deliverables but not in the brands DB
+  if (!allBrands.some(b => b.toLowerCase().includes('sidekick'))) {
+    allBrands.push('Sidekick');
+  }
+  
   console.log("All AI Brands:", allBrands);
 
   // Group by brand
