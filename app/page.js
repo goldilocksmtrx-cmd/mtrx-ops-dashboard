@@ -45,8 +45,8 @@ export default function Dashboard() {
   }
 
   const activeBrands = data?.ai?.brands?.filter(b => b.active > 0) || [];
-  const completedBrands = data?.ai?.completed || [];
-  const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0 && !completedBrands.includes(b.name)).map(b => b.name).sort() || [];
+  const completedBrands = (data?.ai?.completed || []).map(b => b.toLowerCase());
+  const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0 && !completedBrands.includes(b.name.toLowerCase())).map(b => b.name).sort() || [];
 
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white p-6">
@@ -133,7 +133,7 @@ export default function Dashboard() {
             <h3 className="text-sm text-gray-400 mb-3">Done</h3>
             <div className="bg-[#1a1a2e] p-4 rounded-xl border border-green-500/30">
               <div className="flex flex-wrap gap-2">
-                {completedBrands.map((brand) => (
+                {data?.ai?.completed?.map((brand) => (
                   <span 
                     key={brand} 
                     className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm"
