@@ -109,11 +109,11 @@ export default function Dashboard() {
             <div className="bg-[#1a1a2e] p-4 rounded-xl border border-gray-700">
               <div className="flex flex-wrap gap-3">
                 {inactiveBrands.map((brand) => {
-                  const brandData = data?.ai?.brands?.find(b => b.name === brand);
+                  const brandData = data?.ai?.brands?.find(b => b.name.trim().toLowerCase() === brand.trim().toLowerCase());
                   return (
                     <span 
                       key={brand} 
-                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm cursor-help relative group"
+                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm cursor-help"
                       title={brandData?.startDate ? `Started: ${brandData.startDate}` : "No start date"}
                     >
                       {brand}
