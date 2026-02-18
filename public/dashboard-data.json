@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 31,
-    "overdue": 3,
+    "active": 28,
+    "overdue": 0,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -23,11 +23,9 @@
       },
       {
         "name": "Drem Team",
-        "active": 3,
-        "overdue": 3,
-        "statuses": {
-          "Ready to Upload": 3
-        }
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
       },
       {
         "name": "Mail Mend",
@@ -64,7 +62,68 @@
         "active": 15,
         "overdue": 0,
         "statuses": {
-          "Ready for Editing": 15
+          "Ready for Editing": [
+            {
+              "name": "MTRX_VR_EB_AISI1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIUGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ]
         }
       },
       {
@@ -78,8 +137,58 @@
         "active": 12,
         "overdue": 0,
         "statuses": {
-          "Video Needs Revision": 9,
-          "Ready to Upload": 3
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SK_B1_AIPOD4",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD1",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIMUP1",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD3",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_UGC2",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_UGC3",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD2",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_UGC1",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD5",
+              "due": null
+            }
+          ],
+          "Ready to Upload": [
+            {
+              "name": "MTRX_SK_B1_AIVSL1",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_AIMUP2",
+              "due": null
+            },
+            {
+              "name": "MTRX_SK_B1_UGC4",
+              "due": null
+            }
+          ]
         }
       },
       {
@@ -87,7 +196,12 @@
         "active": 1,
         "overdue": 0,
         "statuses": {
-          "Unknown": 1
+          "Unknown": [
+            {
+              "name": "",
+              "due": null
+            }
+          ]
         }
       }
     ]
@@ -477,5 +591,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T00:48:17.184Z"
+  "timestamp": "2026-02-18T00:56:08.448Z"
 }

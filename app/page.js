@@ -143,14 +143,21 @@ export default function Dashboard() {
                 </div>
                 <div>
                   <h4 className="text-sm text-gray-400 mb-2">By Status:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {Object.entries(brand.statuses || {}).map(([status, count]) => (
-                      <span 
-                        key={status} 
-                        className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm"
-                      >
-                        {status}: {count}
-                      </span>
+                  <div className="space-y-3">
+                    {Object.entries(brand.statuses || {}).map(([status, items]) => (
+                      <div key={status} className="bg-purple-500/10 border border-purple-500/20 rounded-lg p-3">
+                        <div className="font-medium text-purple-300 mb-2">{status} ({items.length})</div>
+                        <div className="space-y-1">
+                          {items.map((item, i) => (
+                            <div key={i} className="text-sm text-gray-300 flex justify-between">
+                              <span className="truncate max-w-xs">{item.name}</span>
+                              <span className={item.due ? (new Date(item.due) < new Date() ? "text-red-400" : "text-gray-400") : "text-gray-500"}>
+                                {item.due || "No deadline"}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     ))}
                   </div>
                 </div>

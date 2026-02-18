@@ -237,9 +237,14 @@ async function fetchAllData() {
     brandStats[brandName].active++;
     
     const status = getSelect(d, "Status") || "Unknown";
-    brandStats[brandName].statuses[status] = (brandStats[brandName].statuses[status] || 0) + 1;
-    
     const due = getDate(d, "Due Date");
+    
+    // Store status with deadline
+    if (!brandStats[brandName].statuses[status]) {
+      brandStats[brandName].statuses[status] = [];
+    }
+    brandStats[brandName].statuses[status].push({ name: conceptName, due: due });
+    
     if (due && due < today) {
       brandStats[brandName].overdue++;
     }
