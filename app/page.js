@@ -97,18 +97,15 @@ export default function Dashboard() {
                 expandedForm === form.name ? "border-green-400" : "border-green-500/30"
               }`}
             >
-              <div className="font-bold mb-2">{form.name}</div>
+              <div className="font-bold mb-2 text-sm">{form.name}</div>
               <div className="text-4xl font-bold text-green-400">{form.total}</div>
               <div className="text-gray-400 text-sm">submissions</div>
-              {form.submitters?.length > 0 && (
-                <div className="mt-2 text-xs text-gray-500">
-                  {form.submitters.slice(0, 3).join(", ")}
-                  {form.submitters.length > 3 && ` +${form.submitters.length - 3}`}
-                </div>
+              {form.wins?.length > 0 && (
+                <div className="mt-2 text-xs text-green-300">✓ {form.wins.length} wins</div>
               )}
-              <div className="mt-2 text-xs text-purple-400">
-                {expandedForm === form.name ? "▼ Click to close" : "▶ Click for details"}
-              </div>
+              {form.issues?.length > 0 && (
+                <div className="mt-1 text-xs text-red-300">⚠ {form.issues.length} issues</div>
+              )}
             </div>
           ))}
         </div>
@@ -116,11 +113,11 @@ export default function Dashboard() {
         {/* Expanded Form Details */}
         {expandedForm && (
           <div className="bg-[#1a1a2e] rounded-xl border border-green-400 p-6 mb-8">
-            <div className="flex justify-between items-center mb-4">
+            <div className="flex justify-between items-center mb-6">
               <h3 className="text-lg font-bold text-green-400">{expandedForm}</h3>
               <button 
                 onClick={() => setExpandedForm(null)}
-                className="text-gray-400 hover:text-white"
+                className="text-gray-400 hover:text-white text-xl"
               >
                 ✕
               </button>
@@ -128,27 +125,42 @@ export default function Dashboard() {
             
             {data?.forms?.filter(f => f.name === expandedForm).map((form) => (
               <div key={form.name}>
-                <div className="mb-4">
-                  <span className="text-gray-400">Total submissions: </span>
-                  <span className="text-green-400 font-bold text-xl">{form.total}</span>
-                </div>
-                
-                {form.submitters?.length > 0 ? (
-                  <div>
-                    <h4 className="text-sm text-gray-400 mb-2">Who submitted:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {form.submitters.map((submitter, i) => (
-                        <span 
-                          key={i} 
-                          className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm"
-                        >
-                          {submitter}
-                        </span>
+                {/* Wins Section */}
+                {form.wins?.length > 0 && (
+                  <div className="mb-6">
+                    <h4 className="text-green-400 font-bold mb-3 flex items-center gap-2">
+                      ✓ What's Going Well
+                    </h4>
+                    <div className="space-y-2">
+                      {form.wins.map((win, i) => (
+                        <div key={i} className="bg-green-500/10 border border-green-500/30 rounded-lg p-3">
+                          <div className="text-green-300 text-sm">{win.text}</div>
+                          <div className="text-gray-500 text-xs mt-1">— {win.source}</div>
+                        </div>
                       ))}
                     </div>
                   </div>
-                ) : (
-                  <p className="text-gray-500">No submissions this week</p>
+                )}
+                
+                {/* Issues Section */}
+                {form.issues?.length > 0 && (
+                  <div>
+                    <h4 className="text-red-400 font-bold mb-3 flex items-center gap-2">
+                      ⚠️ What's Going Wrong
+                    </h4>
+                    <div className="space-y-2">
+                      {form.issues.map((issue, i) => (
+                        <div key={i} className="bg-red-500/10 border border-red-500/30 rounded-lg p-3">
+                          <div className="text-red-300 text-sm">{issue.text}</div>
+                          <div className="text-gray-500 text-xs mt-1">— {issue.source}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                {form.wins?.length === 0 && form.issues?.length === 0 && (
+                  <p className="text-gray-500">No detailed submissions this week</p>
                 )}
               </div>
             ))}

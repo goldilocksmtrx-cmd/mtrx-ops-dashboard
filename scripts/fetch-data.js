@@ -55,6 +55,47 @@ async function queryAll(dbId) {
   }
 }
 
+// Analyze form data to extract wins and issues
+function analyzeFormData(submissions) {
+  const wins = [];
+  const issues = [];
+  
+  submissions.forEach(sub => {
+    const sum = sub.summary || {};
+    const name = sub.name || "Unknown";
+    
+    // Check In Tracker fields
+    if (sum.win) wins.push({ source: name, text: sum.win });
+    if (sum.blockers || sum.blockerDetail) issues.push({ source: name, text: sum.blockers || sum.blockerDetail });
+    if (sum.keyTasks) wins.push({ source: name, text: `Completed: ${sum.keyTasks.slice(0, 100)}` });
+    
+    // Pod Leader fields
+    if (sum.mvp) wins.push({ source: name, text: `MVP: ${sum.mvp.slice(0, 150)}` });
+    if (sum.blocker) issues.push({ source: name, text: `Blocker: ${sum.blocker.slice(0, 150)}` });
+    if (sum.struggling) issues.push({ source: name, text: `Struggling: ${sum.struggling.slice(0, 150)}` });
+    
+    // PM fields
+    if (sum.brandsAtRisk) issues.push({ source: name, text: `At Risk: ${sum.brandsAtRisk.slice(0, 150)}` });
+    if (sum.whoMissed) issues.push({ source: name, text: `Missed: ${sum.whoMissed.slice(0, 150)}` });
+    
+    // Head of Editing fields
+    if (sum.editorsDelivering) wins.push({ source: name, text: `Delivering: ${sum.editorsDelivering.slice(0, 150)}` });
+    if (sum.editorsStruggling) issues.push({ source: name, text: `Struggling: ${sum.editorsStruggling.slice(0, 150)}` });
+    
+    // Head of CS fields
+    if (sum.working) wins.push({ source: name, text: `Working: ${sum.working.slice(0, 150)}` });
+    if (sum.notWorking) issues.push({ source: name, text: `Not Working: ${sum.notWorking.slice(0, 150)}` });
+    if (sum.frictions) issues.push({ source: name, text: `Frictions: ${sum.frictions.slice(0, 150)}` });
+    if (sum.needsAttention) issues.push({ source: name, text: `Needs Attention: ${sum.needsAttention.slice(0, 150)}` });
+  });
+  
+  // Dedupe and limit
+  const uniqWins = [...new Map(wins.map(w => [w.text.substring(0, 50), w])).values()].slice(0, 8);
+  const uniqIssues = [...new Map(issues.map(i => [i.text.substring(0, 50), i])).values()].slice(0, 8);
+  
+  return { wins: uniqWins, issues: uniqIssues };
+}
+
 function extractFormData(page, formType) {
   const name = getTitle(page) || getRichText(page, "Name") || getRichText(page, "Team Member") || "Unknown";
   const date = getDate(page, "Week") || page.created_time?.split("T")[0];
@@ -84,10 +125,6 @@ function extractFormData(page, formType) {
       brandsAtRisk: getRichText(page, "Brands at Risk"),
       whoMissed: getRichText(page, "Who Missed & Why?"),
       capacity: getRichText(page, "Team Capacity"),
-      pod1Deadlines: getRichText(page, "Pod 1 Deadlines"),
-      pod2Deadlines: getRichText(page, "Pod 2 Deadlines "),
-      pod3Deadlines: getRichText(page, "Pod 3 Deadlines"),
-      pod4Deadlines: getRichText(page, "Pod 4 Deadlines"),
     };
   } else if (formType === "Head of Editing") {
     summary = {
@@ -141,7 +178,7 @@ async function fetchAllData() {
   const aiStatusMap = {};
   activeAI.forEach(d => { const s = getSelect(d, "Status") || "Unknown"; aiStatusMap[s] = (aiStatusMap[s] || 0) + 1; });
 
-  // Forms with DETAILS
+  // Forms with analysis
   const formsData = [
     { name: "Check In Tracker", data: checkIns },
     { name: "Pod Leader", data: podLeaderForms },
@@ -152,12 +189,15 @@ async function fetchAllData() {
   
   const forms = formsData.map(({ name, data }) => {
     const recent = data.filter(d => d.created_time >= weekAgo);
-    const submitters = recent.map(d => extractFormData(d, name)).filter(s => s.name !== "Unknown");
+    const submissions = recent.map(d => extractFormData(d, name)).filter(s => s.name !== "Unknown");
+    const analysis = analyzeFormData(submissions);
     
     return { 
       name, 
       total: recent.length, 
-      submissions: submitters
+      submissions,
+      wins: analysis.wins,
+      issues: analysis.issues,
     };
   });
 
@@ -171,11 +211,9 @@ async function fetchAllData() {
     timestamp: new Date().toISOString(),
   };
 
-  // Save to JSON
   await fs.writeFile("public/dashboard-data.json", JSON.stringify(result, null, 2));
   console.log("✅ Saved to public/dashboard-data.json");
-  console.log(`AI: ${result.ai.active} active, ${result.ai.overdue} overdue`);
-  forms.forEach(f => console.log(`${f.name}: ${f.total} submissions`));
+  forms.forEach(f => console.log(`${f.name}: ${f.wins.length} wins, ${f.issues.length} issues`));
   return result;
 }
 
