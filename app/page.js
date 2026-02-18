@@ -45,8 +45,8 @@ export default function Dashboard() {
   }
 
   const activeBrands = data?.ai?.brands?.filter(b => b.active > 0) || [];
-  const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0).map(b => b.name).sort() || [];
   const completedBrands = data?.ai?.completed || [];
+  const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0 && !completedBrands.includes(b.name)).map(b => b.name).sort() || [];
 
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white p-6">
