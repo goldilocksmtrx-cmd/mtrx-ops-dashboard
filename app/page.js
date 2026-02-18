@@ -6,6 +6,7 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState(null);
   const [expandedForm, setExpandedForm] = useState(null);
+  const [expandedBrand, setExpandedBrand] = useState(null);
 
   const fetchData = async () => {
     setLoading(true);
@@ -26,6 +27,10 @@ export default function Dashboard() {
 
   const toggleForm = (formName) => {
     setExpandedForm(expandedForm === formName ? null : formName);
+  };
+
+  const toggleBrand = (brandName) => {
+    setExpandedBrand(expandedBrand === brandName ? null : brandName);
   };
 
   if (loading && !data) {
@@ -63,28 +68,68 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* AI Branch */}
-        <h2 className="text-xl font-bold mb-4">🤖 AI Branch</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-[#1a1a2e] p-4 rounded-xl border border-purple-500/30">
-            <div className="text-gray-400 text-sm">Active</div>
-            <div className="text-3xl font-bold text-purple-400">{data?.ai?.active || 0}</div>
-          </div>
-          <div className="bg-[#1a1a2e] p-4 rounded-xl border border-red-500/30">
-            <div className="text-gray-400 text-sm">Overdue</div>
-            <div className="text-3xl font-bold text-red-400">{data?.ai?.overdue || 0}</div>
-          </div>
-          <div className="bg-[#1a1a2e] p-4 rounded-xl border border-yellow-500/30 col-span-2">
-            <div className="text-gray-400 text-sm mb-2">By Status</div>
-            <div className="flex flex-wrap gap-2">
-              {Object.entries(data?.ai?.statuses || {}).map(([status, count]) => (
-                <span key={status} className="px-2 py-1 bg-gray-700 rounded text-sm">
-                  {status}: <span className="text-purple-400 font-bold">{count}</span>
-                </span>
-              ))}
+        {/* AI Branch - By Brand */}
+        <h2 className="text-xl font-bold mb-4">🤖 AI Branch (by Brand)</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
+          {data?.ai?.brands?.map((brand) => (
+            <div 
+              key={brand.name}
+              onClick={() => toggleBrand(brand.name)}
+              className={`bg-[#1a1a2e] p-4 rounded-xl border cursor-pointer transition hover:bg-[#252540] ${
+                expandedBrand === brand.name ? "border-purple-400" : "border-purple-500/30"
+              }`}
+            >
+              <div className="font-bold mb-2 text-sm">{brand.name}</div>
+              <div className="text-3xl font-bold text-purple-400">{brand.active}</div>
+              <div className="text-gray-400 text-sm">active</div>
+              {brand.overdue > 0 && (
+                <div className="mt-2 text-xs text-red-400">⚠️ {brand.overdue} overdue</div>
+              )}
+              <div className="mt-2 text-xs text-purple-300">
+                {expandedBrand === brand.name ? "▼ Click to close" : "▶ Click for status"}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
+
+        {/* Expanded Brand Details */}
+        {expandedBrand && (
+          <div className="bg-[#1a1a2e] rounded-xl border border-purple-400 p-6 mb-8">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-bold text-purple-400">{expandedBrand}</h3>
+              <button 
+                onClick={() => setExpandedBrand(null)}
+                className="text-gray-400 hover:text-white text-xl"
+              >
+                ✕
+              </button>
+            </div>
+            {data?.ai?.brands?.filter(b => b.name === expandedBrand).map((brand) => (
+              <div key={brand.name}>
+                <div className="mb-4">
+                  <span className="text-gray-400">Active: </span>
+                  <span className="text-purple-400 font-bold text-xl">{brand.active}</span>
+                  {brand.overdue > 0 && (
+                    <span className="ml-4 text-red-400">• {brand.overdue} overdue</span>
+                  )}
+                </div>
+                <div>
+                  <h4 className="text-sm text-gray-400 mb-2">By Status:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {Object.entries(brand.statuses || {}).map(([status, count]) => (
+                      <span 
+                        key={status} 
+                        className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm"
+                      >
+                        {status}: {count}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Forms Breakdown */}
         <h2 className="text-xl font-bold mb-4">📋 Forms (Last 7 Days)</h2>
@@ -125,7 +170,6 @@ export default function Dashboard() {
             
             {data?.forms?.filter(f => f.name === expandedForm).map((form) => (
               <div key={form.name}>
-                {/* Wins Section */}
                 {form.wins?.length > 0 && (
                   <div className="mb-6">
                     <h4 className="text-green-400 font-bold mb-3 flex items-center gap-2">
@@ -142,7 +186,6 @@ export default function Dashboard() {
                   </div>
                 )}
                 
-                {/* Issues Section */}
                 {form.issues?.length > 0 && (
                   <div>
                     <h4 className="text-red-400 font-bold mb-3 flex items-center gap-2">

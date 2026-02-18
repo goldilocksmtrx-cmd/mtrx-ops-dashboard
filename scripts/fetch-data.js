@@ -6,6 +6,7 @@ const notion = new Client({ auth: process.env.NOTION_API_KEY });
 
 const DB = {
   aiDeliverables: "291c239d-6afc-80ed-aaab-eae0a318a1f8",
+  aiBrands: "291c239d-6afc-8072-8e43-f87787ac6831",
   checkIn: "305c239d-6afc-8008-b0b2-dd5211d75e91",
   podLeader: "306c239d-6afc-80df-9257-f749d6bfd56d",
   pm: "306c239d-6afc-80db-a1cc-c4c9a599a1d0",
@@ -37,6 +38,11 @@ function getDate(page, name) {
   const p = page.properties[name];
   return p?.type === "date" ? p.date?.start || null : null;
 }
+function getRelation(page, name) {
+  const p = page.properties[name];
+  if (!p || p.type !== "relation") return [];
+  return p.relation?.map(r => r.id) || [];
+}
 
 async function queryAll(dbId) {
   try {
@@ -64,32 +70,22 @@ function analyzeFormData(submissions) {
     const sum = sub.summary || {};
     const name = sub.name || "Unknown";
     
-    // Check In Tracker fields
     if (sum.win) wins.push({ source: name, text: sum.win });
     if (sum.blockers || sum.blockerDetail) issues.push({ source: name, text: sum.blockers || sum.blockerDetail });
     if (sum.keyTasks) wins.push({ source: name, text: `Completed: ${sum.keyTasks.slice(0, 100)}` });
-    
-    // Pod Leader fields
     if (sum.mvp) wins.push({ source: name, text: `MVP: ${sum.mvp.slice(0, 150)}` });
     if (sum.blocker) issues.push({ source: name, text: `Blocker: ${sum.blocker.slice(0, 150)}` });
     if (sum.struggling) issues.push({ source: name, text: `Struggling: ${sum.struggling.slice(0, 150)}` });
-    
-    // PM fields
     if (sum.brandsAtRisk) issues.push({ source: name, text: `At Risk: ${sum.brandsAtRisk.slice(0, 150)}` });
     if (sum.whoMissed) issues.push({ source: name, text: `Missed: ${sum.whoMissed.slice(0, 150)}` });
-    
-    // Head of Editing fields
     if (sum.editorsDelivering) wins.push({ source: name, text: `Delivering: ${sum.editorsDelivering.slice(0, 150)}` });
     if (sum.editorsStruggling) issues.push({ source: name, text: `Struggling: ${sum.editorsStruggling.slice(0, 150)}` });
-    
-    // Head of CS fields
     if (sum.working) wins.push({ source: name, text: `Working: ${sum.working.slice(0, 150)}` });
     if (sum.notWorking) issues.push({ source: name, text: `Not Working: ${sum.notWorking.slice(0, 150)}` });
     if (sum.frictions) issues.push({ source: name, text: `Frictions: ${sum.frictions.slice(0, 150)}` });
     if (sum.needsAttention) issues.push({ source: name, text: `Needs Attention: ${sum.needsAttention.slice(0, 150)}` });
   });
   
-  // Dedupe and limit
   const uniqWins = [...new Map(wins.map(w => [w.text.substring(0, 50), w])).values()].slice(0, 8);
   const uniqIssues = [...new Map(issues.map(i => [i.text.substring(0, 50), i])).values()].slice(0, 8);
   
@@ -97,8 +93,8 @@ function analyzeFormData(submissions) {
 }
 
 function extractFormData(page, formType) {
-  // Check form-specific name fields in order of priority
   let name = "Unknown";
+  
   if (formType === "Pod Leader") {
     name = getRichText(page, "Name") || getTitle(page) || getRichText(page, "Team Member");
   } else if (formType === "Project Manager") {
@@ -108,6 +104,7 @@ function extractFormData(page, formType) {
   } else {
     name = getRichText(page, "Team Member") || getRichText(page, "Name") || getTitle(page);
   }
+  
   const date = getDate(page, "Week") || page.created_time?.split("T")[0];
   
   let summary = {};
@@ -156,12 +153,11 @@ function extractFormData(page, formType) {
     };
   }
   
-  // Clean up empty fields
   Object.keys(summary).forEach(k => {
     if (!summary[k] || summary[k].trim() === "") delete summary[k];
   });
   
-  return { name, date, summary };
+  return { name: name || "Unknown", date, summary };
 }
 
 async function fetchAllData() {
@@ -169,8 +165,9 @@ async function fetchAllData() {
   const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString().split("T")[0];
 
   console.log("Fetching Notion data...");
-  const [aiDeliverables, checkIns, podLeaderForms, pmForms, headEditingForms, headCSForms] = await Promise.all([
+  const [aiDeliverables, aiBrands, checkIns, podLeaderForms, pmForms, headEditingForms, headCSForms] = await Promise.all([
     queryAll(DB.aiDeliverables),
+    queryAll(DB.aiBrands),
     queryAll(DB.checkIn),
     queryAll(DB.podLeader),
     queryAll(DB.pm),
@@ -178,15 +175,68 @@ async function fetchAllData() {
     queryAll(DB.headCS),
   ]);
 
-  // AI Branch
+  // Build brand map
+  const brandMap = {};
+  aiBrands.forEach(b => {
+    const name = getTitle(b);
+    if (name) brandMap[b.id] = name;
+  });
+  console.log("AI Brands:", Object.values(brandMap));
+
+  // AI Branch - by brand
   const DONE = ["Delivered", "Killed", "Archived"];
   const activeAI = aiDeliverables.filter(d => !DONE.includes(getSelect(d, "Status")));
-  const overdueAI = activeAI.filter(d => {
+  
+  // Group by brand
+  const brandStats = {};
+  activeAI.forEach(d => {
+    const brandIds = getRelation(d, "Brand");
+    const conceptName = getTitle(d);
+    
+    // Try to extract brand from concept name if no relation
+    let brandName = "Unknown";
+    if (brandIds.length > 0) {
+      brandName = brandMap[brandIds[0]] || "Unknown";
+    } else {
+      // Extract from concept name like MTRX_SK_B1_...
+      const match = conceptName.match(/MTRX_([A-Z]+)_/);
+      if (match) {
+        const code = match[1];
+        // Map codes to brand names
+        if (code.startsWith("SK")) brandName = "Sidekick";
+        else if (code.startsWith("VR")) brandName = "Verso";
+        else if (code.startsWith("SE")) brandName = "Seora";
+        else if (code.startsWith("CR")) brandName = "Crumb";
+        else if (code.startsWith("SN")) brandName = "Seranova";
+        else if (code.startsWith("TA")) brandName = "Try AI Ads";
+        else brandName = code;
+      }
+    }
+    
+    if (!brandStats[brandName]) {
+      brandStats[brandName] = { active: 0, overdue: 0, statuses: {} };
+    }
+    
+    brandStats[brandName].active++;
+    
+    const status = getSelect(d, "Status") || "Unknown";
+    brandStats[brandName].statuses[status] = (brandStats[brandName].statuses[status] || 0) + 1;
+    
     const due = getDate(d, "Due Date");
-    return due && due < today;
+    if (due && due < today) {
+      brandStats[brandName].overdue++;
+    }
   });
-  const aiStatusMap = {};
-  activeAI.forEach(d => { const s = getSelect(d, "Status") || "Unknown"; aiStatusMap[s] = (aiStatusMap[s] || 0) + 1; });
+
+  const aiBrandsList = Object.entries(brandStats).map(([name, data]) => ({
+    name,
+    active: data.active,
+    overdue: data.overdue,
+    statuses: data.statuses
+  }));
+
+  const totalAI = activeAI.length;
+  const overdueAI = Object.values(brandStats).reduce((sum, b) => sum + b.overdue, 0);
 
   // Forms with analysis
   const formsData = [
@@ -213,9 +263,9 @@ async function fetchAllData() {
 
   const result = {
     ai: { 
-      active: activeAI.length, 
-      overdue: overdueAI.length, 
-      statuses: aiStatusMap 
+      active: totalAI, 
+      overdue: overdueAI, 
+      brands: aiBrandsList
     },
     forms,
     timestamp: new Date().toISOString(),
@@ -223,7 +273,8 @@ async function fetchAllData() {
 
   await fs.writeFile("public/dashboard-data.json", JSON.stringify(result, null, 2));
   console.log("✅ Saved to public/dashboard-data.json");
-  forms.forEach(f => console.log(`${f.name}: ${f.wins.length} wins, ${f.issues.length} issues`));
+  console.log(`AI: ${totalAI} active, ${overdueAI} overdue`);
+  aiBrandsList.forEach(b => console.log(`  ${b.name}: ${b.active} active, ${b.overdue} overdue`));
   return result;
 }
 
