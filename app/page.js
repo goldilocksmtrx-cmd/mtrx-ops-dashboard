@@ -7,6 +7,7 @@ export default function Dashboard() {
   const [lastUpdated, setLastUpdated] = useState(null);
   const [expandedForm, setExpandedForm] = useState(null);
   const [expandedBrand, setExpandedBrand] = useState(null);
+  const [expandedInactiveBrand, setExpandedInactiveBrand] = useState(null);
 
   const fetchData = async () => {
     setLoading(true);
@@ -111,17 +112,46 @@ export default function Dashboard() {
                 {inactiveBrands.map((brand) => {
                   const brandData = data?.ai?.brands?.find(b => b.name.trim().toLowerCase() === brand.trim().toLowerCase());
                   return (
-                    <span 
+                    <button 
                       key={brand} 
-                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm cursor-help"
-                      title={brandData?.startDate ? `Started: ${brandData.startDate}` : "No start date"}
+                      onClick={() => setExpandedInactiveBrand(expandedInactiveBrand === brand ? null : brand)}
+                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm"
                     >
                       {brand}
-                    </span>
+                    </button>
                   );
                 })}
               </div>
             </div>
+          </div>
+        )}
+
+        {/* Expanded Inactive Brand Details */}
+        {expandedInactiveBrand && (
+          <div className="bg-[#1a1a2e] rounded-xl border border-gray-500 p-6 mb-8">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-bold text-gray-400">{expandedInactiveBrand}</h3>
+              <button 
+                onClick={() => setExpandedInactiveBrand(null)}
+                className="text-gray-400 hover:text-white text-xl"
+              >
+                ✕
+              </button>
+            </div>
+            {(() => {
+              const brandData = data?.ai?.brands?.find(b => b.name === expandedInactiveBrand);
+              return (
+                <div>
+                  <div className="text-gray-400">
+                    {brandData?.startDate ? (
+                      <p>Started: <span className="text-white">{brandData.startDate}</span></p>
+                    ) : (
+                      <p className="text-gray-500">No start date</p>
+                    )}
+                  </div>
+                </div>
+              );
+            })()}
           </div>
         )}
 
