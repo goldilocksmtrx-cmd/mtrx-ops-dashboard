@@ -197,8 +197,31 @@ async function fetchAllData() {
   
   console.log("All AI Brands:", allBrands);
 
-  // Group by brand
+  // AI Branch - by brand - track both active and completed
   const brandStats = {};
+  const completedBrands = new Set();
+  
+  // Get all delivered items to find completed brands
+  const deliveredAI = aiDeliverables.filter(d => getSelect(d, "Status") === "Delivered");
+  deliveredAI.forEach(d => {
+    const conceptName = getTitle(d);
+    const match = conceptName.match(/MTRX_([A-Z]+)_/);
+    if (match) {
+      const code = match[1];
+      // Map codes properly - only recognized brands
+      if (code.startsWith("SK") || code === "SK") completedBrands.add("Sidekick");
+      else if (code.startsWith("VR") || code === "VR") completedBrands.add("Verso");
+      else if (code.startsWith("SE") || code === "SE") completedBrands.add("Seora Skincare");
+      else if (code.startsWith("CR") || code === "CR") completedBrands.add("Crumb");
+      else if (code.startsWith("SN") || code === "SN") completedBrands.add("Seranova");
+      else if (code.startsWith("TA") || code === "TA") completedBrands.add("Try AI Ads");
+      else if (code.startsWith("PFW") || code === "PFW") completedBrands.add("Peak Footwear");
+      else if (code.startsWith("DT") || code === "DT") completedBrands.add("Drem Team");
+      else if (code.startsWith("MM") || code === "MM") completedBrands.add("Mail Mend");
+      else if (code.startsWith("EV") || code === "EV") completedBrands.add("Evervision");
+    }
+  });
+  console.log("Completed brands:", [...completedBrands]);
   
   // Initialize all brands with 0
   allBrands.forEach(brand => {
@@ -257,6 +280,10 @@ async function fetchAllData() {
     statuses: data.statuses
   }));
 
+  const completedBrandsList = [...completedBrands].filter(b => 
+    !aiBrandsList.some(brand => brand.name.toLowerCase() === b.toLowerCase() && brand.active > 0)
+  ).sort();
+
   const totalAI = activeAI.length;
   const overdueAI = Object.values(brandStats).reduce((sum, b) => sum + b.overdue, 0);
 
@@ -287,7 +314,8 @@ async function fetchAllData() {
     ai: { 
       active: totalAI, 
       overdue: overdueAI, 
-      brands: aiBrandsList
+      brands: aiBrandsList,
+      completed: completedBrandsList
     },
     forms,
     timestamp: new Date().toISOString(),

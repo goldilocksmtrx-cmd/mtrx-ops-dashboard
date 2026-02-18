@@ -46,6 +46,7 @@ export default function Dashboard() {
 
   const activeBrands = data?.ai?.brands?.filter(b => b.active > 0) || [];
   const inactiveBrands = data?.ai?.brands?.filter(b => b.active === 0).map(b => b.name).sort() || [];
+  const completedBrands = data?.ai?.completed || [];
 
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white p-6">
@@ -104,13 +105,32 @@ export default function Dashboard() {
         {/* Inactive Brands - All in One Square */}
         {inactiveBrands.length > 0 && (
           <div className="mb-8">
-            <h3 className="text-sm text-gray-400 mb-3">Inactive Brands</h3>
+            <h3 className="text-sm text-gray-400 mb-3">Not Started</h3>
             <div className="bg-[#1a1a2e] p-4 rounded-xl border border-gray-700">
               <div className="flex flex-wrap gap-2">
                 {inactiveBrands.map((brand) => (
                   <span 
                     key={brand} 
                     className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm"
+                  >
+                    {brand}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Completed Brands */}
+        {completedBrands.length > 0 && (
+          <div className="mb-8">
+            <h3 className="text-sm text-gray-400 mb-3">Done</h3>
+            <div className="bg-[#1a1a2e] p-4 rounded-xl border border-green-500/30">
+              <div className="flex flex-wrap gap-2">
+                {completedBrands.map((brand) => (
+                  <span 
+                    key={brand} 
+                    className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm"
                   >
                     {brand}
                   </span>
