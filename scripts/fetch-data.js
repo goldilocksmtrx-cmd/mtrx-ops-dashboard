@@ -97,7 +97,17 @@ function analyzeFormData(submissions) {
 }
 
 function extractFormData(page, formType) {
-  const name = getRichText(page, "Team Member") || getTitle(page) || getRichText(page, "Name") || "Unknown";
+  // Check form-specific name fields in order of priority
+  let name = "Unknown";
+  if (formType === "Pod Leader") {
+    name = getRichText(page, "Name") || getTitle(page) || getRichText(page, "Team Member");
+  } else if (formType === "Project Manager") {
+    name = getRichText(page, "Name") || getTitle(page);
+  } else if (formType === "Head of Editing" || formType === "Head of CS") {
+    name = getRichText(page, "Name") || getTitle(page);
+  } else {
+    name = getRichText(page, "Team Member") || getRichText(page, "Name") || getTitle(page);
+  }
   const date = getDate(page, "Week") || page.created_time?.split("T")[0];
   
   let summary = {};
