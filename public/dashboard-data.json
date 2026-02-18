@@ -4,12 +4,74 @@
     "overdue": 3,
     "brands": [
       {
+        "name": "Peak Footwear",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Ledisa",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Smootheskin",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
         "name": "Drem Team",
         "active": 3,
         "overdue": 3,
         "statuses": {
           "Ready to Upload": 3
         }
+      },
+      {
+        "name": "Mail Mend",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Try AI Ads",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Evervision",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Seranova",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Seora Skincare",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
+      },
+      {
+        "name": "Verso",
+        "active": 15,
+        "overdue": 0,
+        "statuses": {
+          "Ready for Editing": 15
+        }
+      },
+      {
+        "name": "Crumb",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {}
       },
       {
         "name": "Sidekick",
@@ -26,14 +88,6 @@
         "overdue": 0,
         "statuses": {
           "Unknown": 1
-        }
-      },
-      {
-        "name": "Verso",
-        "active": 15,
-        "overdue": 0,
-        "statuses": {
-          "Ready for Editing": 15
         }
       }
     ]
@@ -423,5 +477,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T00:43:52.865Z"
+  "timestamp": "2026-02-18T00:46:48.962Z"
 }

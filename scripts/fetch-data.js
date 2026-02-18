@@ -187,8 +187,19 @@ async function fetchAllData() {
   const DONE = ["Delivered", "Killed", "Archived"];
   const activeAI = aiDeliverables.filter(d => !DONE.includes(getSelect(d, "Status")));
   
+  // Get ALL AI brands from the brands database
+  const allBrands = aiBrands.map(b => getTitle(b)).filter(Boolean);
+  console.log("All AI Brands:", allBrands);
+
   // Group by brand
   const brandStats = {};
+  
+  // Initialize all brands with 0
+  allBrands.forEach(brand => {
+    brandStats[brand.trim()] = { active: 0, overdue: 0, statuses: {} };
+  });
+  
+  // Then count active deliverables
   activeAI.forEach(d => {
     const brandIds = getRelation(d, "Brand");
     const conceptName = getTitle(d);
