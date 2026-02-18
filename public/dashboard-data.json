@@ -7,55 +7,64 @@
         "name": "Peak Footwear",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2025-12-15"
       },
       {
         "name": "Ledisa",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": null
       },
       {
         "name": "Smootheskin",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": null
       },
       {
         "name": "Drem Team",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2025-11-14"
       },
       {
         "name": "Mail Mend",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2025-11-21"
       },
       {
         "name": "Try AI Ads",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2025-12-08"
       },
       {
         "name": "Evervision",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2025-12-31"
       },
       {
         "name": "Seranova",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": "2026-01-31"
       },
       {
         "name": "Seora Skincare",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": null
       },
       {
         "name": "Verso",
@@ -124,13 +133,15 @@
               "due": "2026-02-20"
             }
           ]
-        }
+        },
+        "startDate": "2026-02-17"
       },
       {
         "name": "Crumb",
         "active": 0,
         "overdue": 0,
-        "statuses": {}
+        "statuses": {},
+        "startDate": null
       },
       {
         "name": "Sidekick",
@@ -189,7 +200,8 @@
               "due": null
             }
           ]
-        }
+        },
+        "startDate": "2026-02-09"
       },
       {
         "name": "Unknown",
@@ -202,7 +214,8 @@
               "due": null
             }
           ]
-        }
+        },
+        "startDate": null
       }
     ],
     "completed": [
@@ -599,5 +612,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T00:58:38.560Z"
+  "timestamp": "2026-02-18T01:09:08.163Z"
 }

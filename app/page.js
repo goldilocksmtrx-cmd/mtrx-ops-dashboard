@@ -107,15 +107,21 @@ export default function Dashboard() {
           <div className="mb-8">
             <h3 className="text-sm text-gray-400 mb-3">Not Started</h3>
             <div className="bg-[#1a1a2e] p-4 rounded-xl border border-gray-700">
-              <div className="flex flex-wrap gap-2">
-                {inactiveBrands.map((brand) => (
-                  <span 
-                    key={brand} 
-                    className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm"
-                  >
-                    {brand}
-                  </span>
-                ))}
+              <div className="flex flex-wrap gap-3">
+                {inactiveBrands.map((brand) => {
+                  const brandData = data?.ai?.brands?.find(b => b.name === brand);
+                  return (
+                    <span 
+                      key={brand} 
+                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm flex items-center gap-2"
+                    >
+                      {brand}
+                      {brandData?.startDate && (
+                        <span className="text-gray-500 text-xs">Started: {brandData.startDate}</span>
+                      )}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>

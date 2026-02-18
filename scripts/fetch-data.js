@@ -200,6 +200,36 @@ async function fetchAllData() {
   // AI Branch - by brand - track both active and completed
   const brandStats = {};
   const completedBrands = new Set();
+  const brandStartDates = {};
+  
+  // Track when each brand was first started
+  aiDeliverables.forEach(d => {
+    const conceptName = getTitle(d);
+    const created = d.created_time?.split("T")[0];
+    const match = conceptName.match(/MTRX_([A-Z]+)_/);
+    if (match) {
+      const code = match[1];
+      let brandName = "Unknown";
+      if (code.startsWith("SK")) brandName = "Sidekick";
+      else if (code.startsWith("VR")) brandName = "Verso";
+      else if (code.startsWith("SE")) brandName = "Seora Skincare";
+      else if (code.startsWith("CR")) brandName = "Crumb";
+      else if (code.startsWith("SN")) brandName = "Seranova";
+      else if (code.startsWith("TA")) brandName = "Try AI Ads";
+      else if (code.startsWith("PFW")) brandName = "Peak Footwear";
+      else if (code.startsWith("DT")) brandName = "Drem Team";
+      else if (code.startsWith("MM")) brandName = "Mail Mend";
+      else if (code.startsWith("EV")) brandName = "Evervision";
+      else if (code.startsWith("LD")) brandName = "Ledisa";
+      else if (code.startsWith("SM")) brandName = "Smootheskin";
+      
+      if (brandName !== "Unknown" && created) {
+        if (!brandStartDates[brandName] || created < brandStartDates[brandName]) {
+          brandStartDates[brandName] = created;
+        }
+      }
+    }
+  });
   
   // Get all delivered items to find completed brands
   const deliveredAI = aiDeliverables.filter(d => getSelect(d, "Status") === "Delivered");
@@ -277,7 +307,8 @@ async function fetchAllData() {
     name,
     active: data.active,
     overdue: data.overdue,
-    statuses: data.statuses
+    statuses: data.statuses,
+    startDate: brandStartDates[name] || null
   }));
 
   const completedBrandsList = [...completedBrands].filter(b => 
