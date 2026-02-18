@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 49,
+    "active": 47,
     "overdue": 0,
     "brands": [
       {
@@ -122,7 +122,7 @@
         "active": 15,
         "overdue": 0,
         "statuses": {
-          "Ready for Editing": [
+          "Editing": [
             {
               "name": "MTRX_VR_EB_AISI1",
               "due": "2026-02-20"
@@ -141,10 +141,6 @@
             },
             {
               "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD1",
               "due": "2026-02-20"
             },
             {
@@ -181,6 +177,12 @@
             },
             {
               "name": "MTRX_VR_EB_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Ready for Editing": [
+            {
+              "name": "MTRX_VR_EB_AIPOD1",
               "due": "2026-02-20"
             }
           ]
@@ -247,12 +249,16 @@
       },
       {
         "name": "Sidekick",
-        "active": 9,
+        "active": 8,
         "overdue": 0,
         "statuses": {
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SK_B1_AIPOD4",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_UGC3",
               "due": "2026-02-20"
             }
           ],
@@ -270,25 +276,17 @@
               "due": "2026-02-20"
             },
             {
+              "name": "MTRX_SK_B1_AIPOD2",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video In Review": [
+            {
               "name": "MTRX_SK_B1_UGC2",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SK_B1_UGC3",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_AIPOD2",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_SK_B1_UGC1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SK_B1_UGC4",
               "due": "2026-02-20"
             }
           ]
@@ -692,5 +690,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T14:00:08.660Z"
+  "timestamp": "2026-02-18T19:00:16.001Z"
 }
