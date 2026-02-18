@@ -97,7 +97,7 @@ function analyzeFormData(submissions) {
 }
 
 function extractFormData(page, formType) {
-  const name = getTitle(page) || getRichText(page, "Name") || getRichText(page, "Team Member") || "Unknown";
+  const name = getRichText(page, "Team Member") || getTitle(page) || getRichText(page, "Name") || "Unknown";
   const date = getDate(page, "Week") || page.created_time?.split("T")[0];
   
   let summary = {};
