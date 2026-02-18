@@ -1,122 +1,4 @@
 {
-  "overview": {
-    "activeDeliverables": 602,
-    "overdue": 313,
-    "formCompliance": 30,
-    "activeEditors": 27
-  },
-  "podHealth": [
-    {
-      "name": "Pod 1 (North Coast)",
-      "active": 135,
-      "overdue": 80,
-      "editors": 10,
-      "health": "red"
-    },
-    {
-      "name": "Pod 2 (East Coast)",
-      "active": 144,
-      "overdue": 57,
-      "editors": 7,
-      "health": "red"
-    },
-    {
-      "name": "Pod 3 (West Coast)",
-      "active": 114,
-      "overdue": 80,
-      "editors": 6,
-      "health": "red"
-    },
-    {
-      "name": "Pod 4 (South Coast)",
-      "active": 108,
-      "overdue": 62,
-      "editors": 6,
-      "health": "red"
-    }
-  ],
-  "delayedPeople": [
-    {
-      "name": "Marzook Ali",
-      "count": 92
-    },
-    {
-      "name": "Nicola",
-      "count": 41
-    },
-    {
-      "name": "jawaad ali",
-      "count": 36
-    },
-    {
-      "name": "Assia Haque",
-      "count": 33
-    },
-    {
-      "name": "Hamza Shah",
-      "count": 31
-    },
-    {
-      "name": "Tina Battilana",
-      "count": 31
-    },
-    {
-      "name": "Meryl Montgomery",
-      "count": 31
-    },
-    {
-      "name": "Unknown",
-      "count": 14
-    },
-    {
-      "name": "Ahmad Amiri",
-      "count": 6
-    },
-    {
-      "name": "Kenneth Bryan",
-      "count": 6
-    },
-    {
-      "name": "Grant Villapando",
-      "count": 6
-    },
-    {
-      "name": "Clyde Creatives",
-      "count": 5
-    },
-    {
-      "name": "Niloy Barua",
-      "count": 5
-    },
-    {
-      "name": "Sarang Ali",
-      "count": 4
-    },
-    {
-      "name": "Don Jasper Deodora",
-      "count": 4
-    },
-    {
-      "name": "CJ Buenaventura",
-      "count": 4
-    },
-    {
-      "name": "John Lopez",
-      "count": 4
-    },
-    {
-      "name": "Chan A. David",
-      "count": 4
-    },
-    {
-      "name": "Shiella",
-      "count": 4
-    },
-    {
-      "name": "Abdullah Rasool",
-      "count": 3
-    }
-  ],
   "ai": {
     "active": 31,
     "overdue": 3,
@@ -131,41 +13,263 @@
     {
       "name": "Check In Tracker",
       "total": 24,
-      "submitters": [
-        "Unknown",
-        "New submission"
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "win": "I’ve learned that it’s important to ask for clarification if I’m unsure."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "win": "Getting CS team to focus on clearing review boards each day AND competing script delivery "
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "workDetail": "4 Menerals",
+            "win": "I completely mastered b roll prompting - yipee"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "win": "I finished my 8 concepts on Wednesday. I think I can still do better though. I just need to adjust my workflow a bit, but so far, it’s going well."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "win": "Got a new winner from the latest batch of Liquid London it's now Top 1 on the ad account right now.\n\nAnd my TC ad is still the top 1 & Top 3 on the ad account as well."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-08",
+          "summary": {
+            "workDetail": "5 TC Ads + 1 DT Ad",
+            "blockerDetail": "Bad acting from the creator - the content didn't meet the standards of the reference, It was supposed to feel real but it felt fake and scripted",
+            "win": "Experimented on Higgsfield Ai and figured out the way to generate HP brolls for different perfumes using only 1 broll so we editors in pod 2 have more options for use in our ads\n\nWinning ads - \nMTRX_TEV9_POD6_PER_U_Am_V3_1-1\n"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "win": "Win of the week for me is,\nReview system is alot better now 🙌 and am learning more of AI stuff"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "blockerDetail": "Converting UGC to Ai angle.",
+            "win": "Clearing Dashboard with 100% CR "
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "win": "I was able to create the animation of statics, just taking it one step at a time until I fully master the process and proper prompting."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "blockerDetail": "Found out our make subscription has a 45 minute cap. So we arent utilising the ad account sync to its full capacity yet. Might need to upscale by a few dollars ",
+            "win": "NA"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "workDetail": "16 HP TC \n3 UGC DreamTeam ",
+            "blockerDetail": "No data for DremTeam ad account - ads been turned off",
+            "win": "Trying to use editing terms when reviewing concepts eg. warp stabiliser"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "keyTasks": "assigned new briefs, approved creator content and submitted for editing. approved invoices & issued contracts. began sourcing new creators for each brand. filmed assigned briefs.",
+            "workDetail": "assigned 13/20 DNC batch 4 briefs, assigned remaining batch 3 briefs\n9 total briefs submitted for Yucca, DNC, DNH, & 8Sheep",
+            "blockerDetail": "POD 4 clean up: creators unclear on rates, no contracts issued, no clear guidelines, low number of sourced creators on original POD 4 lists, 1 or no men per brand",
+            "win": "cleaning up and reorganizing POD 4"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "win": "Created SOPs for AI workflows"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "workDetail": "10 Meneral Scripts and 9 Sidekick Scripts",
+            "blockerDetail": "Hard client to please",
+            "win": "New progress made with communicating issues with clients.\nAds are slowly climbing."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "win": "I regularly study winning ads and review my co-editors edits to pick up patterns and ideas that help me create better performing ads"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "workDetail": "3 TC POD\n2 TC STRT\n1 TC UGC",
+            "win": "Challenged myself on speed"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-14",
+          "summary": {
+            "win": "I have done good AI edit this week"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "win": "1. I am happy with my first full AI cartoon edit!!!! \n2.. I edited the DNC (ADHD angle) that is performing well as per Hamza :)\n3.  100% CR - staying consistent\n4.  I recently found an AI tool that can do multiple character lipsync in one frame without doing manual animation.  It is called Dzine - still looking if this is worthy of subs tho."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-14",
+          "summary": {
+            "win": "Completed all of my concepts early without sacrificing the quality"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-08",
+          "summary": {
+            "workDetail": "Drink Nectar Calm and Hydration ",
+            "win": "💯 CR reached by POD, huge win\n\nTina’s ugc scripts I edited look very good.\n\n"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "win": "I pushed myself to learn new AI techniques, and for the first time created a viral talking object concept & delivered smoothly."
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "keyTasks": "Reviewed and approved 27 concepts for Menerals, Nominal, Undrdog, PQ7, Primal Queen and Nutrition Auri\nSourced new creators for Nutrition Auri\nSourced  a tech creator with meta glasses for Undrdog\nAssigned Nutrition Auri Briefs\nAssigned 10 Primal Queen briefs\nFilmed 10 variation voiceovers for Nominal\nFilmed Primal Queen & Nutrition Auri concepts\nFound a new system to speed roll reviewing videos for HOTs and uploading on Air\nSourced creators for Sidekick\n\n",
+            "workDetail": "All mentioned above",
+            "win": "Finding a new system to speed roll UGC reviews!"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "workDetail": "16 TEV scripts + Auri compliance edits + TC research",
+            "win": "2X DN ads with new angles performing "
+          }
+        }
       ]
     },
     {
       "name": "Pod Leader",
       "total": 2,
-      "submitters": [
-        "New submission"
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "weeklyBreakdown": "Menerals ads are scaling\nBioroot one ad is climbing\nMeneral scripts ups and down wins - every new pivot somehow becomes a new challenge - but by the time i become good at one thing - we pivot hard to the next. Will see how that goes.\nEditors are improving",
+            "mvp": "i'd like to say everyone. but Don, is surprising me with his speed. he's relentless.",
+            "blocker": "Work overload and fell sick real hard.",
+            "support": "Just script reviews will be good ",
+            "struggling": "Ahmad and Nahid to a small degree.\nNahid has ups and downs - now he's on his up with comms.\nahmad is slowly getting there - he's defo afraid to be honest with what he can complete - but his comm is improving.\nThey're trying, but they get overwhelmed. \nAxl has been helping me loads in dealing with them\n"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "weeklyBreakdown": "After a few weeks of 0/5 in top 5 performance for PQ. \nWe now have 2/5 (including BOF ads) \n3/5 excluding BOF ads for PQ\nMashups are outperforming for Undrdog so far, Kenzo edited a really creative one using Chuckie's baby\nWe've had no winners for nutrition Auri. They have a new head of marketing and so far he seems happy with process and excited for next batch of concepts, always good to know client is hyped",
+            "mvp": "Editors with Kenzo leading the way. Their AI concepts are getting next level and these POD 1 editors are insanely creative! Bring any concept to life!",
+            "blocker": "Auri is the only brand blockage we have so far, didn't crack the code, we're testing new angles, more authority figure science backed, hopefully with the guidance of their new head of marketing we'd be able to see winners here.",
+            "support": "Meryl shared she'd need a CS to work alongside her in POD 1 \nNew standardization processes for CSs is looking good with research + hypothesis + systemizing Briefs",
+            "struggling": "Nill had a concept dragging from last week"
+          }
+        }
       ]
     },
     {
       "name": "Project Manager",
       "total": 2,
-      "submitters": [
-        "Unknown",
-        "New submission"
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-02-13",
+          "summary": {
+            "summary": "Editors\nNilloy is slow, but he is managing to do 5 concepts a week - While Ahmad in my opinion is stuck with the POD with the most difficult concepts, he still didn't find his pace especially that his vision is different from the CS point of view so that is why he struggled with his concepts. Now, editors in POD3 are sending a quick loom or voice note to CS before they start with their edits to avoid any major changes to their V1s\nDoing well - all the team tbh - everybody is pushing themselves - John and Aleck asking for more - Timur organizing reviews in POD4 - Axl, Don and Nahid are also doing great even though I do believe all pods can manage to finish concepts earlier on Friday. \nCSs - worried about Marzook - we were supposed to start with Nobs this week - then last week knew he didn't finalize Menrals concepts on his dash - so postponed Menerals to be done this week (still I don't see them in review nor Awaiting client approval, while nobs paid last week) so we will start with Nobs scripts this week - risk of being late with Edits. Scripts are dragging here - which will affect deliverables unless by Monday he could have all menerals out of his dash - note that we haven't started with Batch 4 scripts and we are already starting Week 3 of February (we should have started with B4 scripts already) - He will start with B4 this week - tbh we can still get back on track but again the edits are taking time as well for Menerals\n8 sheep we might be one week late - depending on Kat Z speed with UGCs because Jawaad also was taking this week to have a come back!\nAuri was late because of Data - I don't think they paid for new batch - we are finalizing Month3 and for new batch - I will make sure to hit the 30 days timeline.\nNominal - we waited on Data and their shipment is not the best\nDidn't include Hydration and Calm as I suppose they didn't pay and once they do - we are already one month ahead with scripts - so we will dive into editing and have timelines in order this time!\nYucca is all done and ready for edits - holding on this until they pay!\nDremteam finalizing MOnth 3 which according to Angelique was paid on Jan 28 - so here we are ahead! especially that we are starting with new batch prior to Connor paying.\nSo we need a CS for POD3 - I am worried about concepts not moving to the next phase when they should be\nPOD 3 AI edits are making edits slow for Menerals!\nTina and Jawaad are on track but also they need more organization and pushing\nTara's mess took some time to fix especially that we needed to source new creators in many cases \n",
+            "whoMissed": "Niloy - 1 concept on variants - one AI long mashup\nAhmad - he did all clients revisions for Menerals - he did an entire concept from scratch as it didn't align with Marzook's vision - still has 5 concepts to finalize (on variants and 4:5s)"
+          }
+        }
       ]
     },
     {
       "name": "Head of Editing",
       "total": 1,
-      "submitters": [
-        "New submission"
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "editorsDelivering": "All, except for Ahmad",
+            "editorsStruggling": "Ahmad - Time management & skills. I'm not saying he's not good but me, Axl and Kat R already did all of the interventions we can do to help him. Extended deadlines, addressed CS issues, provided help with his edits, and shared a few tips on time management but no improvement at all. ",
+            "support": "Yes, unfortunately we now need an editor warning to Ahmad.",
+            "qualityByPod": "P1 - Everything is being streamlined and the review schedule that they put up is working\nP2 - Even though we had a CS change, the reviews are actually faster than before so it's very very efficient and we have concepts being approved as early as Tuesday\nP3 - This is where it gets tricky 2/4 editors (Ahmad & Nahid) are experiencing burn outs due to CS complicated and 30+ comments that was because of some unclear briefs (which I think was alr addressed) so we should be able to see improvement \nP4 - Fairly new Pod, but I'm happy to see that they're pushing to get that 100 CR, but CS comments aren't streamlined yet, meaning there are minor comments that can be caught on the first round of reviews but no, that results in V1s having multiple revisions (e.g. add tiktok text overlay on the 3rd round of V1, which can save time if this was already decided on the first round of reviews, this is the importance of putting all variants on the brief before editing starts)",
+            "nextFocus": "Follow up again on Ahmad, have him wrap up all his pending concepts & Editor's meeting   - - Launching the MTRX AI editing brain"
+          }
+        }
       ]
     },
     {
       "name": "Head of CS",
       "total": 1,
-      "submitters": [
-        "New submission"
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-02-09",
+          "summary": {
+            "working": "Research roll out going well. Also, shared learnings in CS is getting more streamlined and shared across the team which seems to be improving research-minded process across the team. Assia, jawaad, nicola providing most consistent research and deliverables. Assia and Nicola both reaching out to get support on research and wanting to go deeper.  CS got a shoutout from production that there was quick improvement in the last week with latest scripts on consistency and details. \n\nDeliverables batched by EOW:\n- CS Hub rolled out\n- Template streamlining rolled out",
+            "notWorking": "Jawaad's had a lot of improvement. I think where he's still thinking short term with his approach. For example, if he did research last week for the same client, how he can be going deeper the next week instead of just \"checking on updates\". Tina gives me the biggest concern. She's asked for support, but then when support is given, she's not using it. She didn't know about the hypothesis template. She wasn't in the meeting we rolled that out, so I can understand. However, other instructional looms I made just for her and jawaad (how to approach research, comment analysis, even the claude overview that Nicola did), she didn't seem to have any recollection or awareness of. And she wasn't aware of the right templates to use. ",
+            "needsAttention": "Marzook is currently struggling to balance client requests with effective ad strategy. He is prioritizing \"making the client happy\" by following vague directives (e.g., documentary-style, broad education) rather than pushing for direct response best practices. This has led to abstract concepts that lack problem/solution structures, resulting in excessive revisions. I suggest a leadership sync (Hamza + Aaron or myself) with the client to realign on goals and ensure our creative output remains focused on results, not just general content. Marzook has some resistance to solution-minded feedback because he’s focused on client pleasing over strategy.",
+            "standingOut": "Nicola and Assia showing diligent process and analytical thinking when it comes to their research and deliverables. ",
+            "nextPriority": "Not letting team spend until Wed on research. Needing to get that improved for efficiency while not jeopardizing quality. Hitting 100% completion rate on script deliverables by EOW. "
+          }
+        }
       ]
     }
   ],
-  "opsTracker": [],
-  "timestamp": "2026-02-17T23:57:46.003Z"
+  "timestamp": "2026-02-18T00:21:35.896Z"
 }
