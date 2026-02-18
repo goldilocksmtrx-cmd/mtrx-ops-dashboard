@@ -113,12 +113,10 @@ export default function Dashboard() {
                   return (
                     <span 
                       key={brand} 
-                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm flex items-center gap-2"
+                      className="px-3 py-1 bg-gray-700 text-gray-400 rounded-full text-sm cursor-help relative group"
+                      title={brandData?.startDate ? `Started: ${brandData.startDate}` : "No start date"}
                     >
                       {brand}
-                      {brandData?.startDate && (
-                        <span className="text-gray-500 text-xs">Started: {brandData.startDate}</span>
-                      )}
                     </span>
                   );
                 })}
