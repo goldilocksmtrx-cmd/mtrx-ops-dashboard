@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 43,
+    "active": 41,
     "overdue": 0,
     "brands": [
       {
@@ -251,19 +251,9 @@
       },
       {
         "name": "Sidekick",
-        "active": 4,
+        "active": 2,
         "overdue": 0,
         "statuses": {
-          "Video In Review": [
-            {
-              "name": "MTRX_SK_B1_AIMUP1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_UGC2",
-              "due": "2026-02-20"
-            }
-          ],
           "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD3",
@@ -674,5 +664,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-19T09:00:09.646Z"
+  "timestamp": "2026-02-19T14:00:09.038Z"
 }
