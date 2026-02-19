@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 47,
+    "active": 43,
     "overdue": 0,
     "brands": [
       {
@@ -168,10 +168,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_EB_AISS2",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_VR_CB_AIPOD1",
               "due": "2026-02-20"
             },
@@ -183,6 +179,12 @@
           "Ready for Editing": [
             {
               "name": "MTRX_VR_EB_AIPOD1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-20"
             }
           ]
@@ -249,44 +251,26 @@
       },
       {
         "name": "Sidekick",
-        "active": 8,
+        "active": 4,
         "overdue": 0,
         "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SK_B1_AIPOD4",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_UGC3",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video Needs Revision": [
-            {
-              "name": "MTRX_SK_B1_AIPOD1",
-              "due": "2026-02-20"
-            },
+          "Video In Review": [
             {
               "name": "MTRX_SK_B1_AIMUP1",
               "due": "2026-02-20"
             },
+            {
+              "name": "MTRX_SK_B1_UGC2",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD3",
               "due": "2026-02-20"
             },
             {
               "name": "MTRX_SK_B1_AIPOD2",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_SK_B1_UGC2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_UGC1",
               "due": "2026-02-20"
             }
           ]
@@ -690,5 +674,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-18T19:00:16.001Z"
+  "timestamp": "2026-02-19T09:00:09.646Z"
 }
