@@ -148,10 +148,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_EB_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-20"
             },
@@ -168,10 +164,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_VR_EB_AIDEB1",
               "due": "2026-02-20"
             }
@@ -182,9 +174,17 @@
               "due": "2026-02-20"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-20"
+            },
             {
               "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
               "due": "2026-02-20"
             }
           ]
@@ -254,11 +254,13 @@
         "active": 2,
         "overdue": 0,
         "statuses": {
-          "Video Needs Revision": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SK_B1_AIPOD3",
               "due": "2026-02-20"
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD2",
               "due": "2026-02-20"
@@ -664,5 +666,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-19T14:00:09.038Z"
+  "timestamp": "2026-02-19T19:00:08.239Z"
 }
