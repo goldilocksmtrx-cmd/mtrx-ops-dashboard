@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 41,
+    "active": 39,
     "overdue": 0,
     "brands": [
       {
@@ -132,10 +132,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_CB_AIMUP1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_VR_CB_AISS1",
               "due": "2026-02-20"
             },
@@ -145,10 +141,6 @@
             },
             {
               "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-20"
             },
             {
@@ -168,13 +160,15 @@
               "due": "2026-02-20"
             }
           ],
-          "Ready for Editing": [
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-20"
+            },
             {
               "name": "MTRX_VR_EB_AIPOD1",
               "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
+            },
             {
               "name": "MTRX_VR_EB_AIVSL1",
               "due": "2026-02-20"
@@ -182,11 +176,15 @@
             {
               "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-20"
-            }
-          ],
-          "Video Needs Revision": [
+            },
             {
               "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-20"
             }
           ]
@@ -253,20 +251,9 @@
       },
       {
         "name": "Sidekick",
-        "active": 2,
+        "active": 0,
         "overdue": 0,
-        "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SK_B1_AIPOD1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SK_B1_AIPOD2",
-              "due": "2026-02-20"
-            }
-          ]
-        },
+        "statuses": {},
         "startDate": "2026-02-09"
       }
     ],
@@ -277,6 +264,7 @@
       "Mail Mend",
       "Peak Footwear",
       "Seranova",
+      "Sidekick",
       "Smootheskin",
       "Try AI Ads"
     ]
@@ -666,5 +654,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-20T14:00:09.582Z"
+  "timestamp": "2026-02-20T19:00:10.933Z"
 }
