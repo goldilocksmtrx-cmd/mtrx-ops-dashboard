@@ -1,7 +1,7 @@
 {
   "ai": {
     "active": 39,
-    "overdue": 0,
+    "overdue": 39,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -62,7 +62,7 @@
       {
         "name": "Seora Skincare",
         "active": 12,
-        "overdue": 0,
+        "overdue": 12,
         "statuses": {
           "Scripting": [
             {
@@ -120,7 +120,7 @@
       {
         "name": "Verso",
         "active": 15,
-        "overdue": 0,
+        "overdue": 15,
         "statuses": {
           "Editing": [
             {
@@ -129,10 +129,6 @@
             },
             {
               "name": "MTRX_VR_CB_AIPOD2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_CB_AISS1",
               "due": "2026-02-20"
             },
             {
@@ -170,11 +166,7 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_EB_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS2",
+              "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-20"
             },
             {
@@ -184,7 +176,15 @@
           ],
           "Video In Review": [
             {
-              "name": "MTRX_VR_EB_AIUGC1",
+              "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-20"
             }
           ]
@@ -194,7 +194,7 @@
       {
         "name": "Crumb",
         "active": 12,
-        "overdue": 0,
+        "overdue": 12,
         "statuses": {
           "Scripting": [
             {
@@ -272,147 +272,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 23,
+      "total": 11,
       "submissions": [
-        {
-          "name": "Don Jasper Deodora",
-          "date": "2026-02-13",
-          "summary": {
-            "win": "I’ve learned that it’s important to ask for clarification if I’m unsure."
-          }
-        },
-        {
-          "name": "Meryl Montgomery ",
-          "date": "2026-02-09",
-          "summary": {
-            "win": "Getting CS team to focus on clearing review boards each day AND competing script delivery "
-          }
-        },
-        {
-          "name": "Axl Carreon",
-          "date": "2026-02-13",
-          "summary": {
-            "workDetail": "4 Menerals",
-            "win": "I completely mastered b roll prompting - yipee"
-          }
-        },
-        {
-          "name": "John Andre Lopez",
-          "date": "2026-02-09",
-          "summary": {
-            "win": "I finished my 8 concepts on Wednesday. I think I can still do better though. I just need to adjust my workflow a bit, but so far, it’s going well."
-          }
-        },
-        {
-          "name": "Adriel",
-          "date": "2026-02-13",
-          "summary": {
-            "win": "Got a new winner from the latest batch of Liquid London it's now Top 1 on the ad account right now.\n\nAnd my TC ad is still the top 1 & Top 3 on the ad account as well."
-          }
-        },
-        {
-          "name": "Adarsh Mishra",
-          "date": "2026-02-08",
-          "summary": {
-            "workDetail": "5 TC Ads + 1 DT Ad",
-            "blockerDetail": "Bad acting from the creator - the content didn't meet the standards of the reference, It was supposed to feel real but it felt fake and scripted",
-            "win": "Experimented on Higgsfield Ai and figured out the way to generate HP brolls for different perfumes using only 1 broll so we editors in pod 2 have more options for use in our ads\n\nWinning ads - \nMTRX_TEV9_POD6_PER_U_Am_V3_1-1\n"
-          }
-        },
-        {
-          "name": "Manney ",
-          "date": "2026-02-13",
-          "summary": {
-            "win": "Win of the week for me is,\nReview system is alot better now 🙌 and am learning more of AI stuff"
-          }
-        },
-        {
-          "name": "Kenneth Bryan Bartolome",
-          "date": "2026-02-13",
-          "summary": {
-            "blockerDetail": "Converting UGC to Ai angle.",
-            "win": "Clearing Dashboard with 100% CR "
-          }
-        },
-        {
-          "name": "Grant Villapando",
-          "date": "2026-02-09",
-          "summary": {
-            "win": "I was able to create the animation of statics, just taking it one step at a time until I fully master the process and proper prompting."
-          }
-        },
-        {
-          "name": "Lois Ekong",
-          "date": "2026-02-13",
-          "summary": {
-            "blockerDetail": "Found out our make subscription has a 45 minute cap. So we arent utilising the ad account sync to its full capacity yet. Might need to upscale by a few dollars ",
-            "win": "NA"
-          }
-        },
-        {
-          "name": "Assia Haque",
-          "date": "2026-02-09",
-          "summary": {
-            "workDetail": "16 HP TC \n3 UGC DreamTeam ",
-            "blockerDetail": "No data for DremTeam ad account - ads been turned off",
-            "win": "Trying to use editing terms when reviewing concepts eg. warp stabiliser"
-          }
-        },
-        {
-          "name": "Lee Lewis-Waddell",
-          "date": "2026-02-13",
-          "summary": {
-            "keyTasks": "assigned new briefs, approved creator content and submitted for editing. approved invoices & issued contracts. began sourcing new creators for each brand. filmed assigned briefs.",
-            "workDetail": "assigned 13/20 DNC batch 4 briefs, assigned remaining batch 3 briefs\n9 total briefs submitted for Yucca, DNC, DNH, & 8Sheep",
-            "blockerDetail": "POD 4 clean up: creators unclear on rates, no contracts issued, no clear guidelines, low number of sourced creators on original POD 4 lists, 1 or no men per brand",
-            "win": "cleaning up and reorganizing POD 4"
-          }
-        },
-        {
-          "name": "Kenzo Aganon",
-          "date": "2026-02-13",
-          "summary": {
-            "win": "Created SOPs for AI workflows"
-          }
-        },
-        {
-          "name": "Marzook Muhammad Ali",
-          "date": "2026-02-13",
-          "summary": {
-            "workDetail": "10 Meneral Scripts and 9 Sidekick Scripts",
-            "blockerDetail": "Hard client to please",
-            "win": "New progress made with communicating issues with clients.\nAds are slowly climbing."
-          }
-        },
-        {
-          "name": "Chan David",
-          "date": "2026-02-09",
-          "summary": {
-            "win": "I regularly study winning ads and review my co-editors edits to pick up patterns and ideas that help me create better performing ads"
-          }
-        },
-        {
-          "name": "Bruno Baroni",
-          "date": "2026-02-13",
-          "summary": {
-            "workDetail": "3 TC POD\n2 TC STRT\n1 TC UGC",
-            "win": "Challenged myself on speed"
-          }
-        },
-        {
-          "name": "Nahid Hasan",
-          "date": "2026-02-14",
-          "summary": {
-            "win": "I have done good AI edit this week"
-          }
-        },
-        {
-          "name": "Shiella Mae Yalung",
-          "date": "2026-02-13",
-          "summary": {
-            "win": "1. I am happy with my first full AI cartoon edit!!!! \n2.. I edited the DNC (ADHD angle) that is performing well as per Hamza :)\n3.  100% CR - staying consistent\n4.  I recently found an AI tool that can do multiple character lipsync in one frame without doing manual animation.  It is called Dzine - still looking if this is worthy of subs tho."
-          }
-        },
         {
           "name": "Aleck Royce Bullag",
           "date": "2026-02-14",
@@ -451,72 +312,105 @@
             "workDetail": "16 TEV scripts + Auri compliance edits + TC research",
             "win": "2X DN ads with new angles performing "
           }
+        },
+        {
+          "name": "Adriel",
+          "date": "2026-02-20",
+          "summary": {
+            "win": "Made our own AI GPT, the MTRX Editing Brain"
+          }
+        },
+        {
+          "name": "Lee Lewis-Waddell",
+          "date": "2026-02-20",
+          "summary": {
+            "keyTasks": "Creator deliverables reviewed & submitted for editing. Creators sourced & confirmed via X, Mandy, & Reddit. Creators with products assigned to briefs.",
+            "workDetail": "5 briefs assigned for 8Sheep\n18 briefs reviewed & submitted for DNC",
+            "blockerDetail": "Deliverable reviews are slow due to the content upload process, caused by 95% full storage capacity on Air. ",
+            "win": "Good feedback on company wide presentation & high performing PQ in-house creator ad. Good feedback on Menerals creator sourcing."
+          }
+        },
+        {
+          "name": "Chan David",
+          "date": "2026-02-16",
+          "summary": {
+            "win": "While reviewing top winning ads, I realized 2 of the PQ ads were mine. Turns out, I was reviewing my own winning ads 🤣 Just feeling proud."
+          }
+        },
+        {
+          "name": "Katia Zakarian",
+          "date": "2026-02-20",
+          "summary": {
+            "keyTasks": "Sourced and assigned briefs for SideKick, PQ7, PQ, Nutrition Auri Auri\nReview submission from Nominal, Menerals, PQ7, PQ, Nutrition Auri\nFilmed concepts for PQ and TC",
+            "workDetail": "All listed above",
+            "win": "Seeing a lot of potential winners and MTRX is all over last 7 Days for PQ10_M2 "
+          }
+        },
+        {
+          "name": "Nicola Rainsford",
+          "date": "2026-02-15",
+          "summary": {
+            "workDetail": "16 TC scripts ",
+            "blockerDetail": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too.",
+            "win": "PQ10 M2 ads!"
+          }
+        },
+        {
+          "name": "Niloy Barua",
+          "date": "2026-02-16",
+          "summary": {
+            "win": "Edited a Full AI AD"
+          }
         }
       ],
       "wins": [
         {
-          "source": "Don Jasper Deodora",
-          "text": "I’ve learned that it’s important to ask for clarification if I’m unsure."
+          "source": "Aleck Royce Bullag",
+          "text": "Completed all of my concepts early without sacrificing the quality"
         },
         {
-          "source": "Meryl Montgomery ",
-          "text": "Getting CS team to focus on clearing review boards each day AND competing script delivery "
-        },
-        {
-          "source": "Axl Carreon",
-          "text": "I completely mastered b roll prompting - yipee"
+          "source": "Timur ",
+          "text": "💯 CR reached by POD, huge win\n\nTina’s ugc scripts I edited look very good.\n\n"
         },
         {
           "source": "John Andre Lopez",
-          "text": "I finished my 8 concepts on Wednesday. I think I can still do better though. I just need to adjust my workflow a bit, but so far, it’s going well."
+          "text": "I pushed myself to learn new AI techniques, and for the first time created a viral talking object concept & delivered smoothly."
+        },
+        {
+          "source": "Katia Zakarian",
+          "text": "Finding a new system to speed roll UGC reviews!"
+        },
+        {
+          "source": "Katia Zakarian",
+          "text": "Completed: Reviewed and approved 27 concepts for Menerals, Nominal, Undrdog, PQ7, Primal Queen and Nutrition Au"
+        },
+        {
+          "source": "Nicola Rainsford",
+          "text": "2X DN ads with new angles performing "
         },
         {
           "source": "Adriel",
-          "text": "Got a new winner from the latest batch of Liquid London it's now Top 1 on the ad account right now.\n\nAnd my TC ad is still the top 1 & Top 3 on the ad account as well."
+          "text": "Made our own AI GPT, the MTRX Editing Brain"
         },
         {
-          "source": "Adarsh Mishra",
-          "text": "Experimented on Higgsfield Ai and figured out the way to generate HP brolls for different perfumes using only 1 broll so we editors in pod 2 have more options for use in our ads\n\nWinning ads - \nMTRX_TEV9_POD6_PER_U_Am_V3_1-1\n"
-        },
-        {
-          "source": "Manney ",
-          "text": "Win of the week for me is,\nReview system is alot better now 🙌 and am learning more of AI stuff"
-        },
-        {
-          "source": "Kenneth Bryan Bartolome",
-          "text": "Clearing Dashboard with 100% CR "
+          "source": "Lee Lewis-Waddell",
+          "text": "Good feedback on company wide presentation & high performing PQ in-house creator ad. Good feedback on Menerals creator sourcing."
         }
       ],
       "issues": [
         {
-          "source": "Adarsh Mishra",
-          "text": "Bad acting from the creator - the content didn't meet the standards of the reference, It was supposed to feel real but it felt fake and scripted"
-        },
-        {
-          "source": "Kenneth Bryan Bartolome",
-          "text": "Converting UGC to Ai angle."
-        },
-        {
-          "source": "Lois Ekong",
-          "text": "Found out our make subscription has a 45 minute cap. So we arent utilising the ad account sync to its full capacity yet. Might need to upscale by a few dollars "
-        },
-        {
-          "source": "Assia Haque",
-          "text": "No data for DremTeam ad account - ads been turned off"
-        },
-        {
           "source": "Lee Lewis-Waddell",
-          "text": "POD 4 clean up: creators unclear on rates, no contracts issued, no clear guidelines, low number of sourced creators on original POD 4 lists, 1 or no men per brand"
+          "text": "Deliverable reviews are slow due to the content upload process, caused by 95% full storage capacity on Air. "
         },
         {
-          "source": "Marzook Muhammad Ali",
-          "text": "Hard client to please"
+          "source": "Nicola Rainsford",
+          "text": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too."
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 2,
+      "total": 5,
       "submissions": [
         {
           "name": "New submission",
@@ -539,6 +433,38 @@
             "support": "Meryl shared she'd need a CS to work alongside her in POD 1 \nNew standardization processes for CSs is looking good with research + hypothesis + systemizing Briefs",
             "struggling": "Nill had a concept dragging from last week"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "weeklyBreakdown": "1. The V1 submission deadline was late. This threw the entire review schedule into disarray, and approvals were squeezed rather quickly.\n\n2. The CSs reviews were quite slow, so I had to write about it in the channel every time.\n\n3. Sarang's first full week went great; he's good at editing, already a ready-made MTRX-level editor.\n\n4. First good performances from 8 sheep and Yucca Healh.",
+            "mvp": "Sarang, great first week - his understanding of editong is very high, very good communication and excellent revisions.",
+            "blocker": "Speed",
+            "support": "Since the team is new, it's not entirely clear what exactly is holding us back. Any specific problems or lack of teamwork. I'll be looking into this next week.",
+            "struggling": "Tina is quite passive in her reviews, which is one of the reasons why most of Yucca videos weren't delivered"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "weeklyBreakdown": "- Last 7 days MTRX is all over the ad account for PrimalQueen for batch PQ10_M2, all UGC, HP & AI Avatars performing well here\n- Sheila stepped up as SE while Kenzo was away\n- Undrdog wants to increase concepts and scale with us",
+            "mvp": "Sheila! She jumped on reviews and was our intern SE while Kenzo was away",
+            "blocker": "There shouldn't be any blockers with us moving forward we have a solid talented team, as long as there's no team members moving around to other PODs we should be seeing winners across all brands.",
+            "support": "As we increase Undrdog concepts to 40, I could take on half and we split the remaining half with Emily and Lee.",
+            "struggling": "Everyone except Niloy completed their concepts. Niloy isn't as quick on AI as the rest of the crew, V1 was approved yesterday for MTRX_PQ10_M3_Ni_HI_AIMUP3_F3_Ni variations are still pending edits"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "weeklyBreakdown": "100% CR for editors + all scripts completed, no issues, everyone just knows what they need to do and gets it done. ",
+            "mvp": "Adriel - she always steps in if I need help with reviewing concepts, she's helped me to get up to speed with POD 2's review/editing process over the last few weeks, and she does such an amazing job leading the editors. ",
+            "blocker": "Likely me needing time to learn new brands etc. and what works, but trying to get there as fast as possible. \n\nI also think we definitely need to start testing some new formats - especially more AI. ",
+            "support": "Aaron already said he'll share a Loom on what to look for in TEV account which will be helpful - potentially also share for other POD 2 brands when you have time?"
+          }
         }
       ],
       "wins": [
@@ -549,6 +475,18 @@
         {
           "source": "New submission",
           "text": "MVP: Editors with Kenzo leading the way. Their AI concepts are getting next level and these POD 1 editors are insanely creative! Bring any concept to life!"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Sarang, great first week - his understanding of editong is very high, very good communication and excellent revisions."
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Sheila! She jumped on reviews and was our intern SE while Kenzo was away"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Adriel - she always steps in if I need help with reviewing concepts, she's helped me to get up to speed with POD 2's review/editing process over the l"
         }
       ],
       "issues": [
@@ -567,12 +505,28 @@
         {
           "source": "New submission",
           "text": "Struggling: Nill had a concept dragging from last week"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: Speed"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Tina is quite passive in her reviews, which is one of the reasons why most of Yucca videos weren't delivered"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: There shouldn't be any blockers with us moving forward we have a solid talented team, as long as there's no team members moving around to other PODs w"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Everyone except Niloy completed their concepts. Niloy isn't as quick on AI as the rest of the crew, V1 was approved yesterday for MTRX_PQ10_M3_Ni_HI_A"
         }
       ]
     },
     {
       "name": "Project Manager",
-      "total": 2,
+      "total": 1,
       "submissions": [
         {
           "name": "New submission",
@@ -622,7 +576,7 @@
     },
     {
       "name": "Head of CS",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -634,12 +588,27 @@
             "standingOut": "Nicola and Assia showing diligent process and analytical thinking when it comes to their research and deliverables. ",
             "nextPriority": "Not letting team spend until Wed on research. Needing to get that improved for efficiency while not jeopardizing quality. Hitting 100% completion rate on script deliverables by EOW. "
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "working": "Nicola is the best at providing consistently strong research and batch planning. Tina had improved research this week compared to last week at getting it done more efficiently, and thorough. Jawaad showed improvement as well. ",
+            "notWorking": "Assia and Jawaad both could improve on applying the research into strategic and thoughtful batch plans. Also, tina struggled to make deadlines. She did better then the week before. but still is needing to be chased for deliverables, wasted a whole Wed by only working on 1 script. Client's are catching her errors. And she still didn't make 100% completion rate by EOW. ",
+            "needsAttention": "Tina (of course). Keeping an eye on Marzook burnout. Getting Assia and Jawaad to think more strategically. ",
+            "standingOut": "Nicola and marzook. Solid research and tip top organization. Jawaad is making strides on research, and submitting deliverables. Still have to chase him a bit, so will work with him on this. ",
+            "nextPriority": "Applying research to strategic insight\nTina performance plan + time tracking \nMonitoring template usage + cross-functional communication between talent, editors, and production to make sure CS isn't causing delay or confusion. "
+          }
         }
       ],
       "wins": [
         {
           "source": "New submission",
           "text": "Working: Research roll out going well. Also, shared learnings in CS is getting more streamlined and shared across the team which seems to be improving research"
+        },
+        {
+          "source": "New submission",
+          "text": "Working: Nicola is the best at providing consistently strong research and batch planning. Tina had improved research this week compared to last week at getting"
         }
       ],
       "issues": [
@@ -650,9 +619,17 @@
         {
           "source": "New submission",
           "text": "Needs Attention: Marzook is currently struggling to balance client requests with effective ad strategy. He is prioritizing \"making the client happy\" by following vague"
+        },
+        {
+          "source": "New submission",
+          "text": "Not Working: Assia and Jawaad both could improve on applying the research into strategic and thoughtful batch plans. Also, tina struggled to make deadlines. She di"
+        },
+        {
+          "source": "New submission",
+          "text": "Needs Attention: Tina (of course). Keeping an eye on Marzook burnout. Getting Assia and Jawaad to think more strategically. "
         }
       ]
     }
   ],
-  "timestamp": "2026-02-20T19:00:10.933Z"
+  "timestamp": "2026-02-21T09:00:08.237Z"
 }
