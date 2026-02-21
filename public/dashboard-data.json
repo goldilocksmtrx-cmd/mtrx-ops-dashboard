@@ -128,10 +128,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD2",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_VR_CB_AIUGC1",
               "due": "2026-02-20"
             },
@@ -156,6 +152,24 @@
               "due": "2026-02-20"
             }
           ],
+          "Video In Review": [
+            {
+              "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-20"
+            }
+          ],
           "Video Needs Revision": [
             {
               "name": "MTRX_VR_CB_AIMUP1",
@@ -171,20 +185,6 @@
             },
             {
               "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_CB_AISS1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-20"
             }
           ]
@@ -272,7 +272,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 11,
+      "total": 12,
       "submissions": [
         {
           "name": "Aleck Royce Bullag",
@@ -360,6 +360,13 @@
           "date": "2026-02-16",
           "summary": {
             "win": "Edited a Full AI AD"
+          }
+        },
+        {
+          "name": "Ahmad Amiri",
+          "date": "2026-02-16",
+          "summary": {
+            "win": "I've gotten much better at editing AI concepts"
           }
         }
       ],
@@ -526,7 +533,7 @@
     },
     {
       "name": "Project Manager",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -535,6 +542,14 @@
             "summary": "Editors\nNilloy is slow, but he is managing to do 5 concepts a week - While Ahmad in my opinion is stuck with the POD with the most difficult concepts, he still didn't find his pace especially that his vision is different from the CS point of view so that is why he struggled with his concepts. Now, editors in POD3 are sending a quick loom or voice note to CS before they start with their edits to avoid any major changes to their V1s\nDoing well - all the team tbh - everybody is pushing themselves - John and Aleck asking for more - Timur organizing reviews in POD4 - Axl, Don and Nahid are also doing great even though I do believe all pods can manage to finish concepts earlier on Friday. \nCSs - worried about Marzook - we were supposed to start with Nobs this week - then last week knew he didn't finalize Menrals concepts on his dash - so postponed Menerals to be done this week (still I don't see them in review nor Awaiting client approval, while nobs paid last week) so we will start with Nobs scripts this week - risk of being late with Edits. Scripts are dragging here - which will affect deliverables unless by Monday he could have all menerals out of his dash - note that we haven't started with Batch 4 scripts and we are already starting Week 3 of February (we should have started with B4 scripts already) - He will start with B4 this week - tbh we can still get back on track but again the edits are taking time as well for Menerals\n8 sheep we might be one week late - depending on Kat Z speed with UGCs because Jawaad also was taking this week to have a come back!\nAuri was late because of Data - I don't think they paid for new batch - we are finalizing Month3 and for new batch - I will make sure to hit the 30 days timeline.\nNominal - we waited on Data and their shipment is not the best\nDidn't include Hydration and Calm as I suppose they didn't pay and once they do - we are already one month ahead with scripts - so we will dive into editing and have timelines in order this time!\nYucca is all done and ready for edits - holding on this until they pay!\nDremteam finalizing MOnth 3 which according to Angelique was paid on Jan 28 - so here we are ahead! especially that we are starting with new batch prior to Connor paying.\nSo we need a CS for POD3 - I am worried about concepts not moving to the next phase when they should be\nPOD 3 AI edits are making edits slow for Menerals!\nTina and Jawaad are on track but also they need more organization and pushing\nTara's mess took some time to fix especially that we needed to source new creators in many cases \n",
             "whoMissed": "Niloy - 1 concept on variants - one AI long mashup\nAhmad - he did all clients revisions for Menerals - he did an entire concept from scratch as it didn't align with Marzook's vision - still has 5 concepts to finalize (on variants and 4:5s)"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "summary": "POD1 - Overall is good - will be pushing Niloy and Kenneth for earlier approvals\nPOD3 - Ahmad is a concern at this moment - not hitting approvals on a weekly basis after 4 or 6 months is becoming consuming tbh\nTina will be on a very close follow up starting next week - I am not in the mood anymore for being nice - at this point of scaling, everyone needs to step up\nPOD4 - Need to fix reviews here still a bit to make sure Timur is reviewed earlier by CSs\nSaumik's team was very good this week - if they keep it up they will be a great support for the team especially with AI\n\nAll other Editors are being super great -  John and Aleck a total of 9 concepts each this week - Shiella jumping to reviews this week - Sarang doing good as a first week\n\nRe brands - JAQ group will take 35 days as we did source new creators and some products are still in shipping\n8 Sheep - also shipping - will take 35 days \nPQ7 we've waited to have some data and will need 35 days to finalize that \nUD is done and PQ will be done on time \n\nMy main concern and work now will be - all team members 100% CR if not warning -->follow up-->> performance review -  if they miss we need to find replacements\nFor HOT I need them to start sourcing earlier - I did speak about that earlier but will make sure to have this done\nYucca and Auri - getting back on track here\n\nI want to see the team improving and tbh no place at this phase for those who don't want to make the extra effort - I can't wait on them anymore",
+            "whoMissed": "Niloy - 1 in review (he had a good week tbh)\nKenneth - his last concept in review\nAhmad - late - taking time with brolls and not having the same vision for some concepts as CS\nTimur had his concepts in review - Jawaad didn't review late on Friday"
+          }
         }
       ],
       "wins": [],
@@ -542,6 +557,10 @@
         {
           "source": "New submission",
           "text": "Missed: Niloy - 1 concept on variants - one AI long mashup\nAhmad - he did all clients revisions for Menerals - he did an entire concept from scratch as it did"
+        },
+        {
+          "source": "New submission",
+          "text": "Missed: Niloy - 1 in review (he had a good week tbh)\nKenneth - his last concept in review\nAhmad - late - taking time with brolls and not having the same visio"
         }
       ]
     },
@@ -631,5 +650,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-21T09:00:08.237Z"
+  "timestamp": "2026-02-21T14:00:07.449Z"
 }
