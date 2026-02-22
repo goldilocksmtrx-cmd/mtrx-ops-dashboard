@@ -122,39 +122,21 @@
         "active": 15,
         "overdue": 15,
         "statuses": {
-          "Editing": [
+          "Video In Review": [
             {
               "name": "MTRX_VR_EB_AISI1",
               "due": "2026-02-20"
             },
-            {
-              "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_VR_EB_AIDEB1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
             {
               "name": "MTRX_VR_CB_AIPOD2",
               "due": "2026-02-20"
             },
             {
               "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP2",
               "due": "2026-02-20"
             },
             {
@@ -167,6 +149,10 @@
             },
             {
               "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
               "due": "2026-02-20"
             }
           ],
@@ -185,6 +171,20 @@
             },
             {
               "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Editing": [
+            {
+              "name": "MTRX_VR_CB_AIUGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC2",
               "due": "2026-02-20"
             }
           ]
@@ -272,23 +272,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 12,
+      "total": 10,
       "submissions": [
-        {
-          "name": "Aleck Royce Bullag",
-          "date": "2026-02-14",
-          "summary": {
-            "win": "Completed all of my concepts early without sacrificing the quality"
-          }
-        },
-        {
-          "name": "Timur ",
-          "date": "2026-02-08",
-          "summary": {
-            "workDetail": "Drink Nectar Calm and Hydration ",
-            "win": "💯 CR reached by POD, huge win\n\nTina’s ugc scripts I edited look very good.\n\n"
-          }
-        },
         {
           "name": "John Andre Lopez",
           "date": "2026-02-09",
@@ -372,14 +357,6 @@
       ],
       "wins": [
         {
-          "source": "Aleck Royce Bullag",
-          "text": "Completed all of my concepts early without sacrificing the quality"
-        },
-        {
-          "source": "Timur ",
-          "text": "💯 CR reached by POD, huge win\n\nTina’s ugc scripts I edited look very good.\n\n"
-        },
-        {
           "source": "John Andre Lopez",
           "text": "I pushed myself to learn new AI techniques, and for the first time created a viral talking object concept & delivered smoothly."
         },
@@ -402,6 +379,14 @@
         {
           "source": "Lee Lewis-Waddell",
           "text": "Good feedback on company wide presentation & high performing PQ in-house creator ad. Good feedback on Menerals creator sourcing."
+        },
+        {
+          "source": "Lee Lewis-Waddell",
+          "text": "Completed: Creator deliverables reviewed & submitted for editing. Creators sourced & confirmed via X, Mandy, & "
+        },
+        {
+          "source": "Chan David",
+          "text": "While reviewing top winning ads, I realized 2 of the PQ ads were mine. Turns out, I was reviewing my own winning ads 🤣 Just feeling proud."
         }
       ],
       "issues": [
@@ -533,16 +518,8 @@
     },
     {
       "name": "Project Manager",
-      "total": 2,
+      "total": 1,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-13",
-          "summary": {
-            "summary": "Editors\nNilloy is slow, but he is managing to do 5 concepts a week - While Ahmad in my opinion is stuck with the POD with the most difficult concepts, he still didn't find his pace especially that his vision is different from the CS point of view so that is why he struggled with his concepts. Now, editors in POD3 are sending a quick loom or voice note to CS before they start with their edits to avoid any major changes to their V1s\nDoing well - all the team tbh - everybody is pushing themselves - John and Aleck asking for more - Timur organizing reviews in POD4 - Axl, Don and Nahid are also doing great even though I do believe all pods can manage to finish concepts earlier on Friday. \nCSs - worried about Marzook - we were supposed to start with Nobs this week - then last week knew he didn't finalize Menrals concepts on his dash - so postponed Menerals to be done this week (still I don't see them in review nor Awaiting client approval, while nobs paid last week) so we will start with Nobs scripts this week - risk of being late with Edits. Scripts are dragging here - which will affect deliverables unless by Monday he could have all menerals out of his dash - note that we haven't started with Batch 4 scripts and we are already starting Week 3 of February (we should have started with B4 scripts already) - He will start with B4 this week - tbh we can still get back on track but again the edits are taking time as well for Menerals\n8 sheep we might be one week late - depending on Kat Z speed with UGCs because Jawaad also was taking this week to have a come back!\nAuri was late because of Data - I don't think they paid for new batch - we are finalizing Month3 and for new batch - I will make sure to hit the 30 days timeline.\nNominal - we waited on Data and their shipment is not the best\nDidn't include Hydration and Calm as I suppose they didn't pay and once they do - we are already one month ahead with scripts - so we will dive into editing and have timelines in order this time!\nYucca is all done and ready for edits - holding on this until they pay!\nDremteam finalizing MOnth 3 which according to Angelique was paid on Jan 28 - so here we are ahead! especially that we are starting with new batch prior to Connor paying.\nSo we need a CS for POD3 - I am worried about concepts not moving to the next phase when they should be\nPOD 3 AI edits are making edits slow for Menerals!\nTina and Jawaad are on track but also they need more organization and pushing\nTara's mess took some time to fix especially that we needed to source new creators in many cases \n",
-            "whoMissed": "Niloy - 1 concept on variants - one AI long mashup\nAhmad - he did all clients revisions for Menerals - he did an entire concept from scratch as it didn't align with Marzook's vision - still has 5 concepts to finalize (on variants and 4:5s)"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-20",
@@ -556,10 +533,6 @@
       "issues": [
         {
           "source": "New submission",
-          "text": "Missed: Niloy - 1 concept on variants - one AI long mashup\nAhmad - he did all clients revisions for Menerals - he did an entire concept from scratch as it did"
-        },
-        {
-          "source": "New submission",
           "text": "Missed: Niloy - 1 in review (he had a good week tbh)\nKenneth - his last concept in review\nAhmad - late - taking time with brolls and not having the same visio"
         }
       ]
@@ -570,26 +543,26 @@
       "submissions": [
         {
           "name": "New submission",
-          "date": "2026-02-09",
+          "date": "2026-02-16",
           "summary": {
-            "editorsDelivering": "All, except for Ahmad",
-            "editorsStruggling": "Ahmad - Time management & skills. I'm not saying he's not good but me, Axl and Kat R already did all of the interventions we can do to help him. Extended deadlines, addressed CS issues, provided help with his edits, and shared a few tips on time management but no improvement at all. ",
-            "support": "Yes, unfortunately we now need an editor warning to Ahmad.",
-            "qualityByPod": "P1 - Everything is being streamlined and the review schedule that they put up is working\nP2 - Even though we had a CS change, the reviews are actually faster than before so it's very very efficient and we have concepts being approved as early as Tuesday\nP3 - This is where it gets tricky 2/4 editors (Ahmad & Nahid) are experiencing burn outs due to CS complicated and 30+ comments that was because of some unclear briefs (which I think was alr addressed) so we should be able to see improvement \nP4 - Fairly new Pod, but I'm happy to see that they're pushing to get that 100 CR, but CS comments aren't streamlined yet, meaning there are minor comments that can be caught on the first round of reviews but no, that results in V1s having multiple revisions (e.g. add tiktok text overlay on the 3rd round of V1, which can save time if this was already decided on the first round of reviews, this is the importance of putting all variants on the brief before editing starts)",
-            "nextFocus": "Follow up again on Ahmad, have him wrap up all his pending concepts & Editor's meeting   - - Launching the MTRX AI editing brain"
+            "editorsDelivering": "All POD 1 editors except - Kenneth, been slow recently \nAll POD 2 editors are good\nPOD 3 - Axl & Don\nPOD 4 - Timur, Manney is a bit slow but Sarang is picking up on speed",
+            "editorsStruggling": "Ahmad - skill issue at this point\nNahid - he is getting burnt out",
+            "support": "Editor warning to Ahmad & Kenneth pls",
+            "qualityByPod": "POD 1 - Kenzo was off but Shiella was able to do a good follow up with the editors\nPOD 2 - Still on 100% CR consistently \nPOD 3 - Ahmad issue and Nahid issue still persist but I them pushing thru\nPOD 4 - Good synergy building up with Timur and editors",
+            "nextFocus": "Completion Rate follow up for POD 4 & POD 1 editors"
           }
         }
       ],
       "wins": [
         {
           "source": "New submission",
-          "text": "Delivering: All, except for Ahmad"
+          "text": "Delivering: All POD 1 editors except - Kenneth, been slow recently \nAll POD 2 editors are good\nPOD 3 - Axl & Don\nPOD 4 - Timur, Manney is a bit slow but Sarang is"
         }
       ],
       "issues": [
         {
           "source": "New submission",
-          "text": "Struggling: Ahmad - Time management & skills. I'm not saying he's not good but me, Axl and Kat R already did all of the interventions we can do to help him. Exten"
+          "text": "Struggling: Ahmad - skill issue at this point\nNahid - he is getting burnt out"
         }
       ]
     },
@@ -650,5 +623,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-21T19:00:18.000Z"
+  "timestamp": "2026-02-22T09:00:09.908Z"
 }
