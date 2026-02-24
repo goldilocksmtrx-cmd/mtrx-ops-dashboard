@@ -144,15 +144,7 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD1",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIVSL1",
               "due": "2026-02-25"
             },
             {
@@ -177,6 +169,16 @@
             },
             {
               "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-25"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_VR_EB_AIPOD1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
               "due": "2026-02-25"
             },
             {
@@ -268,24 +270,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 12,
+      "total": 14,
       "submissions": [
-        {
-          "name": "John Andre Lopez",
-          "date": "2026-02-09",
-          "summary": {
-            "win": "I pushed myself to learn new AI techniques, and for the first time created a viral talking object concept & delivered smoothly."
-          }
-        },
-        {
-          "name": "Katia Zakarian",
-          "date": "2026-02-13",
-          "summary": {
-            "keyTasks": "Reviewed and approved 27 concepts for Menerals, Nominal, Undrdog, PQ7, Primal Queen and Nutrition Auri\nSourced new creators for Nutrition Auri\nSourced  a tech creator with meta glasses for Undrdog\nAssigned Nutrition Auri Briefs\nAssigned 10 Primal Queen briefs\nFilmed 10 variation voiceovers for Nominal\nFilmed Primal Queen & Nutrition Auri concepts\nFound a new system to speed roll reviewing videos for HOTs and uploading on Air\nSourced creators for Sidekick\n\n",
-            "workDetail": "All mentioned above",
-            "win": "Finding a new system to speed roll UGC reviews!"
-          }
-        },
         {
           "name": "Nicola Rainsford",
           "date": "2026-02-09",
@@ -363,21 +349,39 @@
           "summary": {
             "win": "Loved how both LL8 POD 2 and 5 turned out in editing, hope we can get winners from these"
           }
+        },
+        {
+          "name": "Kenzo Aganon",
+          "date": "2026-02-21",
+          "summary": {
+            "win": "I was on leave"
+          }
+        },
+        {
+          "name": "Emily Gittings",
+          "date": "2026-02-20",
+          "summary": {
+            "keyTasks": "Reviewed 5+ briefs \nAllocated all briefs \nFilmed 3x OTC myself",
+            "win": "Cleared my finding creator dashboard"
+          }
+        },
+        {
+          "name": "Aleck Royce Bullag",
+          "date": "2026-02-16",
+          "summary": {
+            "blockerDetail": "none",
+            "win": "finished my 8 concepts and I learned to manage my time. Achieved 100 percent completion rate"
+          }
+        },
+        {
+          "name": "Shiella Mae Yalung",
+          "date": "2026-02-20",
+          "summary": {
+            "win": "I had the opportunity to experience the senior editor review process while covering for Kenzo for a week. It feels like a win for me as I made it through the week and still maintained 100% CR."
+          }
         }
       ],
       "wins": [
-        {
-          "source": "John Andre Lopez",
-          "text": "I pushed myself to learn new AI techniques, and for the first time created a viral talking object concept & delivered smoothly."
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Finding a new system to speed roll UGC reviews!"
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Completed: Reviewed and approved 27 concepts for Menerals, Nominal, Undrdog, PQ7, Primal Queen and Nutrition Au"
-        },
         {
           "source": "Nicola Rainsford",
           "text": "2X DN ads with new angles performing "
@@ -397,6 +401,18 @@
         {
           "source": "Chan David",
           "text": "While reviewing top winning ads, I realized 2 of the PQ ads were mine. Turns out, I was reviewing my own winning ads 🤣 Just feeling proud."
+        },
+        {
+          "source": "Katia Zakarian",
+          "text": "Seeing a lot of potential winners and MTRX is all over last 7 Days for PQ10_M2 "
+        },
+        {
+          "source": "Katia Zakarian",
+          "text": "Completed: Sourced and assigned briefs for SideKick, PQ7, PQ, Nutrition Auri Auri\nReview submission from Nomina"
+        },
+        {
+          "source": "Nicola Rainsford",
+          "text": "PQ10 M2 ads!"
         }
       ],
       "issues": [
@@ -407,12 +423,16 @@
         {
           "source": "Nicola Rainsford",
           "text": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too."
+        },
+        {
+          "source": "Aleck Royce Bullag",
+          "text": "none"
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 5,
+      "total": 6,
       "submissions": [
         {
           "name": "New submission",
@@ -467,6 +487,17 @@
             "blocker": "Likely me needing time to learn new brands etc. and what works, but trying to get there as fast as possible. \n\nI also think we definitely need to start testing some new formats - especially more AI. ",
             "support": "Aaron already said he'll share a Loom on what to look for in TEV account which will be helpful - potentially also share for other POD 2 brands when you have time?"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-20",
+          "summary": {
+            "weeklyBreakdown": "Completed 9 NOBS HP, 5 Nominal HP and 11 Meneral concepts\nReviewed a ton of videos\nBack and forth with client",
+            "mvp": "Myself ",
+            "blocker": "A break - struggling to focus and do the job. pushing through to somehow complete this week",
+            "support": "Not much. Should be able to complete the work.",
+            "struggling": "Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
+          }
         }
       ],
       "wins": [
@@ -489,6 +520,10 @@
         {
           "source": "New submission",
           "text": "MVP: Adriel - she always steps in if I need help with reviewing concepts, she's helped me to get up to speed with POD 2's review/editing process over the l"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Myself "
         }
       ],
       "issues": [
@@ -633,5 +668,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-23T19:00:15.696Z"
+  "timestamp": "2026-02-24T09:00:10.120Z"
 }
