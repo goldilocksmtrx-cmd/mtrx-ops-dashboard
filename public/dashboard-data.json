@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 39,
-    "overdue": 24,
+    "active": 51,
+    "overdue": 36,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -132,10 +132,6 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIMUP1",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_CB_AISS1",
               "due": "2026-02-25"
             },
@@ -145,10 +141,6 @@
             },
             {
               "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-25"
             },
             {
@@ -166,19 +158,27 @@
             {
               "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-25"
             }
           ],
           "Video In Review": [
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-25"
+            },
             {
               "name": "MTRX_VR_EB_AIPOD1",
               "due": "2026-02-25"
             },
             {
               "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIUGC1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
               "due": "2026-02-25"
             },
             {
@@ -249,9 +249,62 @@
       },
       {
         "name": "Sidekick",
-        "active": 0,
-        "overdue": 0,
-        "statuses": {},
+        "active": 12,
+        "overdue": 12,
+        "statuses": {
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SK_B1_AIPOD4",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIMUP1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_UGC2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_UGC3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIMUP2",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_UGC1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SK_B1_AIPOD5",
+              "due": "2026-02-20"
+            }
+          ],
+          "Approved": [
+            {
+              "name": "MTRX_SK_B1_UGC4",
+              "due": "2026-02-20"
+            }
+          ]
+        },
         "startDate": "2026-02-09"
       }
     ],
@@ -262,7 +315,6 @@
       "Mail Mend",
       "Peak Footwear",
       "Seranova",
-      "Sidekick",
       "Smootheskin",
       "Try AI Ads"
     ]
@@ -270,7 +322,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 14,
+      "total": 20,
       "submissions": [
         {
           "name": "Nicola Rainsford",
@@ -358,6 +410,36 @@
           }
         },
         {
+          "name": "Marzook Muhammad Ali",
+          "date": "2026-02-20",
+          "summary": {
+            "workDetail": "11 Menerals\n9 NOBS\n5 Nominal",
+            "win": "Bioroot labs winner\nMeneral ads are still scaling\nAxl ad Don are killing it with thier edits"
+          }
+        },
+        {
+          "name": "Kenneth Bryan Bartolome",
+          "date": "2026-02-16",
+          "summary": {
+            "blockerDetail": "mouse broke down",
+            "win": "N/A"
+          }
+        },
+        {
+          "name": "Grant Vincent Villapando",
+          "date": "2026-02-16",
+          "summary": {
+            "win": "I was able to create animated statics for some of our brands, and I’ll continue working on applying them to the rest."
+          }
+        },
+        {
+          "name": "John Andre Lopez",
+          "date": "2026-02-16",
+          "summary": {
+            "win": "I created a full AI concept this week and I’m working on finishing my 9 concepts."
+          }
+        },
+        {
           "name": "Emily Gittings",
           "date": "2026-02-20",
           "summary": {
@@ -366,11 +448,26 @@
           }
         },
         {
+          "name": "Don Jasper Deodora",
+          "date": "2026-02-20",
+          "summary": {
+            "win": "I managed my time time even I am sick, and complete all of my concepts within friday!"
+          }
+        },
+        {
           "name": "Aleck Royce Bullag",
           "date": "2026-02-16",
           "summary": {
             "blockerDetail": "none",
             "win": "finished my 8 concepts and I learned to manage my time. Achieved 100 percent completion rate"
+          }
+        },
+        {
+          "name": "Axl Carreon",
+          "date": "2026-02-20",
+          "summary": {
+            "workDetail": "4 MN Concepts - 4 MUPs",
+            "win": "been deep diving on my ads and on reviews, suggesting b rolls as well for editors to use to reduce revisions for them\n\nCR is not yet good for Ahmad - everyone's getting 100% CR except for him. Tracking where his time is going cirrently to determine the problem. Doing my best to help Ahmad in any way possible."
           }
         },
         {
@@ -423,6 +520,10 @@
         {
           "source": "Nicola Rainsford",
           "text": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too."
+        },
+        {
+          "source": "Kenneth Bryan Bartolome",
+          "text": "mouse broke down"
         },
         {
           "source": "Aleck Royce Bullag",
@@ -668,5 +769,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-24T09:00:10.120Z"
+  "timestamp": "2026-02-24T14:00:07.583Z"
 }
