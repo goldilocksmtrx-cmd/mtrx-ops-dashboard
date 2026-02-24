@@ -128,41 +128,11 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_CB_AISS1",
               "due": "2026-02-25"
             },
             {
               "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS2",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_CB_AIMUP1",
               "due": "2026-02-25"
             },
             {
@@ -178,11 +148,41 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD1",
+              "name": "MTRX_VR_CB_AIUGC2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-25"
             },
             {
               "name": "MTRX_VR_EB_AIDEB1",
+              "due": "2026-02-25"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
               "due": "2026-02-25"
             }
           ]
@@ -322,7 +322,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 20,
+      "total": 22,
       "submissions": [
         {
           "name": "Nicola Rainsford",
@@ -403,6 +403,14 @@
           }
         },
         {
+          "name": "Assia Haque",
+          "date": "2026-02-16",
+          "summary": {
+            "blockerDetail": "No ads running on ad account",
+            "win": "Applied learnings from competitor brands to my scripts"
+          }
+        },
+        {
           "name": "Kenzo Aganon",
           "date": "2026-02-21",
           "summary": {
@@ -415,6 +423,14 @@
           "summary": {
             "workDetail": "11 Menerals\n9 NOBS\n5 Nominal",
             "win": "Bioroot labs winner\nMeneral ads are still scaling\nAxl ad Don are killing it with thier edits"
+          }
+        },
+        {
+          "name": "Timur Sultanov",
+          "date": "2026-02-20",
+          "summary": {
+            "blockerDetail": "1. I miscalculated my timing.\n2. The reviews were really slow.",
+            "win": "I love that the team is growing and I have more videos to review. This is actually my biggest victory: all the editors on my team have reached 100 CR (except me, of course)."
           }
         },
         {
@@ -520,6 +536,14 @@
         {
           "source": "Nicola Rainsford",
           "text": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too."
+        },
+        {
+          "source": "Assia Haque",
+          "text": "No ads running on ad account"
+        },
+        {
+          "source": "Timur Sultanov",
+          "text": "1. I miscalculated my timing.\n2. The reviews were really slow."
         },
         {
           "source": "Kenneth Bryan Bartolome",
@@ -769,5 +793,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-24T14:00:07.583Z"
+  "timestamp": "2026-02-24T19:00:15.855Z"
 }
