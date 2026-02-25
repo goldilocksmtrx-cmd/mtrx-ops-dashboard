@@ -128,15 +128,15 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC1",
+              "name": "MTRX_VR_CB_AIPOD2",
               "due": "2026-02-25"
             },
             {
               "name": "MTRX_VR_EB_AIPOD1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP2",
               "due": "2026-02-25"
             },
             {
@@ -145,6 +145,10 @@
             },
             {
               "name": "MTRX_VR_EB_AIUGC1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
             },
             {
@@ -158,31 +162,27 @@
             {
               "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIDEB1",
-              "due": "2026-02-25"
             }
           ],
           "Video In Review": [
-            {
-              "name": "MTRX_VR_CB_AIPOD2",
-              "due": "2026-02-25"
-            },
             {
               "name": "MTRX_VR_CB_AIMUP1",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIMUP2",
+              "name": "MTRX_VR_CB_AISS1",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD2",
+              "name": "MTRX_VR_CB_AIUGC1",
               "due": "2026-02-25"
             },
             {
               "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
               "due": "2026-02-25"
             }
           ]
@@ -324,14 +324,6 @@
       "name": "Check In Tracker",
       "total": 22,
       "submissions": [
-        {
-          "name": "Nicola Rainsford",
-          "date": "2026-02-09",
-          "summary": {
-            "workDetail": "16 TEV scripts + Auri compliance edits + TC research",
-            "win": "2X DN ads with new angles performing "
-          }
-        },
         {
           "name": "Adriel",
           "date": "2026-02-20",
@@ -492,13 +484,17 @@
           "summary": {
             "win": "I had the opportunity to experience the senior editor review process while covering for Kenzo for a week. It feels like a win for me as I made it through the week and still maintained 100% CR."
           }
+        },
+        {
+          "name": "Abdullah Rasool",
+          "date": "2026-02-16",
+          "summary": {
+            "blockerDetail": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day",
+            "win": "I learned how to manage the time to get 100% CR every week"
+          }
         }
       ],
       "wins": [
-        {
-          "source": "Nicola Rainsford",
-          "text": "2X DN ads with new angles performing "
-        },
         {
           "source": "Adriel",
           "text": "Made our own AI GPT, the MTRX Editing Brain"
@@ -526,6 +522,10 @@
         {
           "source": "Nicola Rainsford",
           "text": "PQ10 M2 ads!"
+        },
+        {
+          "source": "Niloy Barua",
+          "text": "Edited a Full AI AD"
         }
       ],
       "issues": [
@@ -552,35 +552,17 @@
         {
           "source": "Aleck Royce Bullag",
           "text": "none"
+        },
+        {
+          "source": "Abdullah Rasool",
+          "text": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day"
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 6,
+      "total": 4,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-13",
-          "summary": {
-            "weeklyBreakdown": "Menerals ads are scaling\nBioroot one ad is climbing\nMeneral scripts ups and down wins - every new pivot somehow becomes a new challenge - but by the time i become good at one thing - we pivot hard to the next. Will see how that goes.\nEditors are improving",
-            "mvp": "i'd like to say everyone. but Don, is surprising me with his speed. he's relentless.",
-            "blocker": "Work overload and fell sick real hard.",
-            "support": "Just script reviews will be good ",
-            "struggling": "Ahmad and Nahid to a small degree.\nNahid has ups and downs - now he's on his up with comms.\nahmad is slowly getting there - he's defo afraid to be honest with what he can complete - but his comm is improving.\nThey're trying, but they get overwhelmed. \nAxl has been helping me loads in dealing with them\n"
-          }
-        },
-        {
-          "name": "New submission",
-          "date": "2026-02-13",
-          "summary": {
-            "weeklyBreakdown": "After a few weeks of 0/5 in top 5 performance for PQ. \nWe now have 2/5 (including BOF ads) \n3/5 excluding BOF ads for PQ\nMashups are outperforming for Undrdog so far, Kenzo edited a really creative one using Chuckie's baby\nWe've had no winners for nutrition Auri. They have a new head of marketing and so far he seems happy with process and excited for next batch of concepts, always good to know client is hyped",
-            "mvp": "Editors with Kenzo leading the way. Their AI concepts are getting next level and these POD 1 editors are insanely creative! Bring any concept to life!",
-            "blocker": "Auri is the only brand blockage we have so far, didn't crack the code, we're testing new angles, more authority figure science backed, hopefully with the guidance of their new head of marketing we'd be able to see winners here.",
-            "support": "Meryl shared she'd need a CS to work alongside her in POD 1 \nNew standardization processes for CSs is looking good with research + hypothesis + systemizing Briefs",
-            "struggling": "Nill had a concept dragging from last week"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-20",
@@ -628,14 +610,6 @@
       "wins": [
         {
           "source": "New submission",
-          "text": "MVP: i'd like to say everyone. but Don, is surprising me with his speed. he's relentless."
-        },
-        {
-          "source": "New submission",
-          "text": "MVP: Editors with Kenzo leading the way. Their AI concepts are getting next level and these POD 1 editors are insanely creative! Bring any concept to life!"
-        },
-        {
-          "source": "New submission",
           "text": "MVP: Sarang, great first week - his understanding of editong is very high, very good communication and excellent revisions."
         },
         {
@@ -654,22 +628,6 @@
       "issues": [
         {
           "source": "New submission",
-          "text": "Blocker: Work overload and fell sick real hard."
-        },
-        {
-          "source": "New submission",
-          "text": "Struggling: Ahmad and Nahid to a small degree.\nNahid has ups and downs - now he's on his up with comms.\nahmad is slowly getting there - he's defo afraid to be hon"
-        },
-        {
-          "source": "New submission",
-          "text": "Blocker: Auri is the only brand blockage we have so far, didn't crack the code, we're testing new angles, more authority figure science backed, hopefully with "
-        },
-        {
-          "source": "New submission",
-          "text": "Struggling: Nill had a concept dragging from last week"
-        },
-        {
-          "source": "New submission",
           "text": "Blocker: Speed"
         },
         {
@@ -683,6 +641,18 @@
         {
           "source": "New submission",
           "text": "Struggling: Everyone except Niloy completed their concepts. Niloy isn't as quick on AI as the rest of the crew, V1 was approved yesterday for MTRX_PQ10_M3_Ni_HI_A"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: Likely me needing time to learn new brands etc. and what works, but trying to get there as fast as possible. \n\nI also think we definitely need to star"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: A break - struggling to focus and do the job. pushing through to somehow complete this week"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
         }
       ]
     },
@@ -738,19 +708,8 @@
     },
     {
       "name": "Head of CS",
-      "total": 2,
+      "total": 1,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-09",
-          "summary": {
-            "working": "Research roll out going well. Also, shared learnings in CS is getting more streamlined and shared across the team which seems to be improving research-minded process across the team. Assia, jawaad, nicola providing most consistent research and deliverables. Assia and Nicola both reaching out to get support on research and wanting to go deeper.  CS got a shoutout from production that there was quick improvement in the last week with latest scripts on consistency and details. \n\nDeliverables batched by EOW:\n- CS Hub rolled out\n- Template streamlining rolled out",
-            "notWorking": "Jawaad's had a lot of improvement. I think where he's still thinking short term with his approach. For example, if he did research last week for the same client, how he can be going deeper the next week instead of just \"checking on updates\". Tina gives me the biggest concern. She's asked for support, but then when support is given, she's not using it. She didn't know about the hypothesis template. She wasn't in the meeting we rolled that out, so I can understand. However, other instructional looms I made just for her and jawaad (how to approach research, comment analysis, even the claude overview that Nicola did), she didn't seem to have any recollection or awareness of. And she wasn't aware of the right templates to use. ",
-            "needsAttention": "Marzook is currently struggling to balance client requests with effective ad strategy. He is prioritizing \"making the client happy\" by following vague directives (e.g., documentary-style, broad education) rather than pushing for direct response best practices. This has led to abstract concepts that lack problem/solution structures, resulting in excessive revisions. I suggest a leadership sync (Hamza + Aaron or myself) with the client to realign on goals and ensure our creative output remains focused on results, not just general content. Marzook has some resistance to solution-minded feedback because he’s focused on client pleasing over strategy.",
-            "standingOut": "Nicola and Assia showing diligent process and analytical thinking when it comes to their research and deliverables. ",
-            "nextPriority": "Not letting team spend until Wed on research. Needing to get that improved for efficiency while not jeopardizing quality. Hitting 100% completion rate on script deliverables by EOW. "
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-20",
@@ -766,22 +725,10 @@
       "wins": [
         {
           "source": "New submission",
-          "text": "Working: Research roll out going well. Also, shared learnings in CS is getting more streamlined and shared across the team which seems to be improving research"
-        },
-        {
-          "source": "New submission",
           "text": "Working: Nicola is the best at providing consistently strong research and batch planning. Tina had improved research this week compared to last week at getting"
         }
       ],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Not Working: Jawaad's had a lot of improvement. I think where he's still thinking short term with his approach. For example, if he did research last week for the s"
-        },
-        {
-          "source": "New submission",
-          "text": "Needs Attention: Marzook is currently struggling to balance client requests with effective ad strategy. He is prioritizing \"making the client happy\" by following vague"
-        },
         {
           "source": "New submission",
           "text": "Not Working: Assia and Jawaad both could improve on applying the research into strategic and thoughtful batch plans. Also, tina struggled to make deadlines. She di"
@@ -793,5 +740,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-24T19:00:15.855Z"
+  "timestamp": "2026-02-25T09:00:07.408Z"
 }
