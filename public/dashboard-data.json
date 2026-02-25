@@ -122,13 +122,43 @@
         "active": 15,
         "overdue": 0,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_VR_EB_AISI1",
               "due": "2026-02-25"
             },
             {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
+              "due": "2026-02-25"
+            }
+          ],
+          "Video Needs Revision": [
+            {
               "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC1",
               "due": "2026-02-25"
             },
             {
@@ -148,41 +178,11 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_CB_AIUGC2",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_EB_AISS2",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_CB_AIMUP1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIDEB1",
               "due": "2026-02-25"
             }
           ]
@@ -322,7 +322,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 22,
+      "total": 23,
       "submissions": [
         {
           "name": "Adriel",
@@ -483,6 +483,13 @@
           "date": "2026-02-20",
           "summary": {
             "win": "I had the opportunity to experience the senior editor review process while covering for Kenzo for a week. It feels like a win for me as I made it through the week and still maintained 100% CR."
+          }
+        },
+        {
+          "name": "Sarang Ali",
+          "date": "2026-02-20",
+          "summary": {
+            "win": "it was my first weak and it reminded me that clarity beats speed.\nInstead of rushing into editing, take time to properly understand the creative direction and structure first  and it completely changes the workflow. Fewer revisions,  and a smoother final result."
           }
         },
         {
@@ -740,5 +747,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-25T09:00:07.408Z"
+  "timestamp": "2026-02-25T14:00:13.385Z"
 }
