@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 52,
-    "overdue": 36,
+    "active": 66,
+    "overdue": 42,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -61,43 +61,9 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 12,
-        "overdue": 12,
+        "active": 4,
+        "overdue": 4,
         "statuses": {
-          "Scripting": [
-            {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD3",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIDEB2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC2",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP1",
-              "due": "2026-02-20"
-            }
-          ],
           "Ready for Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
@@ -112,7 +78,7 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIDEB1s",
+              "name": "MTRX_SE_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ]
@@ -121,16 +87,12 @@
       },
       {
         "name": "Verso",
-        "active": 15,
-        "overdue": 0,
+        "active": 13,
+        "overdue": 13,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_VR_EB_AISI1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIPOD2",
               "due": "2026-02-25"
             },
             {
@@ -142,11 +104,25 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD1",
+              "name": "MTRX_VR_CB_AIMUP2",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIVSL1",
+              "name": "MTRX_VR_CB_AIUGC2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
+              "due": "2026-02-25"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD1",
               "due": "2026-02-25"
             },
             {
@@ -158,35 +134,15 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIUGC2",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_EB_AISS1",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIDEB1",
-              "due": "2026-02-25"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_VR_CB_AIMUP1",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
               "due": "2026-02-25"
             }
           ]
@@ -252,6 +208,71 @@
         "startDate": "2026-02-18"
       },
       {
+        "name": "Pearl West Group",
+        "active": 12,
+        "overdue": 0,
+        "statuses": {
+          "Not started": [
+            {
+              "name": "MTRX_PW_B1_AIPOD1",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIVSL1",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIUGC2",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIPOD2",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIUGC1",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIMUP2",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIPOD4",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIMUP1",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIDEB1",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIPOD3",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIPOD5",
+              "due": "2026-03-04"
+            },
+            {
+              "name": "MTRX_PW_B1_AIDEB2",
+              "due": "2026-03-04"
+            }
+          ]
+        },
+        "startDate": "2026-02-25"
+      },
+      {
+        "name": "Calo",
+        "active": 0,
+        "overdue": 0,
+        "statuses": {},
+        "startDate": "2026-02-26"
+      },
+      {
         "name": "Sidekick",
         "active": 12,
         "overdue": 12,
@@ -314,12 +335,70 @@
       {
         "name": "Seora",
         "active": 1,
-        "overdue": 0,
+        "overdue": 1,
         "statuses": {
           "Ready for Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
-              "due": null
+              "due": "2026-02-20"
+            }
+          ]
+        },
+        "startDate": null
+      },
+      {
+        "name": "CO",
+        "active": 12,
+        "overdue": 0,
+        "statuses": {
+          "Not started": [
+            {
+              "name": "MTRX_CO_B1_AIPOD1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD4",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD3",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIDEB2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIDEB1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIVSL1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD5",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD2",
+              "due": "2026-03-05"
             }
           ]
         },
@@ -765,5 +844,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-25T19:00:07.872Z"
+  "timestamp": "2026-02-26T09:00:11.832Z"
 }
