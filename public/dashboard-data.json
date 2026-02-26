@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 90,
-    "overdue": 42,
+    "active": 64,
+    "overdue": 40,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -87,14 +87,28 @@
       },
       {
         "name": "Verso",
-        "active": 13,
-        "overdue": 13,
+        "active": 11,
+        "overdue": 11,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_VR_EB_AISI1",
               "due": "2026-02-25"
             },
+            {
+              "name": "MTRX_VR_CB_AIUGC1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD1 ",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-25"
+            }
+          ],
+          "Video In Review": [
             {
               "name": "MTRX_VR_CB_AIPOD2",
               "due": "2026-02-25"
@@ -104,23 +118,11 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
               "name": "MTRX_VR_EB_AIUGC1",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC2",
+              "name": "MTRX_VR_EB_AISS1",
               "due": "2026-02-25"
             },
             {
@@ -133,16 +135,6 @@
             },
             {
               "name": "MTRX_VR_EB_AIDEB1",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video Needs Revision": [
-            {
-              "name": "MTRX_VR_EB_AIPOD1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS1",
               "due": "2026-02-25"
             }
           ]
@@ -263,13 +255,64 @@
             }
           ]
         },
-        "startDate": "2026-02-26"
+        "startDate": "2026-02-25"
       },
       {
         "name": "Calo",
-        "active": 0,
+        "active": 12,
         "overdue": 0,
-        "statuses": {},
+        "statuses": {
+          "Not started": [
+            {
+              "name": "MTRX_CO_B1_AIPOD1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD4",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD3",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIDEB2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIDEB1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIVSL1",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD5",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP2",
+              "due": "2026-03-05"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD2",
+              "due": "2026-03-05"
+            }
+          ]
+        },
         "startDate": "2026-02-26"
       },
       {
@@ -341,170 +384,6 @@
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
-        "name": "PW",
-        "active": 12,
-        "overdue": 0,
-        "statuses": {
-          "Not started": [
-            {
-              "name": "MTRX_PW_B1_AIPOD1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIPOD2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIUGC2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIPOD5",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIUGC1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIMUP1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIDEB1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIPOD3",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIPOD4",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIDEB2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIMUP2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_PW_B1_AIVSL1",
-              "due": "2026-03-05"
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
-        "name": "CO",
-        "active": 24,
-        "overdue": 0,
-        "statuses": {
-          "Not started": [
-            {
-              "name": "MTRX_CO_B1_AIMUP1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD4",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIMUP1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD5",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD3",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIVSL1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD3",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIVSL1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD5",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD4",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD2",
-              "due": "2026-03-05"
             }
           ]
         },
@@ -950,5 +829,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-26T14:00:10.337Z"
+  "timestamp": "2026-02-26T19:00:09.641Z"
 }
