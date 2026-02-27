@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 64,
-    "overdue": 40,
+    "active": 57,
+    "overdue": 33,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -87,36 +87,12 @@
       },
       {
         "name": "Verso",
-        "active": 11,
-        "overdue": 11,
+        "active": 4,
+        "overdue": 4,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_VR_EB_AISI1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS1",
               "due": "2026-02-25"
             },
             {
@@ -124,19 +100,13 @@
               "due": "2026-02-25"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
-              "name": "MTRX_VR_EB_AIPOD1 ",
-              "due": "2026-02-25"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_VR_CB_AIPOD1",
+              "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIDEB1",
+              "name": "MTRX_VR_EB_AISS1",
               "due": "2026-02-25"
             }
           ]
@@ -406,7 +376,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 23,
+      "total": 25,
       "submissions": [
         {
           "name": "Adriel",
@@ -583,6 +553,24 @@
             "blockerDetail": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day",
             "win": "I learned how to manage the time to get 100% CR every week"
           }
+        },
+        {
+          "name": "Nicola Rainsford",
+          "date": "2026-02-22",
+          "summary": {
+            "workDetail": "16 TC scripts \n3 Crumb scripts\nCrumb research \nStarting on LL research today",
+            "blockerDetail": "No blockers just a v busy week",
+            "win": "- PQ ads performing\n- Excited to test Claude research matrix "
+          }
+        },
+        {
+          "name": "Axl Carreon",
+          "date": "2026-02-27",
+          "summary": {
+            "workDetail": "2 SK + 3 MN",
+            "blockerDetail": "Waiting for Higgsfield Credits - bought my own subscription",
+            "win": "Only 1 concept left in our POD! (Nahid's concept)\nI'm pushing him so we can finish it by today and I'm confident he'll finish it EOD."
+          }
         }
       ],
       "wins": [
@@ -647,6 +635,10 @@
         {
           "source": "Abdullah Rasool",
           "text": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day"
+        },
+        {
+          "source": "Nicola Rainsford",
+          "text": "No blockers just a v busy week"
         }
       ]
     },
@@ -831,5 +823,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-27T09:00:10.715Z"
+  "timestamp": "2026-02-27T14:01:17.007Z"
 }
