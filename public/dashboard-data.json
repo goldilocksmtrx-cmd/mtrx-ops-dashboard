@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 55,
-    "overdue": 31,
+    "active": 54,
+    "overdue": 30,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -87,18 +87,12 @@
       },
       {
         "name": "Verso",
-        "active": 2,
-        "overdue": 2,
+        "active": 1,
+        "overdue": 1,
         "statuses": {
           "Video Needs Revision": [
             {
               "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-25"
             }
           ]
@@ -368,7 +362,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 37,
+      "total": 38,
       "submissions": [
         {
           "name": "Adriel",
@@ -652,6 +646,13 @@
             "workDetail": "2 SK + 3 MN",
             "blockerDetail": "Waiting for Higgsfield Credits - bought my own subscription",
             "win": "Only 1 concept left in our POD! (Nahid's concept)\nI'm pushing him so we can finish it by today and I'm confident he'll finish it EOD."
+          }
+        },
+        {
+          "name": "Adarsh Mishra",
+          "date": "2026-02-22",
+          "summary": {
+            "win": "Worked on insanity level AI concept this week, enjoyed and learnt a lot working on that. Created AI brolls for TEV Laundry sheets cuz didn't have any at that moment."
           }
         }
       ],
@@ -941,5 +942,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-27T17:10:18.368Z"
+  "timestamp": "2026-02-27T19:00:15.061Z"
 }
