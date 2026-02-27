@@ -228,6 +228,8 @@ async function fetchAllData() {
       else if (code.startsWith("EV")) brandName = "Evervision";
       else if (code.startsWith("LD")) brandName = "Ledisa";
       else if (code.startsWith("SM")) brandName = "Smootheskin";
+      else if (code.startsWith("PWG")) brandName = "Pearl West Group";
+      else if (code.startsWith("CL")) brandName = "Calo";
       
       if (brandName !== "Unknown" && created) {
         if (!brandStartDates[brandName] || created < brandStartDates[brandName]) {
@@ -257,6 +259,8 @@ async function fetchAllData() {
       else if (code.startsWith("EV") || code === "EV") completedBrands.add("Evervision");
       else if (code.startsWith("LD") || code === "LD") completedBrands.add("Ledisa");
       else if (code.startsWith("SM") || code === "SM") completedBrands.add("Smootheskin");
+      else if (code.startsWith("PWG") || code === "PWG") completedBrands.add("Pearl West Group");
+      else if (code.startsWith("CL") || code === "CL") completedBrands.add("Calo");
     }
   });
   // Hardcode some completed brands that don't have deliverables with proper naming
@@ -291,6 +295,8 @@ async function fetchAllData() {
         else if (code.startsWith("CR")) brandName = "Crumb";
         else if (code.startsWith("SN")) brandName = "Seranova";
         else if (code.startsWith("TA")) brandName = "Try AI Ads";
+        else if (code.startsWith("PWG")) brandName = "Pearl West Group";
+        else if (code.startsWith("CL")) brandName = "Calo";
         else brandName = code;
       }
     }

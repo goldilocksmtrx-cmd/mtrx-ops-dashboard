@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 57,
-    "overdue": 33,
+    "active": 55,
+    "overdue": 31,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -87,26 +87,18 @@
       },
       {
         "name": "Verso",
-        "active": 4,
-        "overdue": 4,
+        "active": 2,
+        "overdue": 2,
         "statuses": {
-          "Video In Review": [
-            {
-              "name": "MTRX_VR_EB_AISI1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS2",
-              "due": "2026-02-25"
-            }
-          ],
           "Video Needs Revision": [
             {
               "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
-            },
+            }
+          ],
+          "Video In Review": [
             {
-              "name": "MTRX_VR_EB_AISS1",
+              "name": "MTRX_VR_EB_AISS2",
               "due": "2026-02-25"
             }
           ]
@@ -176,58 +168,58 @@
         "active": 12,
         "overdue": 0,
         "statuses": {
-          "Not started": [
+          "Scripting": [
             {
-              "name": "MTRX_PW_B1_AIPOD1",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIPOD2",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIVSL1",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIPOD3",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIUGC2",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIMUP2",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIPOD2",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIDEB2",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIUGC1",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIVSL1",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIMUP2",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIPOD5",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIPOD4",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIUGC1",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIMUP1",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIPOD1",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIDEB1",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIMUP1",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIPOD3",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIPOD4",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIPOD5",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIDEB1",
+              "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PW_B1_AIDEB2",
-              "due": "2026-03-04"
+              "name": "MTRX_PWG_B1_AIUGC2",
+              "due": "2026-03-06"
             }
           ]
         },
-        "startDate": "2026-02-25"
+        "startDate": "2026-02-27"
       },
       {
         "name": "Calo",
@@ -376,7 +368,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 25,
+      "total": 37,
       "submissions": [
         {
           "name": "Adriel",
@@ -555,12 +547,102 @@
           }
         },
         {
+          "name": "Abdullah Rasool",
+          "date": "2026-02-23",
+          "summary": {
+            "blockerDetail": "N/a",
+            "win": "I Don't know"
+          }
+        },
+        {
+          "name": "Emily Gittings",
+          "date": "2026-02-27",
+          "summary": {
+            "keyTasks": "Reviewed all of TC19 concepts (besides 1 as I will receive that on monday) \nReviewed all of TEV12 concepts + LL (besides 1 LL as I will receive that on monday) \nFilmed 5 OTC \n",
+            "blockerDetail": "Shipping was majorly delayed to the USA for TC so had to reassign briefs. ",
+            "win": "My TEV video has now generated £86,000 sales! https://app.adnova.ai/app/analytics/01KACAPXBRP8AV8R9TR7ET5NJV/top/01KACAS6FSNYSP82TQA2AFHJ2E \nI succesfully reassigned briefs. "
+          }
+        },
+        {
+          "name": "Kenzo Aganon",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "Introduced a new Editor Sheet"
+          }
+        },
+        {
+          "name": "Bruno Baroni",
+          "date": "2026-02-22",
+          "summary": {
+            "workDetail": "2 UGC for TC\n1 AIMUP for DT\n2 POD for TEV",
+            "win": "first insanity edit I made and really happy with the result"
+          }
+        },
+        {
+          "name": "Adriel",
+          "date": "2026-02-27",
+          "summary": {
+            "blockerDetail": "UGC Video was only delivered on a Thursday, good thing I was able to get it approved early Friday",
+            "win": "Completion rate improving on all PODS"
+          }
+        },
+        {
+          "name": "Jawaad Ali",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "i saw a couple of my ads doing decent."
+          }
+        },
+        {
+          "name": "Assia Haque",
+          "date": "2026-02-22",
+          "summary": {
+            "workDetail": "TC 15 scripts",
+            "win": "Doubling down with iterations"
+          }
+        },
+        {
+          "name": "Timur Sultanov",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "I realy like how our pod reviewed this week - much better than thr previous week "
+          }
+        },
+        {
+          "name": "John Andre Lopez",
+          "date": "2026-02-23",
+          "summary": {
+            "win": "Still maintaining the quality & formula of our winning ads"
+          }
+        },
+        {
+          "name": "Nahid Hasan",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "Edited a good stage style ad for Menerals"
+          }
+        },
+        {
           "name": "Nicola Rainsford",
           "date": "2026-02-22",
           "summary": {
             "workDetail": "16 TC scripts \n3 Crumb scripts\nCrumb research \nStarting on LL research today",
             "blockerDetail": "No blockers just a v busy week",
             "win": "- PQ ads performing\n- Excited to test Claude research matrix "
+          }
+        },
+        {
+          "name": "Sarang Ali",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "everything went well this week."
+          }
+        },
+        {
+          "name": "Don Jasper Deodora",
+          "date": "2026-02-28",
+          "summary": {
+            "win": "Give time to review some videos"
           }
         },
         {
@@ -637,14 +719,14 @@
           "text": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day"
         },
         {
-          "source": "Nicola Rainsford",
-          "text": "No blockers just a v busy week"
+          "source": "Abdullah Rasool",
+          "text": "N/a"
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 4,
+      "total": 5,
       "submissions": [
         {
           "name": "New submission",
@@ -688,6 +770,15 @@
             "support": "Not much. Should be able to complete the work.",
             "struggling": "Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-27",
+          "summary": {
+            "weeklyBreakdown": "- New LL8 ads launched - seeing some potential on Adnova compass \n\n- Editors had some issues had some issues downloading large files at the start of the week but still managed to get everything submitted on time\n\n- Aligned with production to bring back old set/actors for TC, also testing some new avatars/ethnicities there\n\n- Meryl pointed out improvement in Assia's research in last few weeks :) \n\n- Em stepped in to film some OTC TEV laundry sheet b-roll \n\n- Adriel was assigned a late concept on Thursday and got it approved by Friday",
+            "mvp": "Em - for doing a great job with sourcing creators + for stepping in to film OTC b-roll when asked :) ",
+            "blocker": "Aiming to apply the new matrix research process from next week, combined with everything Aaron mentioned in his Looms "
+          }
         }
       ],
       "wins": [
@@ -706,6 +797,10 @@
         {
           "source": "New submission",
           "text": "MVP: Myself "
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Em - for doing a great job with sourcing creators + for stepping in to film OTC b-roll when asked :) "
         }
       ],
       "issues": [
@@ -736,6 +831,10 @@
         {
           "source": "New submission",
           "text": "Struggling: Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: Aiming to apply the new matrix research process from next week, combined with everything Aaron mentioned in his Looms "
         }
       ]
     },
@@ -762,7 +861,7 @@
     },
     {
       "name": "Head of Editing",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -774,18 +873,37 @@
             "qualityByPod": "POD 1 - Kenzo was off but Shiella was able to do a good follow up with the editors\nPOD 2 - Still on 100% CR consistently \nPOD 3 - Ahmad issue and Nahid issue still persist but I them pushing thru\nPOD 4 - Good synergy building up with Timur and editors",
             "nextFocus": "Completion Rate follow up for POD 4 & POD 1 editors"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-23",
+          "summary": {
+            "editorsDelivering": "All except for the 2 above",
+            "editorsStruggling": "Ahmad & Niloy",
+            "support": "Some warning to Niloy - before everything drags we need to start early in following up with him.",
+            "qualityByPod": "POD 1 - Completion rate improving but Niloy has some delays due to Cam's late reviews\nPOD 2 - UGCs being assigned late since creators submits their footages Wed/Thursday\nPOD 3 - Ahmad improved his speed and started tracking his time but he makes small issues, big (will elaborate more below)\nPOD 4 - Timur's pushing editors to get that 100% CR which is good",
+            "nextFocus": "Making sure that once the concept is sent to revision, the editors should return it 8hrs max regardless of the time difference."
+          }
         }
       ],
       "wins": [
         {
           "source": "New submission",
           "text": "Delivering: All POD 1 editors except - Kenneth, been slow recently \nAll POD 2 editors are good\nPOD 3 - Axl & Don\nPOD 4 - Timur, Manney is a bit slow but Sarang is"
+        },
+        {
+          "source": "New submission",
+          "text": "Delivering: All except for the 2 above"
         }
       ],
       "issues": [
         {
           "source": "New submission",
           "text": "Struggling: Ahmad - skill issue at this point\nNahid - he is getting burnt out"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Ahmad & Niloy"
         }
       ]
     },
@@ -823,5 +941,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-27T14:01:17.007Z"
+  "timestamp": "2026-02-27T17:10:18.368Z"
 }
