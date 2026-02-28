@@ -64,7 +64,7 @@
         "active": 4,
         "overdue": 4,
         "statuses": {
-          "Ready for Editing": [
+          "Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
               "due": "2026-02-20"
@@ -90,7 +90,7 @@
         "active": 1,
         "overdue": 1,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
@@ -338,7 +338,7 @@
         "active": 1,
         "overdue": 1,
         "statuses": {
-          "Ready for Editing": [
+          "Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
@@ -362,50 +362,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 38,
+      "total": 39,
       "submissions": [
-        {
-          "name": "Adriel",
-          "date": "2026-02-20",
-          "summary": {
-            "win": "Made our own AI GPT, the MTRX Editing Brain"
-          }
-        },
-        {
-          "name": "Lee Lewis-Waddell",
-          "date": "2026-02-20",
-          "summary": {
-            "keyTasks": "Creator deliverables reviewed & submitted for editing. Creators sourced & confirmed via X, Mandy, & Reddit. Creators with products assigned to briefs.",
-            "workDetail": "5 briefs assigned for 8Sheep\n18 briefs reviewed & submitted for DNC",
-            "blockerDetail": "Deliverable reviews are slow due to the content upload process, caused by 95% full storage capacity on Air. ",
-            "win": "Good feedback on company wide presentation & high performing PQ in-house creator ad. Good feedback on Menerals creator sourcing."
-          }
-        },
-        {
-          "name": "Chan David",
-          "date": "2026-02-16",
-          "summary": {
-            "win": "While reviewing top winning ads, I realized 2 of the PQ ads were mine. Turns out, I was reviewing my own winning ads 🤣 Just feeling proud."
-          }
-        },
-        {
-          "name": "Katia Zakarian",
-          "date": "2026-02-20",
-          "summary": {
-            "keyTasks": "Sourced and assigned briefs for SideKick, PQ7, PQ, Nutrition Auri Auri\nReview submission from Nominal, Menerals, PQ7, PQ, Nutrition Auri\nFilmed concepts for PQ and TC",
-            "workDetail": "All listed above",
-            "win": "Seeing a lot of potential winners and MTRX is all over last 7 Days for PQ10_M2 "
-          }
-        },
-        {
-          "name": "Nicola Rainsford",
-          "date": "2026-02-15",
-          "summary": {
-            "workDetail": "16 TC scripts ",
-            "blockerDetail": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too.",
-            "win": "PQ10 M2 ads!"
-          }
-        },
         {
           "name": "Niloy Barua",
           "date": "2026-02-16",
@@ -541,6 +499,14 @@
           }
         },
         {
+          "name": "Kenneth Bryan Bartolome",
+          "date": "2026-02-28",
+          "summary": {
+            "workDetail": "3 PQ and 2 Auri",
+            "win": "N/A"
+          }
+        },
+        {
           "name": "Abdullah Rasool",
           "date": "2026-02-23",
           "summary": {
@@ -565,6 +531,14 @@
           }
         },
         {
+          "name": "Marzook Muhammad Ali",
+          "date": "2026-02-27",
+          "summary": {
+            "blockerDetail": "Overloaded",
+            "win": "Bioroots winning ads\nKiller NOBS scripts\n\n"
+          }
+        },
+        {
           "name": "Bruno Baroni",
           "date": "2026-02-22",
           "summary": {
@@ -578,6 +552,13 @@
           "summary": {
             "blockerDetail": "UGC Video was only delivered on a Thursday, good thing I was able to get it approved early Friday",
             "win": "Completion rate improving on all PODS"
+          }
+        },
+        {
+          "name": "Chan David",
+          "date": "2026-02-23",
+          "summary": {
+            "win": "Analyzing winning ads"
           }
         },
         {
@@ -626,6 +607,15 @@
           }
         },
         {
+          "name": "Meryl Montgomery",
+          "date": "2026-02-27",
+          "summary": {
+            "workDetail": "Research for Nutrition Auri + Primal Queen. 8 PQ HP scripts + 4 MUPs + 2 UGC. AI prompt work for the team.",
+            "blockerDetail": "Slow with getting some concepts from Niloy. Due to 2x research, I wasn't able to get to my static briefs this week. Those will come Monday. ",
+            "win": "Really happy with the AI matrix and creative report - excited to see how the team adapts. Really really happy to have UD winners! "
+          }
+        },
+        {
           "name": "Sarang Ali",
           "date": "2026-02-27",
           "summary": {
@@ -654,51 +644,59 @@
           "summary": {
             "win": "Worked on insanity level AI concept this week, enjoyed and learnt a lot working on that. Created AI brolls for TEV Laundry sheets cuz didn't have any at that moment."
           }
+        },
+        {
+          "name": "Shiella Mae Yalung",
+          "date": "2026-02-27",
+          "summary": {
+            "win": "Made it through the week despite being sick 🥲🤧"
+          }
+        },
+        {
+          "name": "Lee Lewis-Waddell",
+          "date": "2026-02-27",
+          "summary": {
+            "keyTasks": "Sourced new talent. Assigned outstanding briefs. Filming. Content reviews.",
+            "workDetail": "Filmed content for PQ7. 15 DNC scripts assigned. 5 8Sheep briefs submitted for editing.",
+            "win": "Person of the week + winning PQ7 ad bonus"
+          }
         }
       ],
       "wins": [
         {
-          "source": "Adriel",
-          "text": "Made our own AI GPT, the MTRX Editing Brain"
-        },
-        {
-          "source": "Lee Lewis-Waddell",
-          "text": "Good feedback on company wide presentation & high performing PQ in-house creator ad. Good feedback on Menerals creator sourcing."
-        },
-        {
-          "source": "Lee Lewis-Waddell",
-          "text": "Completed: Creator deliverables reviewed & submitted for editing. Creators sourced & confirmed via X, Mandy, & "
-        },
-        {
-          "source": "Chan David",
-          "text": "While reviewing top winning ads, I realized 2 of the PQ ads were mine. Turns out, I was reviewing my own winning ads 🤣 Just feeling proud."
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Seeing a lot of potential winners and MTRX is all over last 7 Days for PQ10_M2 "
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Completed: Sourced and assigned briefs for SideKick, PQ7, PQ, Nutrition Auri Auri\nReview submission from Nomina"
-        },
-        {
-          "source": "Nicola Rainsford",
-          "text": "PQ10 M2 ads!"
-        },
-        {
           "source": "Niloy Barua",
           "text": "Edited a Full AI AD"
+        },
+        {
+          "source": "Ahmad Amiri",
+          "text": "I've gotten much better at editing AI concepts"
+        },
+        {
+          "source": "bruno baroni",
+          "text": "finished my concepts by Wednesday afternoon"
+        },
+        {
+          "source": "Adarsh Mishra",
+          "text": "Loved how both LL8 POD 2 and 5 turned out in editing, hope we can get winners from these"
+        },
+        {
+          "source": "Assia Haque",
+          "text": "Applied learnings from competitor brands to my scripts"
+        },
+        {
+          "source": "Kenzo Aganon",
+          "text": "I was on leave"
+        },
+        {
+          "source": "Marzook Muhammad Ali",
+          "text": "Bioroot labs winner\nMeneral ads are still scaling\nAxl ad Don are killing it with thier edits"
+        },
+        {
+          "source": "Timur Sultanov",
+          "text": "I love that the team is growing and I have more videos to review. This is actually my biggest victory: all the editors on my team have reached 100 CR (except me, of course)."
         }
       ],
       "issues": [
-        {
-          "source": "Lee Lewis-Waddell",
-          "text": "Deliverable reviews are slow due to the content upload process, caused by 95% full storage capacity on Air. "
-        },
-        {
-          "source": "Nicola Rainsford",
-          "text": "Already mentioned on CS call but reviews taking up a lot of time, especially with reviewing Ella's concepts too."
-        },
         {
           "source": "Assia Haque",
           "text": "No ads running on ad account"
@@ -722,45 +720,21 @@
         {
           "source": "Abdullah Rasool",
           "text": "N/a"
+        },
+        {
+          "source": "Emily Gittings",
+          "text": "Shipping was majorly delayed to the USA for TC so had to reassign briefs. "
+        },
+        {
+          "source": "Marzook Muhammad Ali",
+          "text": "Overloaded"
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 5,
+      "total": 4,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-20",
-          "summary": {
-            "weeklyBreakdown": "1. The V1 submission deadline was late. This threw the entire review schedule into disarray, and approvals were squeezed rather quickly.\n\n2. The CSs reviews were quite slow, so I had to write about it in the channel every time.\n\n3. Sarang's first full week went great; he's good at editing, already a ready-made MTRX-level editor.\n\n4. First good performances from 8 sheep and Yucca Healh.",
-            "mvp": "Sarang, great first week - his understanding of editong is very high, very good communication and excellent revisions.",
-            "blocker": "Speed",
-            "support": "Since the team is new, it's not entirely clear what exactly is holding us back. Any specific problems or lack of teamwork. I'll be looking into this next week.",
-            "struggling": "Tina is quite passive in her reviews, which is one of the reasons why most of Yucca videos weren't delivered"
-          }
-        },
-        {
-          "name": "New submission",
-          "date": "2026-02-20",
-          "summary": {
-            "weeklyBreakdown": "- Last 7 days MTRX is all over the ad account for PrimalQueen for batch PQ10_M2, all UGC, HP & AI Avatars performing well here\n- Sheila stepped up as SE while Kenzo was away\n- Undrdog wants to increase concepts and scale with us",
-            "mvp": "Sheila! She jumped on reviews and was our intern SE while Kenzo was away",
-            "blocker": "There shouldn't be any blockers with us moving forward we have a solid talented team, as long as there's no team members moving around to other PODs we should be seeing winners across all brands.",
-            "support": "As we increase Undrdog concepts to 40, I could take on half and we split the remaining half with Emily and Lee.",
-            "struggling": "Everyone except Niloy completed their concepts. Niloy isn't as quick on AI as the rest of the crew, V1 was approved yesterday for MTRX_PQ10_M3_Ni_HI_AIMUP3_F3_Ni variations are still pending edits"
-          }
-        },
-        {
-          "name": "New submission",
-          "date": "2026-02-20",
-          "summary": {
-            "weeklyBreakdown": "100% CR for editors + all scripts completed, no issues, everyone just knows what they need to do and gets it done. ",
-            "mvp": "Adriel - she always steps in if I need help with reviewing concepts, she's helped me to get up to speed with POD 2's review/editing process over the last few weeks, and she does such an amazing job leading the editors. ",
-            "blocker": "Likely me needing time to learn new brands etc. and what works, but trying to get there as fast as possible. \n\nI also think we definitely need to start testing some new formats - especially more AI. ",
-            "support": "Aaron already said he'll share a Loom on what to look for in TEV account which will be helpful - potentially also share for other POD 2 brands when you have time?"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-20",
@@ -774,57 +748,53 @@
         },
         {
           "name": "New submission",
+          "date": "2026-02-23",
+          "summary": {
+            "weeklyBreakdown": "Hit 100% CR",
+            "mvp": "all of us cause we Hit 100% CR",
+            "blocker": "improve AI concepts"
+          }
+        },
+        {
+          "name": "New submission",
           "date": "2026-02-27",
           "summary": {
             "weeklyBreakdown": "- New LL8 ads launched - seeing some potential on Adnova compass \n\n- Editors had some issues had some issues downloading large files at the start of the week but still managed to get everything submitted on time\n\n- Aligned with production to bring back old set/actors for TC, also testing some new avatars/ethnicities there\n\n- Meryl pointed out improvement in Assia's research in last few weeks :) \n\n- Em stepped in to film some OTC TEV laundry sheet b-roll \n\n- Adriel was assigned a late concept on Thursday and got it approved by Friday",
             "mvp": "Em - for doing a great job with sourcing creators + for stepping in to film OTC b-roll when asked :) ",
             "blocker": "Aiming to apply the new matrix research process from next week, combined with everything Aaron mentioned in his Looms "
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-27",
+          "summary": {
+            "weeklyBreakdown": "Ahmad communication with HOT has been stellar\nKZ Creator selection has been great\nKZ Creator guidance has been great - lets keep working on it\nNahid made a killer Meneral edit\nGreat POD 3 meeting",
+            "mvp": "I think the team as a whole was great this week",
+            "blocker": "Burnout",
+            "support": "Complete templatizing my Crumb scripts",
+            "struggling": "This week - no one "
+          }
         }
       ],
       "wins": [
-        {
-          "source": "New submission",
-          "text": "MVP: Sarang, great first week - his understanding of editong is very high, very good communication and excellent revisions."
-        },
-        {
-          "source": "New submission",
-          "text": "MVP: Sheila! She jumped on reviews and was our intern SE while Kenzo was away"
-        },
-        {
-          "source": "New submission",
-          "text": "MVP: Adriel - she always steps in if I need help with reviewing concepts, she's helped me to get up to speed with POD 2's review/editing process over the l"
-        },
         {
           "source": "New submission",
           "text": "MVP: Myself "
         },
         {
           "source": "New submission",
+          "text": "MVP: all of us cause we Hit 100% CR"
+        },
+        {
+          "source": "New submission",
           "text": "MVP: Em - for doing a great job with sourcing creators + for stepping in to film OTC b-roll when asked :) "
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: I think the team as a whole was great this week"
         }
       ],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Blocker: Speed"
-        },
-        {
-          "source": "New submission",
-          "text": "Struggling: Tina is quite passive in her reviews, which is one of the reasons why most of Yucca videos weren't delivered"
-        },
-        {
-          "source": "New submission",
-          "text": "Blocker: There shouldn't be any blockers with us moving forward we have a solid talented team, as long as there's no team members moving around to other PODs w"
-        },
-        {
-          "source": "New submission",
-          "text": "Struggling: Everyone except Niloy completed their concepts. Niloy isn't as quick on AI as the rest of the crew, V1 was approved yesterday for MTRX_PQ10_M3_Ni_HI_A"
-        },
-        {
-          "source": "New submission",
-          "text": "Blocker: Likely me needing time to learn new brands etc. and what works, but trying to get there as fast as possible. \n\nI also think we definitely need to star"
-        },
         {
           "source": "New submission",
           "text": "Blocker: A break - struggling to focus and do the job. pushing through to somehow complete this week"
@@ -835,7 +805,19 @@
         },
         {
           "source": "New submission",
+          "text": "Blocker: improve AI concepts"
+        },
+        {
+          "source": "New submission",
           "text": "Blocker: Aiming to apply the new matrix research process from next week, combined with everything Aaron mentioned in his Looms "
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: Burnout"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: This week - no one "
         }
       ]
     },
@@ -914,33 +896,33 @@
       "submissions": [
         {
           "name": "New submission",
-          "date": "2026-02-20",
+          "date": "2026-02-27",
           "summary": {
-            "working": "Nicola is the best at providing consistently strong research and batch planning. Tina had improved research this week compared to last week at getting it done more efficiently, and thorough. Jawaad showed improvement as well. ",
-            "notWorking": "Assia and Jawaad both could improve on applying the research into strategic and thoughtful batch plans. Also, tina struggled to make deadlines. She did better then the week before. but still is needing to be chased for deliverables, wasted a whole Wed by only working on 1 script. Client's are catching her errors. And she still didn't make 100% completion rate by EOW. ",
-            "needsAttention": "Tina (of course). Keeping an eye on Marzook burnout. Getting Assia and Jawaad to think more strategically. ",
-            "standingOut": "Nicola and marzook. Solid research and tip top organization. Jawaad is making strides on research, and submitting deliverables. Still have to chase him a bit, so will work with him on this. ",
-            "nextPriority": "Applying research to strategic insight\nTina performance plan + time tracking \nMonitoring template usage + cross-functional communication between talent, editors, and production to make sure CS isn't causing delay or confusion. "
+            "working": "team is adapting AI nicely. Jawaad got to 100% completion rate on scripts this week. I think that's a first? Tina pushing well - getting to almost 100% 1-2 concepts short atm. ",
+            "notWorking": "Marzook looks to be falling a bit behind on scripts. Currently I see 11 concepts that still need to be scripted. Is there a way to adjust client expectations or deliverable deadlines? Also, just to confirm - is his volume dropping starting in march? I think i remember that only Feb was high volume for him. Also, Hamza, how can I help you with UD? I can try to take on an extra few each week...? \n",
+            "needsAttention": "Keeping an eye on Tina and Marzook. Want to see how Assia does with research loom + strategic batch planning ",
+            "standingOut": "Nicola again :) Really winning on the PQ concepts. ",
+            "nextPriority": "Monitoring research looms, making sure team is using new prompts, and seeing what we can do to increase research + writing efficiency. Based on our current bandwidth, the team really needs to start making space in the week to be writing 10-20% more. With the new systems, i've been able to increase my output by 25%, so just need to see the team adapt these processes and track results. "
           }
         }
       ],
       "wins": [
         {
           "source": "New submission",
-          "text": "Working: Nicola is the best at providing consistently strong research and batch planning. Tina had improved research this week compared to last week at getting"
+          "text": "Working: team is adapting AI nicely. Jawaad got to 100% completion rate on scripts this week. I think that's a first? Tina pushing well - getting to almost 100"
         }
       ],
       "issues": [
         {
           "source": "New submission",
-          "text": "Not Working: Assia and Jawaad both could improve on applying the research into strategic and thoughtful batch plans. Also, tina struggled to make deadlines. She di"
+          "text": "Not Working: Marzook looks to be falling a bit behind on scripts. Currently I see 11 concepts that still need to be scripted. Is there a way to adjust client expec"
         },
         {
           "source": "New submission",
-          "text": "Needs Attention: Tina (of course). Keeping an eye on Marzook burnout. Getting Assia and Jawaad to think more strategically. "
+          "text": "Needs Attention: Keeping an eye on Tina and Marzook. Want to see how Assia does with research loom + strategic batch planning "
         }
       ]
     }
   ],
-  "timestamp": "2026-02-27T19:00:15.061Z"
+  "timestamp": "2026-02-28T09:00:12.083Z"
 }
