@@ -90,7 +90,7 @@
         "active": 1,
         "overdue": 1,
         "statuses": {
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
@@ -823,7 +823,7 @@
     },
     {
       "name": "Project Manager",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -832,6 +832,14 @@
             "summary": "POD1 - Overall is good - will be pushing Niloy and Kenneth for earlier approvals\nPOD3 - Ahmad is a concern at this moment - not hitting approvals on a weekly basis after 4 or 6 months is becoming consuming tbh\nTina will be on a very close follow up starting next week - I am not in the mood anymore for being nice - at this point of scaling, everyone needs to step up\nPOD4 - Need to fix reviews here still a bit to make sure Timur is reviewed earlier by CSs\nSaumik's team was very good this week - if they keep it up they will be a great support for the team especially with AI\n\nAll other Editors are being super great -  John and Aleck a total of 9 concepts each this week - Shiella jumping to reviews this week - Sarang doing good as a first week\n\nRe brands - JAQ group will take 35 days as we did source new creators and some products are still in shipping\n8 Sheep - also shipping - will take 35 days \nPQ7 we've waited to have some data and will need 35 days to finalize that \nUD is done and PQ will be done on time \n\nMy main concern and work now will be - all team members 100% CR if not warning -->follow up-->> performance review -  if they miss we need to find replacements\nFor HOT I need them to start sourcing earlier - I did speak about that earlier but will make sure to have this done\nYucca and Auri - getting back on track here\n\nI want to see the team improving and tbh no place at this phase for those who don't want to make the extra effort - I can't wait on them anymore",
             "whoMissed": "Niloy - 1 in review (he had a good week tbh)\nKenneth - his last concept in review\nAhmad - late - taking time with brolls and not having the same vision for some concepts as CS\nTimur had his concepts in review - Jawaad didn't review late on Friday"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-27",
+          "summary": {
+            "summary": "Hit rate this week was very satisfying after all those weeks - All CSs basically are on track (re Marzook - some delays were still dragging from last weeks and he also had Menerals to finalize which was supposed to be done like  2 weeks ago, but he managed to have everything done - he is finalizing last scripts today)\nTina was better this week - even though she said she cannot do but 4 scripts a day which I find to be a little bit not convenient for the weeks where she needs to do 14 or 15 scripts - but she did suffer from hydration scripts based on her lack of attention!\n\nEditors - all had a CR by Friday except for Niloy even though had a clean 2 weeks earlier - but the push now is to have approvals earlier during Friday!\nClyde and Saumik are being of great help (Catarina is off for these 2 weeks - also she is doing great)\nFor Ahmad - I was in shock tbh when I saw his end of week time tracking with a total of 13 hours per week - which made me directly tell him that this is not acceptable coz he needs to be on 40 hours - I don't understand how he thought this is normal! Next week he is on 5 concepts with tracking - no soft side anymore as the team is really growing and everybody is working on themselves so they all need to step up!\n\nbottleneck now is to organize scripts for POD3 - so need those freelancers to be good otherwise we might face delays\n\nFootage upload for Menerals sucks - still nothing after 10 days of shoots - which might push me to assign mashups instead of those VSLs\n\n",
+            "whoMissed": "Niloy \nthis guy is slow "
+          }
         }
       ],
       "wins": [],
@@ -839,6 +847,10 @@
         {
           "source": "New submission",
           "text": "Missed: Niloy - 1 in review (he had a good week tbh)\nKenneth - his last concept in review\nAhmad - late - taking time with brolls and not having the same visio"
+        },
+        {
+          "source": "New submission",
+          "text": "Missed: Niloy \nthis guy is slow "
         }
       ]
     },
@@ -924,5 +936,5 @@
       ]
     }
   ],
-  "timestamp": "2026-02-28T09:00:12.083Z"
+  "timestamp": "2026-02-28T14:00:40.107Z"
 }
