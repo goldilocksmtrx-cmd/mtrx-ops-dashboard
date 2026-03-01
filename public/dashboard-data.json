@@ -70,17 +70,15 @@
               "due": "2026-02-20"
             },
             {
+              "name": "MTRX_SE_B1_AISS1",
+              "due": "2026-02-20"
+            },
+            {
               "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-02-20"
             },
             {
               "name": "MTRX_SE_B1_AIDEB1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Editing": [
-            {
-              "name": "MTRX_SE_B1_AISS1",
               "due": "2026-02-20"
             }
           ]
@@ -358,7 +356,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 40,
+      "total": 41,
       "submissions": [
         {
           "name": "bruno baroni",
@@ -658,6 +656,14 @@
           }
         },
         {
+          "name": "Grant Villapando",
+          "date": "2026-02-23",
+          "summary": {
+            "workDetail": "PQ, PQ7, Undrdog, TEV, TC, & LL static briefs",
+            "win": "I was able to create another animated static for TC brand"
+          }
+        },
+        {
           "name": "Niloy Barua",
           "date": "2026-02-23",
           "summary": {
@@ -927,5 +933,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-01T14:00:09.653Z"
+  "timestamp": "2026-03-01T19:00:08.859Z"
 }
