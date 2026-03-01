@@ -68,21 +68,19 @@
             {
               "name": "MTRX_SE_B1_AIUGC3",
               "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIDEB1",
+              "due": "2026-02-20"
             }
           ],
           "Editing": [
             {
               "name": "MTRX_SE_B1_AISS1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video Needs Revision": [
-            {
-              "name": "MTRX_SE_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ]
@@ -360,7 +358,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 37,
+      "total": 40,
       "submissions": [
         {
           "name": "bruno baroni",
@@ -644,6 +642,27 @@
             "workDetail": "Filmed content for PQ7. 15 DNC scripts assigned. 5 8Sheep briefs submitted for editing.",
             "win": "Person of the week + winning PQ7 ad bonus"
           }
+        },
+        {
+          "name": "Ahmad Amiri",
+          "date": "2026-02-23",
+          "summary": {
+            "win": "Reached 100% CR"
+          }
+        },
+        {
+          "name": "Aleck Royce Bullag",
+          "date": "2026-02-23",
+          "summary": {
+            "win": "Able to finish all my concepts early without sacrificing the quality of edits"
+          }
+        },
+        {
+          "name": "Niloy Barua",
+          "date": "2026-02-23",
+          "summary": {
+            "win": "None for this week. I will be more mindful about the timing."
+          }
         }
       ],
       "wins": [
@@ -908,5 +927,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-01T09:00:10.652Z"
+  "timestamp": "2026-03-01T14:00:09.653Z"
 }
