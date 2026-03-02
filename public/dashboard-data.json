@@ -74,13 +74,11 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIDEB1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
-            {
               "name": "MTRX_SE_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ]
@@ -358,7 +356,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 42,
+      "total": 43,
       "submissions": [
         {
           "name": "bruno baroni",
@@ -680,6 +678,14 @@
           "summary": {
             "win": "None for this week. I will be more mindful about the timing."
           }
+        },
+        {
+          "name": "Tina Battilana",
+          "date": "2026-02-23",
+          "summary": {
+            "workDetail": "9 UGC TP + 3 UGC DNC",
+            "win": "I have ads spending in the top 5 for all brands I worked for, and submitted 12 briefs in a week"
+          }
         }
       ],
       "wins": [
@@ -925,5 +931,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-02T09:01:49.589Z"
+  "timestamp": "2026-03-02T14:00:08.693Z"
 }
