@@ -64,7 +64,7 @@
         "active": 4,
         "overdue": 4,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
               "due": "2026-02-20"
@@ -74,11 +74,13 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIPOD1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_SE_B1_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-02-20"
             }
           ]
@@ -331,7 +333,7 @@
         "active": 1,
         "overdue": 1,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
@@ -356,7 +358,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 41,
+      "total": 42,
       "submissions": [
         {
           "name": "bruno baroni",
@@ -664,6 +666,15 @@
           }
         },
         {
+          "name": "Katia Zakarian",
+          "date": "2026-02-27",
+          "summary": {
+            "keyTasks": "Sourced and assigned PQ, Menerals, BioRootLabs briefs to creators\nReviewed PQ7, Auri, Menerals, BioRootLabs, PQ footages\nFilmed Loom ad for TryAiAds for Aaron",
+            "blockerDetail": "Had to be rushed to the ER on Thursday had intense pelvic pain. I made sure to let Ramia & the bosses know\nCaught up on my work today so everything's up to date for both my PODs.",
+            "win": "Filmed a fun VSL Loom for Aaron for the TryAIAds website!"
+          }
+        },
+        {
           "name": "Niloy Barua",
           "date": "2026-02-23",
           "summary": {
@@ -853,19 +864,8 @@
     },
     {
       "name": "Head of Editing",
-      "total": 2,
+      "total": 1,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-16",
-          "summary": {
-            "editorsDelivering": "All POD 1 editors except - Kenneth, been slow recently \nAll POD 2 editors are good\nPOD 3 - Axl & Don\nPOD 4 - Timur, Manney is a bit slow but Sarang is picking up on speed",
-            "editorsStruggling": "Ahmad - skill issue at this point\nNahid - he is getting burnt out",
-            "support": "Editor warning to Ahmad & Kenneth pls",
-            "qualityByPod": "POD 1 - Kenzo was off but Shiella was able to do a good follow up with the editors\nPOD 2 - Still on 100% CR consistently \nPOD 3 - Ahmad issue and Nahid issue still persist but I them pushing thru\nPOD 4 - Good synergy building up with Timur and editors",
-            "nextFocus": "Completion Rate follow up for POD 4 & POD 1 editors"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-23",
@@ -881,18 +881,10 @@
       "wins": [
         {
           "source": "New submission",
-          "text": "Delivering: All POD 1 editors except - Kenneth, been slow recently \nAll POD 2 editors are good\nPOD 3 - Axl & Don\nPOD 4 - Timur, Manney is a bit slow but Sarang is"
-        },
-        {
-          "source": "New submission",
           "text": "Delivering: All except for the 2 above"
         }
       ],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Struggling: Ahmad - skill issue at this point\nNahid - he is getting burnt out"
-        },
         {
           "source": "New submission",
           "text": "Struggling: Ahmad & Niloy"
@@ -933,5 +925,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-01T19:00:08.859Z"
+  "timestamp": "2026-03-02T09:01:49.589Z"
 }
