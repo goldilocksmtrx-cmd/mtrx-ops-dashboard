@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 68,
-    "overdue": 20,
+    "active": 78,
+    "overdue": 19,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -96,16 +96,12 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 7,
-        "overdue": 4,
+        "active": 16,
+        "overdue": 3,
         "statuses": {
           "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ],
@@ -134,13 +130,55 @@
               "name": "MTRX_SE_B1_AIPOD2",
               "due": "2026-03-09"
             }
+          ],
+          "Ready for Editing": [
+            {
+              "name": "MTRX_SE_B1_AIUGC5",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD3",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
+              "due": "2026-03-10"
+            }
           ]
         },
         "startDate": "2026-02-18"
       },
       {
         "name": "Verso",
-        "active": 3,
+        "active": 4,
         "overdue": 3,
         "statuses": {
           "Video In Review": [
@@ -149,14 +187,18 @@
               "due": "2026-02-25"
             },
             {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-25"
+            },
+            {
               "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
             }
           ],
-          "Video Needs Revision": [
+          "Unknown": [
             {
-              "name": "MTRX_VR_EB_AIVSL1",
-              "due": "2026-02-25"
+              "name": "",
+              "due": null
             }
           ]
         },
@@ -1028,5 +1070,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-03T09:00:15.804Z"
+  "timestamp": "2026-03-03T14:00:15.838Z"
 }
