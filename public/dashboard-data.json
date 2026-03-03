@@ -1,7 +1,7 @@
 {
   "ai": {
     "active": 68,
-    "overdue": 41,
+    "overdue": 20,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -40,9 +40,44 @@
       },
       {
         "name": "Try AI Ads",
-        "active": 0,
+        "active": 8,
         "overdue": 0,
-        "statuses": {},
+        "statuses": {
+          "Ready for Editing": [
+            {
+              "name": "MTRX_TAA_B1_AIDEB1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIUGC7",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIUGC5",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIUGC8",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIMUP2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIMUP1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIUGC6",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TAA_B1_AIMUP3",
+              "due": "2026-03-10"
+            }
+          ]
+        },
         "startDate": "2025-12-08"
       },
       {
@@ -61,14 +96,20 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 6,
+        "active": 7,
         "overdue": 4,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
               "due": "2026-02-20"
             },
+            {
+              "name": "MTRX_SE_B1_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AISS1",
               "due": "2026-02-20"
@@ -76,10 +117,12 @@
             {
               "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-02-20"
-            },
+            }
+          ],
+          "Unknown": [
             {
-              "name": "MTRX_SE_B1_AIDEB1",
-              "due": "2026-02-20"
+              "name": "",
+              "due": null
             }
           ],
           "Not started": [
@@ -97,56 +140,22 @@
       },
       {
         "name": "Verso",
-        "active": 12,
-        "overdue": 12,
+        "active": 3,
+        "overdue": 3,
         "statuses": {
-          "Approved": [
+          "Video In Review": [
             {
-              "name": "MTRX_VR_EB_AISI1",
+              "name": "MTRX_VR_CB_AIMUP1",
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_CB_AIPOD2",
+              "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
-              "name": "MTRX_VR_CB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD1 ",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIMUP2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIUGC1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIUGC2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AISS2",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_CB_AIPOD1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIDEB1",
+              "name": "MTRX_VR_EB_AIVSL1",
               "due": "2026-02-25"
             }
           ]
@@ -330,58 +339,58 @@
       {
         "name": "Sidekick",
         "active": 12,
-        "overdue": 12,
+        "overdue": 0,
         "statuses": {
           "Video Needs Revision": [
             {
               "name": "MTRX_SK_B1_AIPOD4",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIPOD1",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIMUP1",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIVSL1",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIPOD3",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_UGC2",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_UGC3",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIPOD2",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIMUP2",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_UGC1",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             },
             {
               "name": "MTRX_SK_B1_AIPOD5",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             }
           ],
           "Approved": [
             {
               "name": "MTRX_SK_B1_UGC4",
-              "due": "2026-02-20"
+              "due": "2026-03-05"
             }
           ]
         },
@@ -392,7 +401,7 @@
         "active": 2,
         "overdue": 1,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
@@ -415,29 +424,14 @@
       "Mail Mend",
       "Peak Footwear",
       "Seranova",
-      "Smootheskin",
-      "Try AI Ads"
+      "Smootheskin"
     ]
   },
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 43,
+      "total": 41,
       "submissions": [
-        {
-          "name": "bruno baroni",
-          "date": "2026-02-15",
-          "summary": {
-            "win": "finished my concepts by Wednesday afternoon"
-          }
-        },
-        {
-          "name": "Adarsh Mishra",
-          "date": "2026-02-15",
-          "summary": {
-            "win": "Loved how both LL8 POD 2 and 5 turned out in editing, hope we can get winners from these"
-          }
-        },
         {
           "name": "Assia Haque",
           "date": "2026-02-16",
@@ -756,14 +750,6 @@
       ],
       "wins": [
         {
-          "source": "bruno baroni",
-          "text": "finished my concepts by Wednesday afternoon"
-        },
-        {
-          "source": "Adarsh Mishra",
-          "text": "Loved how both LL8 POD 2 and 5 turned out in editing, hope we can get winners from these"
-        },
-        {
           "source": "Assia Haque",
           "text": "Applied learnings from competitor brands to my scripts"
         },
@@ -786,6 +772,14 @@
         {
           "source": "Grant Vincent Villapando",
           "text": "I was able to create animated statics for some of our brands, and I’ll continue working on applying them to the rest."
+        },
+        {
+          "source": "John Andre Lopez",
+          "text": "I created a full AI concept this week and I’m working on finishing my 9 concepts."
+        },
+        {
+          "source": "Emily Gittings",
+          "text": "Cleared my finding creator dashboard"
         }
       ],
       "issues": [
@@ -825,7 +819,7 @@
     },
     {
       "name": "Pod Leader",
-      "total": 5,
+      "total": 6,
       "submissions": [
         {
           "name": "New submission",
@@ -876,6 +870,17 @@
             "blocker": "There are still a lot of comments in v1, this needs to be fixed",
             "support": "Nothing, all work smooth. There may just be one more member of the editing team, but that's also in progress, as far as I can see."
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-02-27",
+          "summary": {
+            "weeklyBreakdown": "- MTRX is all over the PQ account, new AI just shot up in the top performing ads overnight.\n- For Undrdog for videos only, Mtrx is currently top 6 of 8 videos atm\n- Week started with Auri Nutrition giving cancelation vibes, but after Meryl's analysis, Ari they're need head of marketing seemed solid and said \"we're certainly on track with upcoming production\"\n- We were on track for 100% completion rate with editors (we were just waiting on 2 from Nil. but should have been completed & reviewed by Meryl EOD last Friday).\n",
+            "mvp": "Meryl for rolling out some new AI prompts + reports for creative analysis and batch planning. PQ client really liked + I know CS team is leaning hard into AI to increase efficiency and output, so this is a good step forward and initiative from Meryl",
+            "blocker": "our team is pretty solid and it shows with having winning ads consistently. We just need to keep up the momentum and double down on our best practices.",
+            "support": "Nicola definitely needs to share her technique on how she writes Mashups scripts in particular on the CS calls, no one does it like her. \nShe's taking previous UGC videos that was filmed a year ago and bringing them to life, creating a trending hook with b-rolls/ music and stitching past UGC concepts that showed potential but didn't perform on their own.\nWe've done PLENTY of HP/ UGC videos that I'm sure has potential, if every POD implements Nicola's technique I'm sure we'll bring a lot of winning ads from the dead. \nThese are the main Mashup ads I'm referring to:\n- 2.7.26 | GO2 | DCO1 > 2.2.26_MTRX_PQ10_M2\n- 2.7.26 | GO2 | DCO1 > 2.5.26_MTRX_PQ10_M3 \n(this last video in particular she had used Sabrina's UGC footage that was filmed on Aug 26, 2025 before she even started working with us) Proving she's deep diving on air, watching past UGCs to see what has potential but didn't perform on their own.",
+            "struggling": "Nil always being the last one to submit his content, he had a winning ad but because of not being able to meet completion rate he won't receive bonus. He's been improving from previous weeks but still the last one to finish."
+          }
         }
       ],
       "wins": [
@@ -898,6 +903,10 @@
         {
           "source": "New submission",
           "text": "MVP: Tina ablosutely kill this week\n\nShe had great concepts and was great at communicating her vision\n"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Meryl for rolling out some new AI prompts + reports for creative analysis and batch planning. PQ client really liked + I know CS team is leaning hard "
         }
       ],
       "issues": [
@@ -928,6 +937,10 @@
         {
           "source": "New submission",
           "text": "Blocker: There are still a lot of comments in v1, this needs to be fixed"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: our team is pretty solid and it shows with having winning ads consistently. We just need to keep up the momentum and double down on our best practices"
         }
       ]
     },
@@ -1015,5 +1028,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-02T19:00:13.168Z"
+  "timestamp": "2026-03-03T09:00:15.804Z"
 }
