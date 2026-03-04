@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 121,
-    "overdue": 18,
+    "active": 118,
+    "overdue": 15,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -105,16 +105,6 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIUGC1",
-              "due": "2026-03-10"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_SE_B1_AIPOD1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_SE_B1_AIVSL1",
               "due": "2026-03-10"
             },
@@ -124,6 +114,20 @@
             },
             {
               "name": "MTRX_SE_B1_AIUGC7",
+              "due": "2026-03-10"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_SE_B1_AIPOD1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP2",
               "due": "2026-03-10"
             }
           ],
@@ -145,10 +149,6 @@
             {
               "name": "MTRX_SE_B1_AIUGC4",
               "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP2",
-              "due": "2026-03-10"
             }
           ]
         },
@@ -156,23 +156,9 @@
       },
       {
         "name": "Verso",
-        "active": 4,
-        "overdue": 3,
+        "active": 1,
+        "overdue": 0,
         "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_VR_CB_AIMUP1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIVSL1",
-              "due": "2026-02-25"
-            },
-            {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            }
-          ],
           "Unknown": [
             {
               "name": "",
@@ -251,23 +237,11 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PWG_B1_AIVSL1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIUGC1",
-              "due": "2026-03-06"
-            },
-            {
               "name": "MTRX_PWG_B1_AIPOD1",
               "due": "2026-03-06"
             },
             {
               "name": "MTRX_PWG_B1_AIMUP1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIUGC2",
               "due": "2026-03-06"
             }
           ],
@@ -294,6 +268,20 @@
             },
             {
               "name": "MTRX_PWG_B1_AIDEB1",
+              "due": "2026-03-06"
+            }
+          ],
+          "Editing": [
+            {
+              "name": "MTRX_PWG_B1_AIVSL1_Br",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PWG_B1_AIUGC1_Ah",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PWG_B1_AIUGC2_Nil",
               "due": "2026-03-06"
             }
           ]
@@ -633,9 +621,7 @@
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
-            }
-          ],
-          "Editing": [
+            },
             {
               "name": "MTRX_SE_B1_AIUGC2",
               "due": null
@@ -1152,5 +1138,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-04T14:00:19.094Z"
+  "timestamp": "2026-03-04T19:00:11.243Z"
 }
