@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 78,
+    "active": 100,
     "overdue": 19,
     "brands": [
       {
@@ -96,10 +96,10 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 16,
+        "active": 14,
         "overdue": 3,
         "statuses": {
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIUGC3",
               "due": "2026-02-20"
@@ -111,24 +111,24 @@
               "due": "2026-02-20"
             },
             {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-03-10"
+            }
+          ],
+          "Video In Review": [
+            {
               "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-03-10"
             }
           ],
           "Unknown": [
             {
               "name": "",
               "due": null
-            }
-          ],
-          "Not started": [
-            {
-              "name": "MTRX_SE_B1_AIPOD1",
-              "due": "2026-03-09"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-09"
             }
           ],
           "Ready for Editing": [
@@ -142,14 +142,6 @@
             },
             {
               "name": "MTRX_SE_B1_AIMUP1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIVSL1",
               "due": "2026-03-10"
             },
             {
@@ -167,7 +159,9 @@
             {
               "name": "MTRX_SE_B1_AIMUP2",
               "due": "2026-03-10"
-            },
+            }
+          ],
+          "Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
@@ -187,13 +181,11 @@
               "due": "2026-02-25"
             },
             {
-              "name": "MTRX_VR_EB_AIPOD2",
-              "due": "2026-02-25"
-            }
-          ],
-          "Video In Review": [
-            {
               "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
               "due": "2026-02-25"
             }
           ],
@@ -269,29 +261,13 @@
         "active": 12,
         "overdue": 0,
         "statuses": {
-          "Scripting": [
+          "Ready for Editing": [
             {
               "name": "MTRX_PWG_B1_AIPOD2",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PWG_B1_AIPOD3",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIMUP2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIDEB2",
-              "due": "2026-03-06"
-            },
-            {
               "name": "MTRX_PWG_B1_AIVSL1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIPOD5",
               "due": "2026-03-06"
             },
             {
@@ -307,15 +283,33 @@
               "due": "2026-03-06"
             },
             {
+              "name": "MTRX_PWG_B1_AIUGC2",
+              "due": "2026-03-06"
+            }
+          ],
+          "Scripting": [
+            {
+              "name": "MTRX_PWG_B1_AIPOD3",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PWG_B1_AIMUP2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PWG_B1_AIDEB2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PWG_B1_AIPOD5",
+              "due": "2026-03-06"
+            },
+            {
               "name": "MTRX_PWG_B1_AIPOD4",
               "due": "2026-03-06"
             },
             {
               "name": "MTRX_PWG_B1_AIDEB1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PWG_B1_AIUGC2",
               "due": "2026-03-06"
             }
           ]
@@ -381,8 +375,124 @@
         "startDate": "2026-02-26"
       },
       {
-        "name": "Sidekick",
+        "name": "First Day",
         "active": 12,
+        "overdue": 0,
+        "statuses": {
+          "Not started": [
+            {
+              "name": "MTRX_FD_B1_AIPOD3",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIMUP2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD5",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIUGC2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIDEB1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIMUP1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIDEB2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIUGC1",
+              "due": "2026-03-10"
+            }
+          ]
+        },
+        "startDate": "2026-03-03"
+      },
+      {
+        "name": "Metafit Pharma Solutions (TrimRX)",
+        "active": 12,
+        "overdue": 0,
+        "statuses": {
+          "Not started": [
+            {
+              "name": "MTRX_TRX_B1_AIUGC1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIMUP1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIPOD5",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIPOD3",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIPOD1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIUGC2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIDEB2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIDEB1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TRX_B1_AIMUP2",
+              "due": "2026-03-10"
+            }
+          ]
+        },
+        "startDate": "2026-03-03"
+      },
+      {
+        "name": "Sidekick",
+        "active": 11,
         "overdue": 0,
         "statuses": {
           "Video Needs Revision": [
@@ -430,25 +540,23 @@
               "name": "MTRX_SK_B1_AIPOD5",
               "due": "2026-03-05"
             }
-          ],
-          "Approved": [
-            {
-              "name": "MTRX_SK_B1_UGC4",
-              "due": "2026-03-05"
-            }
           ]
         },
         "startDate": "2026-02-09"
       },
       {
         "name": "Seora",
-        "active": 2,
+        "active": 3,
         "overdue": 1,
         "statuses": {
           "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP1",
+              "due": null
             }
           ],
           "Editing": [
@@ -474,99 +582,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 41,
+      "total": 29,
       "submissions": [
-        {
-          "name": "Assia Haque",
-          "date": "2026-02-16",
-          "summary": {
-            "blockerDetail": "No ads running on ad account",
-            "win": "Applied learnings from competitor brands to my scripts"
-          }
-        },
-        {
-          "name": "Kenzo Aganon",
-          "date": "2026-02-21",
-          "summary": {
-            "win": "I was on leave"
-          }
-        },
-        {
-          "name": "Marzook Muhammad Ali",
-          "date": "2026-02-20",
-          "summary": {
-            "workDetail": "11 Menerals\n9 NOBS\n5 Nominal",
-            "win": "Bioroot labs winner\nMeneral ads are still scaling\nAxl ad Don are killing it with thier edits"
-          }
-        },
-        {
-          "name": "Timur Sultanov",
-          "date": "2026-02-20",
-          "summary": {
-            "blockerDetail": "1. I miscalculated my timing.\n2. The reviews were really slow.",
-            "win": "I love that the team is growing and I have more videos to review. This is actually my biggest victory: all the editors on my team have reached 100 CR (except me, of course)."
-          }
-        },
-        {
-          "name": "Kenneth Bryan Bartolome",
-          "date": "2026-02-16",
-          "summary": {
-            "blockerDetail": "mouse broke down",
-            "win": "N/A"
-          }
-        },
-        {
-          "name": "Grant Vincent Villapando",
-          "date": "2026-02-16",
-          "summary": {
-            "win": "I was able to create animated statics for some of our brands, and I’ll continue working on applying them to the rest."
-          }
-        },
-        {
-          "name": "John Andre Lopez",
-          "date": "2026-02-16",
-          "summary": {
-            "win": "I created a full AI concept this week and I’m working on finishing my 9 concepts."
-          }
-        },
-        {
-          "name": "Emily Gittings",
-          "date": "2026-02-20",
-          "summary": {
-            "keyTasks": "Reviewed 5+ briefs \nAllocated all briefs \nFilmed 3x OTC myself",
-            "win": "Cleared my finding creator dashboard"
-          }
-        },
-        {
-          "name": "Don Jasper Deodora",
-          "date": "2026-02-20",
-          "summary": {
-            "win": "I managed my time time even I am sick, and complete all of my concepts within friday!"
-          }
-        },
-        {
-          "name": "Aleck Royce Bullag",
-          "date": "2026-02-16",
-          "summary": {
-            "blockerDetail": "none",
-            "win": "finished my 8 concepts and I learned to manage my time. Achieved 100 percent completion rate"
-          }
-        },
-        {
-          "name": "Axl Carreon",
-          "date": "2026-02-20",
-          "summary": {
-            "workDetail": "4 MN Concepts - 4 MUPs",
-            "win": "been deep diving on my ads and on reviews, suggesting b rolls as well for editors to use to reduce revisions for them\n\nCR is not yet good for Ahmad - everyone's getting 100% CR except for him. Tracking where his time is going cirrently to determine the problem. Doing my best to help Ahmad in any way possible."
-          }
-        },
-        {
-          "name": "Shiella Mae Yalung",
-          "date": "2026-02-20",
-          "summary": {
-            "win": "I had the opportunity to experience the senior editor review process while covering for Kenzo for a week. It feels like a win for me as I made it through the week and still maintained 100% CR."
-          }
-        },
         {
           "name": "Sarang Ali",
           "date": "2026-02-20",
@@ -794,55 +811,39 @@
       ],
       "wins": [
         {
-          "source": "Assia Haque",
-          "text": "Applied learnings from competitor brands to my scripts"
+          "source": "Sarang Ali",
+          "text": "it was my first weak and it reminded me that clarity beats speed.\nInstead of rushing into editing, take time to properly understand the creative direction and structure first  and it completely changes the workflow. Fewer revisions,  and a smoother final result."
         },
         {
-          "source": "Kenzo Aganon",
-          "text": "I was on leave"
-        },
-        {
-          "source": "Marzook Muhammad Ali",
-          "text": "Bioroot labs winner\nMeneral ads are still scaling\nAxl ad Don are killing it with thier edits"
-        },
-        {
-          "source": "Timur Sultanov",
-          "text": "I love that the team is growing and I have more videos to review. This is actually my biggest victory: all the editors on my team have reached 100 CR (except me, of course)."
+          "source": "Abdullah Rasool",
+          "text": "I learned how to manage the time to get 100% CR every week"
         },
         {
           "source": "Kenneth Bryan Bartolome",
           "text": "N/A"
         },
         {
-          "source": "Grant Vincent Villapando",
-          "text": "I was able to create animated statics for some of our brands, and I’ll continue working on applying them to the rest."
-        },
-        {
-          "source": "John Andre Lopez",
-          "text": "I created a full AI concept this week and I’m working on finishing my 9 concepts."
+          "source": "Abdullah Rasool",
+          "text": "I Don't know"
         },
         {
           "source": "Emily Gittings",
-          "text": "Cleared my finding creator dashboard"
+          "text": "My TEV video has now generated £86,000 sales! https://app.adnova.ai/app/analytics/01KACAPXBRP8AV8R9TR7ET5NJV/top/01KACAS6FSNYSP82TQA2AFHJ2E \nI succesfully reassigned briefs. "
+        },
+        {
+          "source": "Emily Gittings",
+          "text": "Completed: Reviewed all of TC19 concepts (besides 1 as I will receive that on monday) \nReviewed all of TEV12 co"
+        },
+        {
+          "source": "Kenzo Aganon",
+          "text": "Introduced a new Editor Sheet"
+        },
+        {
+          "source": "Marzook Muhammad Ali",
+          "text": "Bioroots winning ads\nKiller NOBS scripts\n\n"
         }
       ],
       "issues": [
-        {
-          "source": "Assia Haque",
-          "text": "No ads running on ad account"
-        },
-        {
-          "source": "Timur Sultanov",
-          "text": "1. I miscalculated my timing.\n2. The reviews were really slow."
-        },
-        {
-          "source": "Kenneth Bryan Bartolome",
-          "text": "mouse broke down"
-        },
-        {
-          "source": "Aleck Royce Bullag",
-          "text": "none"
-        },
         {
           "source": "Abdullah Rasool",
           "text": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day"
@@ -858,24 +859,29 @@
         {
           "source": "Marzook Muhammad Ali",
           "text": "Overloaded"
+        },
+        {
+          "source": "Adriel",
+          "text": "UGC Video was only delivered on a Thursday, good thing I was able to get it approved early Friday"
+        },
+        {
+          "source": "Nicola Rainsford",
+          "text": "No blockers just a v busy week"
+        },
+        {
+          "source": "Meryl Montgomery",
+          "text": "Slow with getting some concepts from Niloy. Due to 2x research, I wasn't able to get to my static briefs this week. Those will come Monday. "
+        },
+        {
+          "source": "Axl Carreon",
+          "text": "Waiting for Higgsfield Credits - bought my own subscription"
         }
       ]
     },
     {
       "name": "Pod Leader",
-      "total": 6,
+      "total": 5,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-20",
-          "summary": {
-            "weeklyBreakdown": "Completed 9 NOBS HP, 5 Nominal HP and 11 Meneral concepts\nReviewed a ton of videos\nBack and forth with client",
-            "mvp": "Myself ",
-            "blocker": "A break - struggling to focus and do the job. pushing through to somehow complete this week",
-            "support": "Not much. Should be able to complete the work.",
-            "struggling": "Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-02-23",
@@ -930,10 +936,6 @@
       "wins": [
         {
           "source": "New submission",
-          "text": "MVP: Myself "
-        },
-        {
-          "source": "New submission",
           "text": "MVP: all of us cause we Hit 100% CR"
         },
         {
@@ -954,14 +956,6 @@
         }
       ],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Blocker: A break - struggling to focus and do the job. pushing through to somehow complete this week"
-        },
-        {
-          "source": "New submission",
-          "text": "Struggling: Ahmad - completion rate - struggling to communicate his editing bottlenecks\n"
-        },
         {
           "source": "New submission",
           "text": "Blocker: improve AI concepts"
@@ -985,6 +979,10 @@
         {
           "source": "New submission",
           "text": "Blocker: our team is pretty solid and it shows with having winning ads consistently. We just need to keep up the momentum and double down on our best practices"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Nil always being the last one to submit his content, he had a winning ad but because of not being able to meet completion rate he won't receive bonus."
         }
       ]
     },
@@ -1072,5 +1070,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-03T19:00:16.877Z"
+  "timestamp": "2026-03-04T09:00:10.427Z"
 }
