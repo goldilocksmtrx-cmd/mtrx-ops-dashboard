@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 100,
-    "overdue": 19,
+    "active": 121,
+    "overdue": 18,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -96,15 +96,9 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 14,
-        "overdue": 3,
+        "active": 11,
+        "overdue": 2,
         "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SE_B1_AIUGC3",
-              "due": "2026-02-20"
-            }
-          ],
           "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AISS1",
@@ -122,6 +116,14 @@
             },
             {
               "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ],
@@ -141,29 +143,11 @@
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIMUP1",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIUGC4",
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIPOD4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC2",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIMUP2",
-              "due": "2026-03-10"
-            }
-          ],
-          "Editing": [
-            {
-              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ]
@@ -175,7 +159,7 @@
         "active": 4,
         "overdue": 3,
         "statuses": {
-          "Video Needs Revision": [
+          "Ready to Upload": [
             {
               "name": "MTRX_VR_CB_AIMUP1",
               "due": "2026-02-25"
@@ -376,7 +360,7 @@
       },
       {
         "name": "First Day",
-        "active": 12,
+        "active": 24,
         "overdue": 0,
         "statuses": {
           "Not started": [
@@ -427,14 +411,62 @@
             {
               "name": "MTRX_FD_B1_AIUGC1",
               "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD3",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIUGC2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIVSL1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD4",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIPOD5",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIDEB2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIUGC1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIMUP1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIDEB1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_FD_B1_AIMUP2",
+              "due": "2026-03-11"
             }
           ]
         },
-        "startDate": "2026-03-03"
+        "startDate": "2026-03-04"
       },
       {
         "name": "Metafit Pharma Solutions (TrimRX)",
-        "active": 12,
+        "active": 24,
         "overdue": 0,
         "statuses": {
           "Not started": [
@@ -485,10 +517,58 @@
             {
               "name": "MTRX_TRX_B1_AIMUP2",
               "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_TR_B1_AIMUP1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIPOD5",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIDEB1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIUGC2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIPOD2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIMUP2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIPOD4",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIPOD1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIUGC1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIDEB2",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIVSL1",
+              "due": "2026-03-11"
+            },
+            {
+              "name": "MTRX_TR_B1_AIPOD3",
+              "due": "2026-03-11"
             }
           ]
         },
-        "startDate": "2026-03-03"
+        "startDate": "2026-03-04"
       },
       {
         "name": "Sidekick",
@@ -553,15 +633,17 @@
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP1",
-              "due": null
             }
           ],
           "Editing": [
             {
               "name": "MTRX_SE_B1_AIUGC2",
+              "due": null
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIMUP1",
               "due": null
             }
           ]
@@ -1070,5 +1152,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-04T09:00:10.427Z"
+  "timestamp": "2026-03-04T14:00:19.094Z"
 }
