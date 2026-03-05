@@ -99,36 +99,14 @@
         "active": 11,
         "overdue": 2,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AISS1",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIVSL1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC7",
-              "due": "2026-03-10"
-            }
-          ],
-          "Video In Review": [
-            {
               "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP2",
-              "due": "2026-03-10"
             }
           ],
           "Unknown": [
@@ -148,6 +126,28 @@
             },
             {
               "name": "MTRX_SE_B1_AIUGC4",
+              "due": "2026-03-10"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ]
@@ -621,13 +621,13 @@
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC2",
-              "due": null
             }
           ],
           "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIUGC2",
+              "due": null
+            },
             {
               "name": "MTRX_SE_B1_AIMUP1",
               "due": null
@@ -650,23 +650,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 29,
+      "total": 27,
       "submissions": [
-        {
-          "name": "Sarang Ali",
-          "date": "2026-02-20",
-          "summary": {
-            "win": "it was my first weak and it reminded me that clarity beats speed.\nInstead of rushing into editing, take time to properly understand the creative direction and structure first  and it completely changes the workflow. Fewer revisions,  and a smoother final result."
-          }
-        },
-        {
-          "name": "Abdullah Rasool",
-          "date": "2026-02-16",
-          "summary": {
-            "blockerDetail": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day",
-            "win": "I learned how to manage the time to get 100% CR every week"
-          }
-        },
         {
           "name": "Kenneth Bryan Bartolome",
           "date": "2026-02-28",
@@ -879,14 +864,6 @@
       ],
       "wins": [
         {
-          "source": "Sarang Ali",
-          "text": "it was my first weak and it reminded me that clarity beats speed.\nInstead of rushing into editing, take time to properly understand the creative direction and structure first  and it completely changes the workflow. Fewer revisions,  and a smoother final result."
-        },
-        {
-          "source": "Abdullah Rasool",
-          "text": "I learned how to manage the time to get 100% CR every week"
-        },
-        {
           "source": "Kenneth Bryan Bartolome",
           "text": "N/A"
         },
@@ -909,13 +886,17 @@
         {
           "source": "Marzook Muhammad Ali",
           "text": "Bioroots winning ads\nKiller NOBS scripts\n\n"
+        },
+        {
+          "source": "Bruno Baroni",
+          "text": "first insanity edit I made and really happy with the result"
+        },
+        {
+          "source": "Adriel",
+          "text": "Completion rate improving on all PODS"
         }
       ],
       "issues": [
-        {
-          "source": "Abdullah Rasool",
-          "text": "past week, Reviews was slow from CS side but from Senior editor reviews was Quick 3 times a day"
-        },
         {
           "source": "Abdullah Rasool",
           "text": "N/a"
@@ -943,6 +924,10 @@
         {
           "source": "Axl Carreon",
           "text": "Waiting for Higgsfield Credits - bought my own subscription"
+        },
+        {
+          "source": "Katia Zakarian",
+          "text": "Had to be rushed to the ER on Thursday had intense pelvic pain. I made sure to let Ramia & the bosses know\nCaught up on my work today so everything's up to date for both my PODs."
         }
       ]
     },
@@ -1138,5 +1123,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-04T19:00:11.243Z"
+  "timestamp": "2026-03-05T09:00:13.083Z"
 }
