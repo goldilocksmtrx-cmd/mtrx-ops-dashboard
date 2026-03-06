@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 117,
-    "overdue": 36,
+    "active": 116,
+    "overdue": 37,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -96,16 +96,12 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 8,
+        "active": 6,
         "overdue": 0,
         "statuses": {
           "Video In Review": [
             {
               "name": "MTRX_SE_B1_AISS1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD1",
               "due": "2026-03-10"
             }
           ],
@@ -125,10 +121,6 @@
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIPOD4",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
@@ -144,9 +136,19 @@
       },
       {
         "name": "Verso",
-        "active": 1,
-        "overdue": 0,
+        "active": 3,
+        "overdue": 2,
         "statuses": {
+          "Approved": [
+            {
+              "name": "MTRX_VR_CB_AIMUP1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-25"
+            }
+          ],
           "Unknown": [
             {
               "name": "",
@@ -229,7 +231,7 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIUGC1_Ah",
+              "name": "MTRX_PAKT_B1_AIMUP3_Ah",
               "due": "2026-03-06"
             },
             {
@@ -241,17 +243,17 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIUGC2_Nil",
+              "name": "MTRX_PAKT_B1_UGC1_NI",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIPOD6",
+              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ],
           "Ready for Editing": [
             {
-              "name": "MTRX_PAKT_B1_AIPOD3",
+              "name": "MTRX_PAKT_B1_AIANIM2",
               "due": "2026-03-06"
             },
             {
@@ -259,11 +261,11 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIPOD5",
+              "name": "MTRX_PAKT_B1_AIQANDA1",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIPOD4",
+              "name": "MTRX_PAKT_B1_AIANIM3",
               "due": "2026-03-06"
             },
             {
@@ -271,15 +273,15 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIUGC4",
+              "name": "MTRX_PAKT_B1_AIMUP4",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIUGC3",
+              "name": "MTRX_PAKT_B1_AIUGC2",
               "due": "2026-03-06"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIVSL1_Br",
               "due": "2026-03-06"
@@ -518,15 +520,9 @@
       },
       {
         "name": "Seora",
-        "active": 2,
-        "overdue": 1,
+        "active": 1,
+        "overdue": 0,
         "statuses": {
-          "Video In Review": [
-            {
-              "name": "MTRX_SE_B1_AIUGC6",
-              "due": "2026-02-20"
-            }
-          ],
           "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIUGC2",
@@ -666,7 +662,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 31,
+      "total": 45,
       "submissions": [
         {
           "name": "Kenneth Bryan Bartolome",
@@ -887,11 +883,73 @@
           }
         },
         {
+          "name": "Bruno Baroni",
+          "date": "2026-03-01",
+          "summary": {
+            "workDetail": "2 POD for DT\n1 UGC for TC\n1 UGC for TEV\n1 AIVSL for PAKT",
+            "win": "killer edit on my AIVSL for PAKT and finished in 2 days of edit"
+          }
+        },
+        {
+          "name": "Adriel",
+          "date": "2026-03-06",
+          "summary": {
+            "win": "Editors on all pods are now up with 100% completion rate 🥹🙏🏼"
+          }
+        },
+        {
+          "name": "Timur Sultanov",
+          "date": "2026-03-06",
+          "summary": {
+            "win": "Full AI sceleton ad "
+          }
+        },
+        {
+          "name": "Abdullah Rasool",
+          "date": "2026-03-02",
+          "summary": {
+            "blockerDetail": "N/A",
+            "win": "N/A"
+          }
+        },
+        {
+          "name": "Nicola Rainsford",
+          "date": "2026-03-06",
+          "summary": {
+            "workDetail": "LL research + 6 LL HP + 6 LL UGCs + 4 LL MUPs + TEV research ",
+            "win": "PQ perimenopause song MUP at top of ad account"
+          }
+        },
+        {
+          "name": "Kenneth Bryan Bartolome",
+          "date": "2026-03-06",
+          "summary": {
+            "workDetail": "3 PQ7 concepts 2 Auri kids concepts",
+            "win": "N/A"
+          }
+        },
+        {
           "name": "Axl Carreon",
           "date": "2026-03-06",
           "summary": {
             "workDetail": " 1 Insane NB + 2 Hard NB + 1 Normal MN",
             "win": "Had my editors communicate a lot. not yet there, but we're improving"
+          }
+        },
+        {
+          "name": "Grant Villapando",
+          "date": "2026-03-02",
+          "summary": {
+            "workDetail": "Create briefs for statics",
+            "win": "I created more variants this week and used AI tools more often to make my work faster."
+          }
+        },
+        {
+          "name": "Shiella Mae M. Yalung",
+          "date": "2026-03-06",
+          "summary": {
+            "blockerDetail": "The main bottleneck for me this week is the AI tool credits. At the start of the week—Monday to Wednesday—many editors are actively using AI, which quickly depletes the available credits. I work in a timezone where most people have already finished their editing for the day, so by the time I start, platforms are already out of credits. This means I have to wait until the evening here (which is morning in the UK) to refill the credits. When I try to work during peak hours—when everyone else is using the platforms—AI generation becomes slow because many are using it. ",
+            "win": "I'm have my full animation concept this week. It is a challenging process but a great opportunity for me to learn it and see if this is something I would love to continue doing."
           }
         },
         {
@@ -902,6 +960,14 @@
           }
         },
         {
+          "name": "Kenzo Aganon",
+          "date": "2026-03-06",
+          "summary": {
+            "workDetail": "I was assigned 5 concepts , 4/5 was completed the remaining one is extended till next week because it's AI",
+            "win": "100% CR FOR POD 1 WOOOO"
+          }
+        },
+        {
           "name": "Kaylee Phillips",
           "date": "2026-03-06",
           "summary": {
@@ -909,11 +975,47 @@
             "workDetail": "2 UD, 2 TC, 1 LL",
             "win": "EVERYTHING! Fantastic first week"
           }
+        },
+        {
+          "name": "Sarang Ali",
+          "date": "2026-03-06",
+          "summary": {
+            "win": "N/A"
+          }
+        },
+        {
+          "name": "Niloy Barua",
+          "date": "2026-03-01",
+          "summary": {
+            "win": "100% CR"
+          }
+        },
+        {
+          "name": "Ahmad Amiri",
+          "date": "2026-03-02",
+          "summary": {
+            "win": "2nd 100% CR in a row.\nMade amazing edits that I'm proud of for Nominal. Also I was able to make the variants by myself while my pod leader was on vacation and all were approved by the Cam and Axl."
+          }
+        },
+        {
+          "name": "Chan David",
+          "date": "2026-03-02",
+          "summary": {
+            "blockerDetail": "one blocker is that our AI credits (higgsfield/hedra) run out quickly, which sometimes delay the progress",
+            "win": "reviewing winning ads to see what I can apply to my concepts."
+          }
+        },
+        {
+          "name": "Nahid Hasan",
+          "date": "2026-03-06",
+          "summary": {
+            "win": "I needed to add a pills shelf for 4 concept.\nI did good job here"
+          }
         }
       ],
       "wins": [
         {
-          "source": "Kenneth Bryan Bartolome",
+          "source": "Sarang Ali",
           "text": "N/A"
         },
         {
@@ -982,7 +1084,7 @@
     },
     {
       "name": "Pod Leader",
-      "total": 5,
+      "total": 7,
       "submissions": [
         {
           "name": "New submission",
@@ -1033,6 +1135,26 @@
             "support": "Nicola definitely needs to share her technique on how she writes Mashups scripts in particular on the CS calls, no one does it like her. \nShe's taking previous UGC videos that was filmed a year ago and bringing them to life, creating a trending hook with b-rolls/ music and stitching past UGC concepts that showed potential but didn't perform on their own.\nWe've done PLENTY of HP/ UGC videos that I'm sure has potential, if every POD implements Nicola's technique I'm sure we'll bring a lot of winning ads from the dead. \nThese are the main Mashup ads I'm referring to:\n- 2.7.26 | GO2 | DCO1 > 2.2.26_MTRX_PQ10_M2\n- 2.7.26 | GO2 | DCO1 > 2.5.26_MTRX_PQ10_M3 \n(this last video in particular she had used Sabrina's UGC footage that was filmed on Aug 26, 2025 before she even started working with us) Proving she's deep diving on air, watching past UGCs to see what has potential but didn't perform on their own.",
             "struggling": "Nil always being the last one to submit his content, he had a winning ad but because of not being able to meet completion rate he won't receive bonus. He's been improving from previous weeks but still the last one to finish."
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-06",
+          "summary": {
+            "weeklyBreakdown": "- Claude Matrix analysis working well for perfume brands especially TC given the large amount of data to analyse each batch \n- Good feedback from production on incorporation of foreign accents in TC VSLs - interested to see how they perform\n- Also excited to see how bringing back winning actors/TC location/organic editing style works for PODs next week \n- Most LL ads turned off this week - interested to see how recreating old HP concepts/tiktok shop creator content/fastmoss rips work in the new batch\n- As of now (4pm), only 1 concept left to be approved - should have 100% completion rate again ",
+            "mvp": "Assia for the improvements in her research + batch planning",
+            "blocker": "Hoping that bringing back old winners/winning locations/actors will help here"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-06",
+          "summary": {
+            "weeklyBreakdown": "Overall, everything went as expected.  Scripts are getting better and more creative every week - there's definitely progress there. The number of reviews was slightly below optimal.",
+            "mvp": "Overall, everyone worked well and on the same level. But shutout to Tina - was a great one for leading the POD call and taking the initiative.",
+            "blocker": "Still reviews, they're getting much better. But need to reach an intuitive level with them",
+            "support": "1 more editor",
+            "struggling": "-"
+          }
         }
       ],
       "wins": [
@@ -1055,6 +1177,14 @@
         {
           "source": "New submission",
           "text": "MVP: Meryl for rolling out some new AI prompts + reports for creative analysis and batch planning. PQ client really liked + I know CS team is leaning hard "
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Assia for the improvements in her research + batch planning"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Overall, everyone worked well and on the same level. But shutout to Tina - was a great one for leading the POD call and taking the initiative."
         }
       ],
       "issues": [
@@ -1085,12 +1215,16 @@
         {
           "source": "New submission",
           "text": "Struggling: Nil always being the last one to submit his content, he had a winning ad but because of not being able to meet completion rate he won't receive bonus."
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: Hoping that bringing back old winners/winning locations/actors will help here"
         }
       ]
     },
     {
       "name": "Project Manager",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -1099,6 +1233,14 @@
             "summary": "Hit rate this week was very satisfying after all those weeks - All CSs basically are on track (re Marzook - some delays were still dragging from last weeks and he also had Menerals to finalize which was supposed to be done like  2 weeks ago, but he managed to have everything done - he is finalizing last scripts today)\nTina was better this week - even though she said she cannot do but 4 scripts a day which I find to be a little bit not convenient for the weeks where she needs to do 14 or 15 scripts - but she did suffer from hydration scripts based on her lack of attention!\n\nEditors - all had a CR by Friday except for Niloy even though had a clean 2 weeks earlier - but the push now is to have approvals earlier during Friday!\nClyde and Saumik are being of great help (Catarina is off for these 2 weeks - also she is doing great)\nFor Ahmad - I was in shock tbh when I saw his end of week time tracking with a total of 13 hours per week - which made me directly tell him that this is not acceptable coz he needs to be on 40 hours - I don't understand how he thought this is normal! Next week he is on 5 concepts with tracking - no soft side anymore as the team is really growing and everybody is working on themselves so they all need to step up!\n\nbottleneck now is to organize scripts for POD3 - so need those freelancers to be good otherwise we might face delays\n\nFootage upload for Menerals sucks - still nothing after 10 days of shoots - which might push me to assign mashups instead of those VSLs\n\n",
             "whoMissed": "Niloy \nthis guy is slow "
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-06",
+          "summary": {
+            "summary": "- All editors hit 100% CR\n- Challenge now is becoming animation concepts - I am having editors jump on AI edits with a flexible deadline, while for animation few editors can do this so a bit of a challenge to have these done on time with entire batch since I cannot assign those at once to editors who work on animation\n- TEAM - overall did a great job this week - everyone is pushing to meet deadlines \n- For CSs - Tina did well this week - she asked to be on 12 scripts for a couple of weeks, which I will do for her for the next 2 weeks\n- Crumb will be 5 days late from payment (Feb 9), as for Therapet we started a bit late till we had some bandwidth\n- Nominal - late on UGCs and their shipment takes a bit of time\n- For Calm batch 4 (they paid Feb 13) -I am pushing to have the biggest part of batch done next week and started with b5 edits to compensate, Hydration - you know the story of the scripts - plus having Tina start on next batch next week - trying also to make it up for next batch. For these 2 brands, trying to win a week with each batch to get back on track with payments\n- Nutrition Auri finalizing B2, last 2 concepts being finalized jumping on B3 to make sure we hit deadline by end of this month\n- Sidekick is paused \n- Nobs late with scripts - but all UGCs being tracked  now\n- JAQ Group - we are good - max 35 days to finalize last 1 or 2 UGCs, rest is being done by day 30",
+            "whoMissed": "NOBODY"
+          }
         }
       ],
       "wins": [],
@@ -1106,12 +1248,16 @@
         {
           "source": "New submission",
           "text": "Missed: Niloy \nthis guy is slow "
+        },
+        {
+          "source": "New submission",
+          "text": "Missed: NOBODY"
         }
       ]
     },
     {
       "name": "Head of Editing",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -1123,18 +1269,36 @@
             "qualityByPod": "POD 1 - Completion rate improving but Niloy has some delays due to Cam's late reviews\nPOD 2 - UGCs being assigned late since creators submits their footages Wed/Thursday\nPOD 3 - Ahmad improved his speed and started tracking his time but he makes small issues, big (will elaborate more below)\nPOD 4 - Timur's pushing editors to get that 100% CR which is good",
             "nextFocus": "Making sure that once the concept is sent to revision, the editors should return it 8hrs max regardless of the time difference."
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-02",
+          "summary": {
+            "editorsDelivering": "All editors across all pods performed good this week",
+            "editorsStruggling": "None - which is what we want",
+            "qualityByPod": "POD 1 - Editors are now keeping up with speed and AI edits are A1\nPOD 2 - Still consistent with the 100 % CR, and was also able to help other pods with their AI concepts\nPOD 3 - Appreciate the effort of Ahmad and Nahid here in meeting the 100 CR, Axl and Don delivers consistent performance.\nPOD 4 - Reviews are slow and CS needs to be pinged before review but they still achieved 100 CR so all good, can be improved though ",
+            "nextFocus": "Consistency in 100% CR"
+          }
         }
       ],
       "wins": [
         {
           "source": "New submission",
           "text": "Delivering: All except for the 2 above"
+        },
+        {
+          "source": "New submission",
+          "text": "Delivering: All editors across all pods performed good this week"
         }
       ],
       "issues": [
         {
           "source": "New submission",
           "text": "Struggling: Ahmad & Niloy"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: None - which is what we want"
         }
       ]
     },
@@ -1172,5 +1336,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-06T14:00:10.739Z"
+  "timestamp": "2026-03-06T19:00:15.241Z"
 }
