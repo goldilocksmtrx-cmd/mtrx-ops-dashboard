@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 121,
+    "active": 117,
     "overdue": 36,
     "brands": [
       {
@@ -43,7 +43,7 @@
         "active": 8,
         "overdue": 0,
         "statuses": {
-          "Ready for Editing": [
+          "Ready to Upload": [
             {
               "name": "MTRX_TAA_B1_AIDEB1",
               "due": "2026-03-10"
@@ -96,7 +96,7 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 11,
+        "active": 8,
         "overdue": 0,
         "statuses": {
           "Video In Review": [
@@ -106,14 +106,6 @@
             },
             {
               "name": "MTRX_SE_B1_AIPOD1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD4",
               "due": "2026-03-10"
             }
           ],
@@ -129,7 +121,11 @@
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIMUP2",
+              "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD4",
               "due": "2026-03-10"
             },
             {
@@ -139,17 +135,7 @@
           ],
           "Ready for Editing": [
             {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIUGC4",
-              "due": "2026-03-10"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SE_B1_AIVSL1",
               "due": "2026-03-10"
             }
           ]
@@ -293,7 +279,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIVSL1_Br",
               "due": "2026-03-06"
@@ -532,20 +518,18 @@
       },
       {
         "name": "Seora",
-        "active": 3,
+        "active": 2,
         "overdue": 1,
         "statuses": {
           "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIUGC2",
-              "due": null
-            },
-            {
-              "name": "MTRX_SE_B1_AIMUP1",
               "due": null
             }
           ]
@@ -682,7 +666,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 27,
+      "total": 31,
       "submissions": [
         {
           "name": "Kenneth Bryan Bartolome",
@@ -891,6 +875,39 @@
           "summary": {
             "workDetail": "9 UGC TP + 3 UGC DNC",
             "win": "I have ads spending in the top 5 for all brands I worked for, and submitted 12 briefs in a week"
+          }
+        },
+        {
+          "name": "Emily Gittings",
+          "date": "2026-03-06",
+          "summary": {
+            "keyTasks": "Finish up all of last months batch, film OTC + my in house concepts. Assign + source creators for this months batch. ",
+            "blockerDetail": "Drem Team - Creators have received a message from Fedex that the sender has to to fill out a transit form - I've raised this with Alex, just waiting to hear back. ",
+            "win": "I received some great content this week for LL especially! I feel like we defo have a winning ad in there... "
+          }
+        },
+        {
+          "name": "Axl Carreon",
+          "date": "2026-03-06",
+          "summary": {
+            "workDetail": " 1 Insane NB + 2 Hard NB + 1 Normal MN",
+            "win": "Had my editors communicate a lot. not yet there, but we're improving"
+          }
+        },
+        {
+          "name": "John Andre Lopez",
+          "date": "2026-03-02",
+          "summary": {
+            "win": "I used the same pattern I follow for my winning ads"
+          }
+        },
+        {
+          "name": "Kaylee Phillips",
+          "date": "2026-03-06",
+          "summary": {
+            "keyTasks": "- Get onboarded, meet with Emily, learn systems, go through Skool training \n- Begin sourcing creators for TC, LL, and UD briefs \n- Review completed TC videos and upload to Air \n- Organize my own systems and figure out how to maximize time and energy when sourcing creators \n- Studying current MTRX creators so I am familiarized with their strengths and experience to make assigning briefs clearer\n- HOT call Fri 11AM EST & pod/company calls Tues 7AM EST \n- Film assigned briefs for Nutri ",
+            "workDetail": "2 UD, 2 TC, 1 LL",
+            "win": "EVERYTHING! Fantastic first week"
           }
         }
       ],
@@ -1155,5 +1172,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-06T09:00:07.870Z"
+  "timestamp": "2026-03-06T14:00:10.739Z"
 }
