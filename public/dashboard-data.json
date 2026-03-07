@@ -103,18 +103,6 @@
             {
               "name": "MTRX_SE_B1_AISS1",
               "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC5",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC7",
-              "due": "2026-03-10"
             }
           ],
           "Unknown": [
@@ -125,7 +113,21 @@
           ],
           "Video Needs Revision": [
             {
+              "name": "MTRX_SE_B1_AIUGC5",
+              "due": "2026-03-10"
+            },
+            {
               "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC4",
+              "due": "2026-03-10"
+            }
+          ],
+          "Ready to Upload": [
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ]
@@ -521,7 +523,7 @@
         "active": 1,
         "overdue": 0,
         "statuses": {
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIUGC2",
               "due": null
@@ -660,7 +662,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 31,
+      "total": 32,
       "submissions": [
         {
           "name": "Shiella Mae Yalung",
@@ -903,6 +905,15 @@
           "summary": {
             "win": "Edited an AI concept. "
           }
+        },
+        {
+          "name": "Tina Battilana",
+          "date": "2026-03-01",
+          "summary": {
+            "workDetail": "New brand's reaserch - Calo + Client's call",
+            "blockerDetail": "Communication on the reaserch process for new brands",
+            "win": "I have a top 3 spending ad ($36,364.62) in DRINK NECTAR CALM! MTRX_DNC3_M1_Ti_UGC29_KA_Ab_V3\n\nBesides, Calo CEO got super happy with my approach on the initial reaserch + loom, he said it was HUGE!"
+          }
         }
       ],
       "wins": [
@@ -963,6 +974,10 @@
         {
           "source": "Chan David",
           "text": "one blocker is that our AI credits (higgsfield/hedra) run out quickly, which sometimes delay the progress"
+        },
+        {
+          "source": "Tina Battilana",
+          "text": "Communication on the reaserch process for new brands"
         }
       ]
     },
@@ -1149,5 +1164,5 @@
       "issues": []
     }
   ],
-  "timestamp": "2026-03-07T14:00:15.488Z"
+  "timestamp": "2026-03-07T19:00:12.756Z"
 }
