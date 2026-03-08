@@ -103,6 +103,14 @@
             {
               "name": "MTRX_SE_B1_AISS1",
               "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC5",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC4",
+              "due": "2026-03-10"
             }
           ],
           "Unknown": [
@@ -113,15 +121,7 @@
           ],
           "Video Needs Revision": [
             {
-              "name": "MTRX_SE_B1_AIUGC5",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC4",
               "due": "2026-03-10"
             }
           ],
@@ -221,17 +221,13 @@
         "active": 15,
         "overdue": 15,
         "statuses": {
-          "Editing": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIPOD2",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIMUP2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP3_Ah",
+              "name": "MTRX_PAKT_B1_AIVSL1_Br",
               "due": "2026-03-06"
             },
             {
@@ -239,7 +235,11 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_UGC1_NI",
+              "name": "MTRX_PAKT_B1_AIMUP1",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ],
@@ -273,17 +273,17 @@
               "due": "2026-03-06"
             }
           ],
-          "Video In Review": [
+          "Editing": [
             {
-              "name": "MTRX_PAKT_B1_AIVSL1_Br",
+              "name": "MTRX_PAKT_B1_AIMUP2",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIMUP1",
+              "name": "MTRX_PAKT_B1_AIMUP3_Ah",
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AISOLO1",
+              "name": "MTRX_PAKT_B1_UGC1_NI",
               "due": "2026-03-06"
             }
           ]
@@ -662,24 +662,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 32,
+      "total": 30,
       "submissions": [
-        {
-          "name": "Shiella Mae Yalung",
-          "date": "2026-02-27",
-          "summary": {
-            "win": "Made it through the week despite being sick 🥲🤧"
-          }
-        },
-        {
-          "name": "Lee Lewis-Waddell",
-          "date": "2026-02-27",
-          "summary": {
-            "keyTasks": "Sourced new talent. Assigned outstanding briefs. Filming. Content reviews.",
-            "workDetail": "Filmed content for PQ7. 15 DNC scripts assigned. 5 8Sheep briefs submitted for editing.",
-            "win": "Person of the week + winning PQ7 ad bonus"
-          }
-        },
         {
           "name": "Ahmad Amiri",
           "date": "2026-02-23",
@@ -918,18 +902,6 @@
       ],
       "wins": [
         {
-          "source": "Shiella Mae Yalung",
-          "text": "Made it through the week despite being sick 🥲🤧"
-        },
-        {
-          "source": "Lee Lewis-Waddell",
-          "text": "Person of the week + winning PQ7 ad bonus"
-        },
-        {
-          "source": "Lee Lewis-Waddell",
-          "text": "Completed: Sourced new talent. Assigned outstanding briefs. Filming. Content reviews."
-        },
-        {
           "source": "Ahmad Amiri",
           "text": "Reached 100% CR"
         },
@@ -948,6 +920,18 @@
         {
           "source": "Katia Zakarian",
           "text": "Completed: Sourced and assigned PQ, Menerals, BioRootLabs briefs to creators\nReviewed PQ7, Auri, Menerals, BioR"
+        },
+        {
+          "source": "Niloy Barua",
+          "text": "None for this week. I will be more mindful about the timing."
+        },
+        {
+          "source": "Tina Battilana",
+          "text": "I have ads spending in the top 5 for all brands I worked for, and submitted 12 briefs in a week"
+        },
+        {
+          "source": "Emily Gittings",
+          "text": "I received some great content this week for LL especially! I feel like we defo have a winning ad in there... "
         }
       ],
       "issues": [
@@ -1097,16 +1081,8 @@
     },
     {
       "name": "Project Manager",
-      "total": 2,
+      "total": 1,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-02-27",
-          "summary": {
-            "summary": "Hit rate this week was very satisfying after all those weeks - All CSs basically are on track (re Marzook - some delays were still dragging from last weeks and he also had Menerals to finalize which was supposed to be done like  2 weeks ago, but he managed to have everything done - he is finalizing last scripts today)\nTina was better this week - even though she said she cannot do but 4 scripts a day which I find to be a little bit not convenient for the weeks where she needs to do 14 or 15 scripts - but she did suffer from hydration scripts based on her lack of attention!\n\nEditors - all had a CR by Friday except for Niloy even though had a clean 2 weeks earlier - but the push now is to have approvals earlier during Friday!\nClyde and Saumik are being of great help (Catarina is off for these 2 weeks - also she is doing great)\nFor Ahmad - I was in shock tbh when I saw his end of week time tracking with a total of 13 hours per week - which made me directly tell him that this is not acceptable coz he needs to be on 40 hours - I don't understand how he thought this is normal! Next week he is on 5 concepts with tracking - no soft side anymore as the team is really growing and everybody is working on themselves so they all need to step up!\n\nbottleneck now is to organize scripts for POD3 - so need those freelancers to be good otherwise we might face delays\n\nFootage upload for Menerals sucks - still nothing after 10 days of shoots - which might push me to assign mashups instead of those VSLs\n\n",
-            "whoMissed": "Niloy \nthis guy is slow "
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-03-06",
@@ -1118,10 +1094,6 @@
       ],
       "wins": [],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Missed: Niloy \nthis guy is slow "
-        },
         {
           "source": "New submission",
           "text": "Missed: NOBODY"
@@ -1164,5 +1136,5 @@
       "issues": []
     }
   ],
-  "timestamp": "2026-03-07T19:00:12.756Z"
+  "timestamp": "2026-03-08T09:00:10.977Z"
 }
