@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 118,
-    "overdue": 64,
+    "active": 129,
+    "overdue": 67,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -61,24 +61,66 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 4,
-        "overdue": 0,
+        "active": 13,
+        "overdue": 2,
         "statuses": {
+          "Approved": [
+            {
+              "name": "MTRX_SE_B1_AIUGC3",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AISS1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP2",
+              "due": "2026-03-10"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIDEB1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIVSL1",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
+              "due": "2026-03-10"
+            }
+          ],
           "Unknown": [
             {
               "name": "",
               "due": null
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC5",
               "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
+            }
+          ],
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIUGC4",
               "due": "2026-03-10"
@@ -226,7 +268,7 @@
         "active": 14,
         "overdue": 14,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIPOD2",
               "due": "2026-03-06"
@@ -237,10 +279,6 @@
             },
             {
               "name": "MTRX_PAKT_B1_AIVSL2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ],
@@ -259,10 +297,6 @@
             },
             {
               "name": "MTRX_PAKT_B1_AIDEB1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP4",
               "due": "2026-03-06"
             },
             {
@@ -286,9 +320,17 @@
               "due": "2026-03-06"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIPOD1",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP4",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ]
@@ -524,6 +566,30 @@
         "startDate": "2026-02-09"
       },
       {
+        "name": "Seora",
+        "active": 3,
+        "overdue": 1,
+        "statuses": {
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIUGC6",
+              "due": "2026-02-20"
+            }
+          ],
+          "Approved": [
+            {
+              "name": "MTRX_SE_B1_AIUGC2",
+              "due": null
+            },
+            {
+              "name": "MTRX_SE_B1_AIMUP1",
+              "due": null
+            }
+          ]
+        },
+        "startDate": null
+      },
+      {
         "name": "FD",
         "active": 12,
         "overdue": 0,
@@ -634,20 +700,6 @@
             {
               "name": "MTRX_TR_B1_AIPOD3",
               "due": "2026-03-11"
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
-        "name": "PAKT",
-        "active": 1,
-        "overdue": 0,
-        "statuses": {
-          "Editing": [
-            {
-              "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": null
             }
           ]
         },
@@ -1112,5 +1164,5 @@
       "issues": []
     }
   ],
-  "timestamp": "2026-03-09T14:00:13.563Z"
+  "timestamp": "2026-03-09T19:00:08.549Z"
 }
