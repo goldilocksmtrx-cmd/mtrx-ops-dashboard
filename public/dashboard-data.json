@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 116,
-    "overdue": 52,
+    "active": 119,
+    "overdue": 65,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -40,44 +40,9 @@
       },
       {
         "name": "Try AI Ads",
-        "active": 8,
+        "active": 0,
         "overdue": 0,
-        "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_TAA_B2_TAA1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA3",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA5",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA7",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA8",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_TAA_B2_TAA6",
-              "due": "2026-03-10"
-            }
-          ]
-        },
+        "statuses": {},
         "startDate": "2025-12-08"
       },
       {
@@ -96,36 +61,28 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 6,
+        "active": 4,
         "overdue": 0,
         "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SE_B1_AISS1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC7",
-              "due": "2026-03-10"
-            }
-          ],
           "Unknown": [
             {
               "name": "",
               "due": null
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIUGC5",
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
-            {
               "name": "MTRX_SE_B1_AIUGC4",
+              "due": "2026-03-10"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_SE_B1_AIPOD2",
               "due": "2026-03-10"
             }
           ]
@@ -134,16 +91,68 @@
       },
       {
         "name": "Verso",
-        "active": 3,
-        "overdue": 2,
+        "active": 16,
+        "overdue": 15,
         "statuses": {
           "Approved": [
+            {
+              "name": "MTRX_VR_EB_AISI1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD2",
+              "due": "2026-02-25"
+            },
             {
               "name": "MTRX_VR_CB_AIMUP1",
               "due": "2026-02-25"
             },
             {
+              "name": "MTRX_VR_CB_AISS1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIPOD1 ",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIMUP2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIVSL1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIUGC1",
+              "due": "2026-02-25"
+            },
+            {
               "name": "MTRX_VR_EB_AIPOD2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIUGC2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AISS2",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_CB_AIPOD1",
+              "due": "2026-02-25"
+            },
+            {
+              "name": "MTRX_VR_EB_AIDEB1",
               "due": "2026-02-25"
             }
           ],
@@ -219,7 +228,7 @@
         "active": 15,
         "overdue": 15,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIPOD2",
               "due": "2026-03-06"
@@ -229,7 +238,7 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIPOD1",
+              "name": "MTRX_PAKT_B1_AIVSL2",
               "due": "2026-03-06"
             },
             {
@@ -244,10 +253,6 @@
           "Ready for Editing": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIVSL2",
               "due": "2026-03-06"
             },
             {
@@ -284,6 +289,12 @@
             },
             {
               "name": "MTRX_PAKT_B1_UGC1_NI",
+              "due": "2026-03-06"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_PAKT_B1_AIPOD1",
               "due": "2026-03-06"
             }
           ]
@@ -519,20 +530,6 @@
         "startDate": "2026-02-09"
       },
       {
-        "name": "Seora",
-        "active": 1,
-        "overdue": 0,
-        "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SE_B1_AIUGC2",
-              "due": null
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
         "name": "FD",
         "active": 12,
         "overdue": 0,
@@ -647,6 +644,20 @@
           ]
         },
         "startDate": null
+      },
+      {
+        "name": "PAKT",
+        "active": 1,
+        "overdue": 0,
+        "statuses": {
+          "Editing": [
+            {
+              "name": "MTRX_PAKT_B1_AIANIM2",
+              "due": null
+            }
+          ]
+        },
+        "startDate": null
       }
     ],
     "completed": [
@@ -656,52 +667,15 @@
       "Mail Mend",
       "Peak Footwear",
       "Seranova",
-      "Smootheskin"
+      "Smootheskin",
+      "Try AI Ads"
     ]
   },
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 30,
+      "total": 26,
       "submissions": [
-        {
-          "name": "Ahmad Amiri",
-          "date": "2026-02-23",
-          "summary": {
-            "win": "Reached 100% CR"
-          }
-        },
-        {
-          "name": "Aleck Royce Bullag",
-          "date": "2026-02-23",
-          "summary": {
-            "win": "Able to finish all my concepts early without sacrificing the quality of edits"
-          }
-        },
-        {
-          "name": "Grant Villapando",
-          "date": "2026-02-23",
-          "summary": {
-            "workDetail": "PQ, PQ7, Undrdog, TEV, TC, & LL static briefs",
-            "win": "I was able to create another animated static for TC brand"
-          }
-        },
-        {
-          "name": "Katia Zakarian",
-          "date": "2026-02-27",
-          "summary": {
-            "keyTasks": "Sourced and assigned PQ, Menerals, BioRootLabs briefs to creators\nReviewed PQ7, Auri, Menerals, BioRootLabs, PQ footages\nFilmed Loom ad for TryAiAds for Aaron",
-            "blockerDetail": "Had to be rushed to the ER on Thursday had intense pelvic pain. I made sure to let Ramia & the bosses know\nCaught up on my work today so everything's up to date for both my PODs.",
-            "win": "Filmed a fun VSL Loom for Aaron for the TryAIAds website!"
-          }
-        },
-        {
-          "name": "Niloy Barua",
-          "date": "2026-02-23",
-          "summary": {
-            "win": "None for this week. I will be more mindful about the timing."
-          }
-        },
         {
           "name": "Tina Battilana",
           "date": "2026-02-23",
@@ -898,33 +872,17 @@
             "blockerDetail": "Communication on the reaserch process for new brands",
             "win": "I have a top 3 spending ad ($36,364.62) in DRINK NECTAR CALM! MTRX_DNC3_M1_Ti_UGC29_KA_Ab_V3\n\nBesides, Calo CEO got super happy with my approach on the initial reaserch + loom, he said it was HUGE!"
           }
+        },
+        {
+          "name": "Adarsh Mishra",
+          "date": "2026-03-01",
+          "summary": {
+            "blockerDetail": "For one of my TC UGC, the creator actually pronounced the perfume name wrong and It didn't really work out with AI so had to wait for reshoot. For another concept, the creator actually used the word \"euros\" instead of \"pounds\", which was fixed with AI.",
+            "win": "This week, I had a PQ concept with Pixar animation avatar and B-rolls, It was fun working on that and I learned a lot."
+          }
         }
       ],
       "wins": [
-        {
-          "source": "Ahmad Amiri",
-          "text": "Reached 100% CR"
-        },
-        {
-          "source": "Aleck Royce Bullag",
-          "text": "Able to finish all my concepts early without sacrificing the quality of edits"
-        },
-        {
-          "source": "Grant Villapando",
-          "text": "I was able to create another animated static for TC brand"
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Filmed a fun VSL Loom for Aaron for the TryAIAds website!"
-        },
-        {
-          "source": "Katia Zakarian",
-          "text": "Completed: Sourced and assigned PQ, Menerals, BioRootLabs briefs to creators\nReviewed PQ7, Auri, Menerals, BioR"
-        },
-        {
-          "source": "Niloy Barua",
-          "text": "None for this week. I will be more mindful about the timing."
-        },
         {
           "source": "Tina Battilana",
           "text": "I have ads spending in the top 5 for all brands I worked for, and submitted 12 briefs in a week"
@@ -932,13 +890,33 @@
         {
           "source": "Emily Gittings",
           "text": "I received some great content this week for LL especially! I feel like we defo have a winning ad in there... "
+        },
+        {
+          "source": "Emily Gittings",
+          "text": "Completed: Finish up all of last months batch, film OTC + my in house concepts. Assign + source creators for th"
+        },
+        {
+          "source": "Bruno Baroni",
+          "text": "killer edit on my AIVSL for PAKT and finished in 2 days of edit"
+        },
+        {
+          "source": "Adriel",
+          "text": "Editors on all pods are now up with 100% completion rate 🥹🙏🏼"
+        },
+        {
+          "source": "Timur Sultanov",
+          "text": "Full AI sceleton ad "
+        },
+        {
+          "source": "Sarang Ali",
+          "text": "N/A"
+        },
+        {
+          "source": "Nicola Rainsford",
+          "text": "PQ perimenopause song MUP at top of ad account"
         }
       ],
       "issues": [
-        {
-          "source": "Katia Zakarian",
-          "text": "Had to be rushed to the ER on Thursday had intense pelvic pain. I made sure to let Ramia & the bosses know\nCaught up on my work today so everything's up to date for both my PODs."
-        },
         {
           "source": "Emily Gittings",
           "text": "Drem Team - Creators have received a message from Fedex that the sender has to to fill out a transit form - I've raised this with Alex, just waiting to hear back. "
@@ -962,6 +940,10 @@
         {
           "source": "Tina Battilana",
           "text": "Communication on the reaserch process for new brands"
+        },
+        {
+          "source": "Adarsh Mishra",
+          "text": "For one of my TC UGC, the creator actually pronounced the perfume name wrong and It didn't really work out with AI so had to wait for reshoot. For another concept, the creator actually used the word \"euros\" instead of \"pounds\", which was fixed with AI."
         }
       ]
     },
@@ -1136,5 +1118,5 @@
       "issues": []
     }
   ],
-  "timestamp": "2026-03-08T19:00:12.765Z"
+  "timestamp": "2026-03-09T09:02:16.136Z"
 }
