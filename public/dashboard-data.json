@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 119,
-    "overdue": 65,
+    "active": 118,
+    "overdue": 64,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -70,19 +70,17 @@
               "due": null
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIUGC5",
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIUGC4",
-              "due": "2026-03-10"
-            }
-          ],
-          "Video Needs Revision": [
-            {
               "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC4",
               "due": "2026-03-10"
             }
           ]
@@ -225,10 +223,10 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 15,
-        "overdue": 15,
+        "active": 14,
+        "overdue": 14,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIPOD2",
               "due": "2026-03-06"
@@ -239,10 +237,6 @@
             },
             {
               "name": "MTRX_PAKT_B1_AIVSL2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP1",
               "due": "2026-03-06"
             },
             {
@@ -292,7 +286,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIPOD1",
               "due": "2026-03-06"
@@ -1118,5 +1112,5 @@
       "issues": []
     }
   ],
-  "timestamp": "2026-03-09T09:02:16.136Z"
+  "timestamp": "2026-03-09T14:00:13.563Z"
 }
