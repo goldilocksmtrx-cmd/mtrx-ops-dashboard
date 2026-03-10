@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 129,
-    "overdue": 67,
+    "active": 126,
+    "overdue": 66,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -61,7 +61,7 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 12,
+        "active": 11,
         "overdue": 2,
         "statuses": {
           "Approved": [
@@ -86,17 +86,21 @@
               "due": "2026-03-10"
             }
           ],
-          "Ready to Upload": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_SE_B1_AIDEB1",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_SE_B1_AIUGC5",
+              "name": "MTRX_SE_B1_AIVSL1",
               "due": "2026-03-10"
             },
             {
-              "name": "MTRX_SE_B1_AIVSL1",
+              "name": "MTRX_SE_B1_AIPOD4",
+              "due": "2026-03-10"
+            },
+            {
+              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ],
@@ -106,17 +110,9 @@
               "due": null
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIPOD4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_SE_B1_AIUGC7",
               "due": "2026-03-10"
             }
           ]
@@ -214,19 +210,21 @@
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_CR_B1_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
               "name": "MTRX_CR_B1_AIQANDA1",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_CR_B1_AISOLO1",
+              "name": "MTRX_CR_B1_AIDEB1",
+              "due": "2026-02-20"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_CR_B1_AIVSL1",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_CR_B1_AIDEB1",
+              "name": "MTRX_CR_B1_AISOLO1",
               "due": "2026-02-20"
             }
           ],
@@ -261,8 +259,8 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 14,
-        "overdue": 14,
+        "active": 13,
+        "overdue": 13,
         "statuses": {
           "Video In Review": [
             {
@@ -270,15 +268,7 @@
               "due": "2026-03-06"
             },
             {
-              "name": "MTRX_PAKT_B1_AIVSL2",
-              "due": "2026-03-06"
-            },
-            {
               "name": "MTRX_PAKT_B1_AIPOD1",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP4",
               "due": "2026-03-06"
             },
             {
@@ -311,6 +301,10 @@
           "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIMUP2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP4",
               "due": "2026-03-06"
             }
           ],
@@ -696,20 +690,6 @@
             {
               "name": "MTRX_TR_B1_AIPOD3",
               "due": "2026-03-11"
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
-        "name": "PAKT",
-        "active": 1,
-        "overdue": 0,
-        "statuses": {
-          "Editing": [
-            {
-              "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": null
             }
           ]
         },
@@ -1164,5 +1144,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-10T14:00:11.578Z"
+  "timestamp": "2026-03-10T19:00:15.943Z"
 }
