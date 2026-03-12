@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 140,
-    "overdue": 106,
+    "active": 143,
+    "overdue": 109,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -61,8 +61,8 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 6,
-        "overdue": 5,
+        "active": 7,
+        "overdue": 6,
         "statuses": {
           "Approved": [
             {
@@ -90,6 +90,12 @@
             {
               "name": "",
               "due": null
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_SE_B1_AIPOD2",
+              "due": "2026-03-10"
             }
           ]
         },
@@ -173,8 +179,8 @@
       },
       {
         "name": "Crumb",
-        "active": 12,
-        "overdue": 11,
+        "active": 11,
+        "overdue": 10,
         "statuses": {
           "Ready for Editing": [
             {
@@ -182,17 +188,13 @@
               "due": "2026-02-20"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIVSL1",
               "due": "2026-02-20"
             },
             {
-              "name": "MTRX_CR_B1_AISOLO1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_CR_B1_AIDEB1",
+              "name": "MTRX_CR_B1_AIQANDA1",
               "due": "2026-02-20"
             },
             {
@@ -226,9 +228,9 @@
               "due": "2026-02-20"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
-              "name": "MTRX_CR_B1_AIQANDA1",
+              "name": "MTRX_CR_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ]
@@ -237,18 +239,30 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 8,
-        "overdue": 8,
+        "active": 11,
+        "overdue": 11,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
               "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP1",
+              "due": "2026-03-06"
             }
           ],
-          "Uploading": [
+          "Video In Review": [
             {
-              "name": "MTRX_PAKT_B1_AIVSL1_Br",
+              "name": "MTRX_PAKT_B1_AIMUP2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP4",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ],
@@ -288,25 +302,9 @@
         "active": 25,
         "overdue": 8,
         "statuses": {
-          "Editing": [
+          "Video In Review": [
             {
               "name": "MTRX_CO_B1_AIPOD1",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIMUP1",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB1",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD2",
               "due": "2026-03-15"
             },
             {
@@ -366,6 +364,24 @@
             {
               "name": "MTRX_CL_B1_AIPOD4",
               "due": null
+            }
+          ],
+          "Editing": [
+            {
+              "name": "MTRX_CO_B1_AIMUP1",
+              "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CO_B1_AIDEB1",
+              "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP2",
+              "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CO_B1_AIPOD2",
+              "due": "2026-03-15"
             }
           ],
           "Scripting": [
@@ -1217,5 +1233,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-12T14:00:14.877Z"
+  "timestamp": "2026-03-12T19:00:09.483Z"
 }
