@@ -1,7 +1,7 @@
 {
   "ai": {
     "active": 145,
-    "overdue": 86,
+    "overdue": 110,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -92,7 +92,7 @@
               "due": null
             }
           ],
-          "Video Needs Revision": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIPOD4",
               "due": "2026-03-10"
@@ -192,9 +192,13 @@
               "due": "2026-02-20"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIVSL1",
+              "due": "2026-02-20"
+            },
+            {
+              "name": "MTRX_CR_B1_AIQANDA1",
               "due": "2026-02-20"
             },
             {
@@ -232,11 +236,7 @@
               "due": "2026-02-20"
             }
           ],
-          "Video Needs Revision": [
-            {
-              "name": "MTRX_CR_B1_AIQANDA1",
-              "due": "2026-02-20"
-            },
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
@@ -256,7 +256,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_PAKT_B1_AIMUP2",
               "due": "2026-03-06"
@@ -328,6 +328,10 @@
             {
               "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CL_B1_AIPOD2",
+              "due": null
             }
           ],
           "Not started": [
@@ -401,10 +405,6 @@
             },
             {
               "name": "MTRX_CL_B1_AIMUP1",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIPOD2",
               "due": null
             },
             {
@@ -601,7 +601,7 @@
         "active": 3,
         "overdue": 1,
         "statuses": {
-          "Video Needs Revision": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIUGC6",
               "due": "2026-02-20"
@@ -623,7 +623,7 @@
       {
         "name": "FD",
         "active": 12,
-        "overdue": 0,
+        "overdue": 12,
         "statuses": {
           "Not started": [
             {
@@ -681,7 +681,7 @@
       {
         "name": "TR",
         "active": 12,
-        "overdue": 0,
+        "overdue": 12,
         "statuses": {
           "Not started": [
             {
@@ -1243,5 +1243,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-11T19:00:09.699Z"
+  "timestamp": "2026-03-12T09:00:20.469Z"
 }
