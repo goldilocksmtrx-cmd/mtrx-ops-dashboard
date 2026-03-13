@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 144,
-    "overdue": 109,
+    "active": 138,
+    "overdue": 104,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -92,7 +92,7 @@
               "due": null
             }
           ],
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_SE_B1_AIPOD2",
               "due": "2026-03-10"
@@ -179,23 +179,13 @@
       },
       {
         "name": "Crumb",
-        "active": 11,
-        "overdue": 10,
+        "active": 9,
+        "overdue": 8,
         "statuses": {
           "Ready for Editing": [
             {
               "name": "MTRX_CR_B1_AIANM1",
               "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_CR_B1_AIVSL1",
-              "due": "2026-02-20"
-            },
-            {
-              "name": "MTRX_CR_B1_AIPOD1",
-              "due": null
             }
           ],
           "Scripting": [
@@ -224,16 +214,16 @@
               "due": "2026-02-20"
             }
           ],
-          "Ready to Upload": [
+          "Video In Review": [
             {
-              "name": "MTRX_CR_B1_AIQANDA1",
+              "name": "MTRX_CR_B1_AIDEB1",
               "due": "2026-02-20"
             }
           ],
           "Video Needs Revision": [
             {
-              "name": "MTRX_CR_B1_AIDEB1",
-              "due": "2026-02-20"
+              "name": "MTRX_CR_B1_AIPOD1",
+              "due": null
             }
           ]
         },
@@ -241,26 +231,12 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 11,
-        "overdue": 11,
+        "active": 8,
+        "overdue": 8,
         "statuses": {
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": "2026-03-06"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_PAKT_B1_AIMUP2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP4",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AISOLO1",
               "due": "2026-03-06"
             }
           ],
@@ -292,7 +268,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIMUP1",
               "due": "2026-03-06"
@@ -303,12 +279,16 @@
       },
       {
         "name": "Calo",
-        "active": 25,
+        "active": 24,
         "overdue": 8,
         "statuses": {
           "Video Needs Revision": [
             {
               "name": "MTRX_CO_B1_AIPOD1",
+              "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP2",
               "due": "2026-03-15"
             },
             {
@@ -380,10 +360,6 @@
               "due": "2026-03-15"
             },
             {
-              "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-15"
-            },
-            {
               "name": "MTRX_CO_B1_AIPOD2",
               "due": "2026-03-15"
             }
@@ -405,10 +381,6 @@
             },
             {
               "name": "MTRX_CL_B1_AIMUP1",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIMUP2",
               "due": null
             },
             {
@@ -1237,5 +1209,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-13T09:00:14.542Z"
+  "timestamp": "2026-03-13T14:00:11.924Z"
 }
