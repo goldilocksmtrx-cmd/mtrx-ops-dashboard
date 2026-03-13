@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 138,
-    "overdue": 104,
+    "active": 137,
+    "overdue": 103,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -61,8 +61,8 @@
       },
       {
         "name": "Seora Skincare",
-        "active": 7,
-        "overdue": 6,
+        "active": 6,
+        "overdue": 5,
         "statuses": {
           "Approved": [
             {
@@ -90,12 +90,6 @@
             {
               "name": "",
               "due": null
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_SE_B1_AIPOD2",
-              "due": "2026-03-10"
             }
           ]
         },
@@ -234,9 +228,13 @@
         "active": 8,
         "overdue": 8,
         "statuses": {
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP1",
               "due": "2026-03-06"
             }
           ],
@@ -267,12 +265,6 @@
               "name": "MTRX_PAKT_B1_AIMUP3_Ah",
               "due": "2026-03-06"
             }
-          ],
-          "Video In Review": [
-            {
-              "name": "MTRX_PAKT_B1_AIMUP1",
-              "due": "2026-03-06"
-            }
           ]
         },
         "startDate": "2026-02-25"
@@ -289,10 +281,6 @@
             },
             {
               "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
             }
           ],
@@ -361,6 +349,12 @@
             },
             {
               "name": "MTRX_CO_B1_AIPOD2",
+              "due": "2026-03-15"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
             }
           ],
@@ -775,7 +769,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 26,
+      "total": 39,
       "submissions": [
         {
           "name": "Emily Gittings",
@@ -982,6 +976,107 @@
             "blockerDetail": "For one of my TC UGC, the creator actually pronounced the perfume name wrong and It didn't really work out with AI so had to wait for reshoot. For another concept, the creator actually used the word \"euros\" instead of \"pounds\", which was fixed with AI.",
             "win": "This week, I had a PQ concept with Pixar animation avatar and B-rolls, It was fun working on that and I learned a lot."
           }
+        },
+        {
+          "name": "Kenneth Bryan Bartolome",
+          "date": "2026-03-13",
+          "summary": {
+            "workDetail": "2 AI concepts 2 ugc",
+            "blockerDetail": "N/A",
+            "win": "N/A"
+          }
+        },
+        {
+          "name": "Nicola Rainsford",
+          "date": "2026-03-13",
+          "summary": {
+            "workDetail": "TC shoot + 8 TEV HP + 6 TEV UGCs + 5 MUPs",
+            "blockerDetail": "Attending shoot meant I started scripting later in the week but worth it!",
+            "win": "First proper TC shoot + person of the week"
+          }
+        },
+        {
+          "name": "Chan David",
+          "date": "2026-03-09",
+          "summary": {
+            "blockerDetail": "credits for AI tools",
+            "win": "studying winning ads"
+          }
+        },
+        {
+          "name": "Shiella Mae Yalung",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Cleared my dash! "
+          }
+        },
+        {
+          "name": "Axl Carreon",
+          "date": "2026-03-13",
+          "summary": {
+            "workDetail": "3 MN VSLs + 2 NR MUP (Insanity) and UGC (Not normal UGC) ",
+            "win": "Manned reviews a lot, concepts were hard but still delivered the best\n\nAlso I'm taking notes of problems I encountered and listing down the solutions to share to pod 3 editors so if they encounter similar problems, it'll be easy"
+          }
+        },
+        {
+          "name": "Don Jasper Deodora",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Communicate!"
+          }
+        },
+        {
+          "name": "Meryl Montgomery",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Hit my script PR at 21! Stayed super locked in and organized. Helps that it's for PQ, so was able to save time on research "
+          }
+        },
+        {
+          "name": "Kaylee Phillips",
+          "date": "2026-03-13",
+          "summary": {
+            "keyTasks": "Assigning creators for Undrdog, Dremteam, Thomson Carter, and Liquid London. Filmed 2 briefs for Nectar and 1 brief for Dremteam. Reviewed and approved submitted content across brands. Met with Ramia 1:1. Ate an entire cake in 1 sitting.",
+            "win": "Learned so much about systems and open communication expectations from 1-1 with Ramia"
+          }
+        },
+        {
+          "name": "Jawaad Ali",
+          "date": "2026-03-13",
+          "summary": {
+            "workDetail": "14 DNC",
+            "win": "Ads in top 5"
+          }
+        },
+        {
+          "name": "Timur Sultanov",
+          "date": "2026-03-13",
+          "summary": {
+            "workDetail": "DNC and 8SO",
+            "blockerDetail": "There were internet problems for half the week. There were also slow deliveries from other editors, and I spent all of Friday reviewing again, instead of analyzing the week and preparing for the next one.",
+            "win": "Working with freelancers and 2(!) AI animations."
+          }
+        },
+        {
+          "name": "Nahid Hasan",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Got footages later, but finished everything"
+          }
+        },
+        {
+          "name": "Adriel",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Since John is off, POD 2 editors decided to cover for him. Most of us took extra concepts. And will apply this in the future whenever someone's going to have some time off :)"
+          }
+        },
+        {
+          "name": "Kenzo Aganon",
+          "date": "2026-03-13",
+          "summary": {
+            "win": "Created a song using AI for my concept"
+          }
         }
       ],
       "wins": [
@@ -1006,7 +1101,7 @@
           "text": "Full AI sceleton ad "
         },
         {
-          "source": "Sarang Ali",
+          "source": "Kenneth Bryan Bartolome",
           "text": "N/A"
         },
         {
@@ -1024,7 +1119,7 @@
           "text": "Drem Team - Creators have received a message from Fedex that the sender has to to fill out a transit form - I've raised this with Alex, just waiting to hear back. "
         },
         {
-          "source": "Abdullah Rasool",
+          "source": "Kenneth Bryan Bartolome",
           "text": "N/A"
         },
         {
@@ -1055,7 +1150,7 @@
     },
     {
       "name": "Pod Leader",
-      "total": 3,
+      "total": 6,
       "submissions": [
         {
           "name": "New submission",
@@ -1087,6 +1182,37 @@
             "support": "None! All challenges have been resolved!\nLois is AMAZING for Notion bugs we face on the daily",
             "struggling": "No struggling members this week!"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-13",
+          "summary": {
+            "weeklyBreakdown": "POD 3 - overcommunicate plan - https://docs.google.com/document/d/1E3Y3u830Yfhy7x_IG3PJdt7O8UJII5FZQ18eMvzjOeI/edit?usp=sharing\n\nMeneral scripts are turning out to be more unique.\n\nReviewed 20+ concepts",
+            "mvp": "KZ - Banger creators",
+            "blocker": "None",
+            "support": "Dr. Squatch - ad account access\nWill notify production and HOT on what products to take for shoots ",
+            "struggling": "Ahmad - back to completion issue"
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-13",
+          "summary": {
+            "weeklyBreakdown": "- All concepts approved early on Friday - POD 2 editors are just always so easy to work with\n- Good learnings from attending TC shoot especially re outfits/hair/makeup, going to bring back outfit mood boards to share with actors for all perfume brands \n- Collaborated closely with Angelique to come up with some new ideas (visual hooks, dance class location for street interview) for TEV + to bring back some previous winning actors \n- Wrote some new AI MUPs to test for TEV in styles that have won for other brands",
+            "mvp": "Angelique - she's so passionate & amazing at what she does, really enjoying working together/coming up with new ideas",
+            "blocker": "A few TEV 12 concepts (MTRX_TEV12_Ni_L2STRT1_F2_Ad_V1_1-1, MTRX_TEV12_Ni_DD-AIMUP2_F2_Jo_V1_1-1) getting some spend although ROAS can be improved (will iterate on next batch/look for easy MUPs on these next week), but promising that one is AI animation considering I've just written 4 new AI concepts + the other was a new street interview format based on a fastmoss winner, that we can definitely continue to iterate on! \n\nI think this just shows though that building on the base that works for these brands but testing new ideas/formats/visuals is key here "
+          }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-13",
+          "summary": {
+            "weeklyBreakdown": "The V1 delivery was absolutely terrible; some V1 orders weren't delivered until Thursday. It's clear that a new brand (Therapet) has entered the game, but they were already there last week. And there weren't any such problems.",
+            "mvp": "Javad was doing a good job of reviewing—he was very active. I don't know about his direct work as a CS. But as a reviewer, he improved significantly.",
+            "blocker": "editors time management including me ",
+            "support": "1 more editor",
+            "struggling": "Manney - very late V1 delivery "
+          }
         }
       ],
       "wins": [
@@ -1101,6 +1227,18 @@
         {
           "source": "New submission",
           "text": "MVP: Shiella! (not because she made me employee of the week) \nHer spirits have been extra high lately and it shows! I vote for her to be a future Senior Ed"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: KZ - Banger creators"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Angelique - she's so passionate & amazing at what she does, really enjoying working together/coming up with new ideas"
+        },
+        {
+          "source": "New submission",
+          "text": "MVP: Javad was doing a good job of reviewing—he was very active. I don't know about his direct work as a CS. But as a reviewer, he improved significantly."
         }
       ],
       "issues": [
@@ -1123,6 +1261,18 @@
         {
           "source": "New submission",
           "text": "Struggling: No struggling members this week!"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: None"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Ahmad - back to completion issue"
+        },
+        {
+          "source": "New submission",
+          "text": "Blocker: A few TEV 12 concepts (MTRX_TEV12_Ni_L2STRT1_F2_Ad_V1_1-1, MTRX_TEV12_Ni_DD-AIMUP2_F2_Jo_V1_1-1) getting some spend although ROAS can be improved (wil"
         }
       ]
     },
@@ -1149,7 +1299,7 @@
     },
     {
       "name": "Head of Editing",
-      "total": 1,
+      "total": 2,
       "submissions": [
         {
           "name": "New submission",
@@ -1160,18 +1310,37 @@
             "qualityByPod": "POD 1 - Editors are now keeping up with speed and AI edits are A1\nPOD 2 - Still consistent with the 100 % CR, and was also able to help other pods with their AI concepts\nPOD 3 - Appreciate the effort of Ahmad and Nahid here in meeting the 100 CR, Axl and Don delivers consistent performance.\nPOD 4 - Reviews are slow and CS needs to be pinged before review but they still achieved 100 CR so all good, can be improved though ",
             "nextFocus": "Consistency in 100% CR"
           }
+        },
+        {
+          "name": "New submission",
+          "date": "2026-03-09",
+          "summary": {
+            "editorsDelivering": "ALL except Niloy & Ahmad ❌",
+            "editorsStruggling": "Ahmad \nNiloy - inconsistent ",
+            "support": "Need Aneesha to follow up for Niloy 🙏🏼",
+            "qualityByPod": "POD 1 speed has been consistent except for Niloy\nPOD 2 great performance from editors and CS, fast turnaround on both as well\nPOD 3 Ahmad still having issues with his time management \nPOD 4 a bit slow this week but Timur's pushing his editors to get 100cr, Tina's review is a bit slow and lack of comms on this pod",
+            "nextFocus": "See if Niloy's speed improves, will follow up closely on him"
+          }
         }
       ],
       "wins": [
         {
           "source": "New submission",
           "text": "Delivering: All editors across all pods performed good this week"
+        },
+        {
+          "source": "New submission",
+          "text": "Delivering: ALL except Niloy & Ahmad ❌"
         }
       ],
       "issues": [
         {
           "source": "New submission",
           "text": "Struggling: None - which is what we want"
+        },
+        {
+          "source": "New submission",
+          "text": "Struggling: Ahmad \nNiloy - inconsistent "
         }
       ]
     },
@@ -1209,5 +1378,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-13T14:00:11.924Z"
+  "timestamp": "2026-03-13T19:00:30.731Z"
 }
