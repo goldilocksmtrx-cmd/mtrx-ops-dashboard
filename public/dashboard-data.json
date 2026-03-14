@@ -208,15 +208,19 @@
               "due": "2026-02-20"
             }
           ],
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_CR_B1_AIDEB1",
               "due": "2026-02-20"
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
-            },
+            }
+          ],
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIANIM1",
               "due": null
@@ -233,10 +237,6 @@
           "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP1",
               "due": "2026-03-06"
             }
           ],
@@ -267,6 +267,12 @@
               "name": "MTRX_PAKT_B1_AIMUP3_Ah",
               "due": "2026-03-06"
             }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_PAKT_B1_AIMUP1",
+              "due": "2026-03-06"
+            }
           ]
         },
         "startDate": "2026-02-25"
@@ -287,10 +293,6 @@
             },
             {
               "name": "MTRX_CO_B1_AIPOD2",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
             }
           ],
@@ -356,6 +358,12 @@
             {
               "name": "MTRX_CO_B1_AIUGC1",
               "due": "2026-03-05"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_CO_B1_AIUGC2",
+              "due": "2026-03-15"
             }
           ],
           "Scripting": [
@@ -1106,10 +1114,24 @@
     },
     {
       "name": "Project Manager",
-      "total": 0,
-      "submissions": [],
+      "total": 1,
+      "submissions": [
+        {
+          "name": "New submission",
+          "date": "2026-03-13",
+          "summary": {
+            "summary": "PODs 4 and 2 are on track - Timur is doing great with pulling the team and following up on reviews\nPOD1 - Niloy has very bad comms (I don't even know if he slow or if he doesn't communicate challenges, but at least he got some approvals this week unlike Ahmad)\nPOD3 - Having Andrius should be a push now - I will follow up with him, evaluate his speed and comms for the coming 2 weeks - Ahmad at this point is really making me mad, very slow on V1s, this week no approvals and even if he is facing issues with footage or lighting etc. I always say to check everything by Monday to avoid these kinds of issues - don't see him up to others level now especially after 5 to 6 months being within the team\n\nCSs are okay - wanna see Marzook going back to track now\nFreelancers are being a great help - Cj is good - Bryan so much hunger, he will fit within the team, Catarina a star - Saumik's team being great and Clyde very reliable!\n\nFor Brands - so many brands have AI at this point - I am worried about UD and PQ tbh - I dont' know how much full editors will be able to take all these AI and Animations and meet deadlines - a system here Hamza would be great to make editors' life easier and faster with AI so I can assign them more\n\nBloom we have an issue people - after 2 weeks no HP scripts with us",
+            "whoMissed": "Niloy - Missed 2 concepts (I have no idea tbh if that is a skill issue, a comms issue or anything else)\nAhmad - 0 approvals - at this point (either he has a major skill issue, no sense of time management imo or not understanding the importance of deadlines)"
+          }
+        }
+      ],
       "wins": [],
-      "issues": []
+      "issues": [
+        {
+          "source": "New submission",
+          "text": "Missed: Niloy - Missed 2 concepts (I have no idea tbh if that is a skill issue, a comms issue or anything else)\nAhmad - 0 approvals - at this point (either he"
+        }
+      ]
     },
     {
       "name": "Head of Editing",
@@ -1197,5 +1219,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-14T09:00:09.014Z"
+  "timestamp": "2026-03-14T14:00:20.582Z"
 }
