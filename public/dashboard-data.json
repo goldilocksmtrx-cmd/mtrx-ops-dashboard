@@ -777,7 +777,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 21,
+      "total": 23,
       "submissions": [
         {
           "name": "Tina Battilana",
@@ -930,6 +930,13 @@
           }
         },
         {
+          "name": "Adarsh Mishra",
+          "date": "2026-03-08",
+          "summary": {
+            "win": "Learned about the must have mindset while editing and some really helpful audio editing methods from Fellow editors on editor's call"
+          }
+        },
+        {
           "name": "Marzook Muhammad Ali",
           "date": "2026-03-13",
           "summary": {
@@ -944,6 +951,15 @@
           "summary": {
             "blockerDetail": "I had internet issues, with the speed being down, and encountered many problems while generating AI b-rolls. However, I still achieved a 100% completion rate.",
             "win": "N/A"
+          }
+        },
+        {
+          "name": "Tina",
+          "date": "2026-03-08",
+          "summary": {
+            "workDetail": "2 DNC + 10 DNH",
+            "blockerDetail": "Feeling sick on FRIDAY  :(",
+            "win": "I have another concpet scaling hard in DNC :) MTRX_DNC4_Ti_UGC5_AJ_Cj_V1"
           }
         }
       ],
@@ -1219,5 +1235,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-14T14:00:20.582Z"
+  "timestamp": "2026-03-14T19:00:15.357Z"
 }
