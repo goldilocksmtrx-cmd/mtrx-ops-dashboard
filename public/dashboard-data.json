@@ -214,13 +214,13 @@
               "due": "2026-02-20"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIANIM1",
               "due": null
@@ -234,7 +234,7 @@
         "active": 8,
         "overdue": 8,
         "statuses": {
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_PAKT_B1_AIANIM2",
               "due": "2026-03-06"
@@ -268,7 +268,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_AIMUP1",
               "due": "2026-03-06"
@@ -288,11 +288,15 @@
               "due": "2026-03-15"
             },
             {
+              "name": "MTRX_CO_B1_AIMUP1",
+              "due": "2026-03-15"
+            },
+            {
               "name": "MTRX_CO_B1_AIMUP2",
               "due": "2026-03-15"
             },
             {
-              "name": "MTRX_CO_B1_AIPOD2",
+              "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
             }
           ],
@@ -348,10 +352,6 @@
           ],
           "Editing": [
             {
-              "name": "MTRX_CO_B1_AIMUP1",
-              "due": "2026-03-15"
-            },
-            {
               "name": "MTRX_CO_B1_AIDEB1",
               "due": "2026-03-15"
             },
@@ -362,7 +362,7 @@
           ],
           "Video Needs Revision": [
             {
-              "name": "MTRX_CO_B1_AIUGC2",
+              "name": "MTRX_CO_B1_AIPOD2",
               "due": "2026-03-15"
             }
           ],
@@ -777,17 +777,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 23,
+      "total": 22,
       "submissions": [
-        {
-          "name": "Tina Battilana",
-          "date": "2026-03-01",
-          "summary": {
-            "workDetail": "New brand's reaserch - Calo + Client's call",
-            "blockerDetail": "Communication on the reaserch process for new brands",
-            "win": "I have a top 3 spending ad ($36,364.62) in DRINK NECTAR CALM! MTRX_DNC3_M1_Ti_UGC29_KA_Ab_V3\n\nBesides, Calo CEO got super happy with my approach on the initial reaserch + loom, he said it was HUGE!"
-          }
-        },
         {
           "name": "Meryl Montgomery",
           "date": "2026-03-06",
@@ -965,10 +956,6 @@
       ],
       "wins": [
         {
-          "source": "Tina Battilana",
-          "text": "I have a top 3 spending ad ($36,364.62) in DRINK NECTAR CALM! MTRX_DNC3_M1_Ti_UGC29_KA_Ab_V3\n\nBesides, Calo CEO got super happy with my approach on the initial reaserch + loom, he said it was HUGE!"
-        },
-        {
           "source": "Meryl Montgomery",
           "text": "Got new Auri concepts scripted to push format of HP "
         },
@@ -995,13 +982,13 @@
         {
           "source": "Axl Carreon",
           "text": "Manned reviews a lot, concepts were hard but still delivered the best\n\nAlso I'm taking notes of problems I encountered and listing down the solutions to share to pod 3 editors so if they encounter similar problems, it'll be easy"
+        },
+        {
+          "source": "Don Jasper Deodora",
+          "text": "Communicate!"
         }
       ],
       "issues": [
-        {
-          "source": "Tina Battilana",
-          "text": "Communication on the reaserch process for new brands"
-        },
         {
           "source": "Meryl Montgomery",
           "text": "Tina management took a lot of time and energy this week. Felt like it impacted my deliverables as there were some sloppy edits and notion hygiene on my end. I think the high volume of concepts in review + tina added some friction to the week. "
@@ -1029,6 +1016,10 @@
         {
           "source": "Marzook Muhammad Ali",
           "text": "A lot of ads to review - we must've completed more than half of crumb v1 reviews, a bunch of meneral ads, a bunch of bioroots, nominals - almost every brand pod 3 works for."
+        },
+        {
+          "source": "Abdullah Rasool ",
+          "text": "I had internet issues, with the speed being down, and encountered many problems while generating AI b-rolls. However, I still achieved a 100% completion rate."
         }
       ]
     },
@@ -1235,5 +1226,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-14T19:00:15.357Z"
+  "timestamp": "2026-03-15T09:00:13.294Z"
 }
