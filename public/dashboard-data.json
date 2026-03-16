@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 128,
-    "overdue": 99,
+    "active": 110,
+    "overdue": 81,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -208,11 +208,13 @@
               "due": "2026-02-20"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
-            },
+            }
+          ],
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIANIM1",
               "due": null
@@ -223,12 +225,44 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 6,
-        "overdue": 6,
+        "active": 12,
+        "overdue": 12,
         "statuses": {
-          "Ready for Editing": [
+          "Approved": [
+            {
+              "name": "MTRX_PAKT_B1_AIPOD2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIVSL2",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIVSL1_Br",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIPOD1",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP1",
+              "due": "2026-03-06"
+            }
+          ],
+          "Video Needs Revision": [
+            {
+              "name": "MTRX_PAKT_B1_AIANIM2",
+              "due": "2026-03-06"
+            }
+          ],
+          "Editing": [
             {
               "name": "MTRX_PAKT_B1_AIQANDA1",
+              "due": "2026-03-06"
+            },
+            {
+              "name": "MTRX_PAKT_B1_AIMUP3_Ah",
               "due": "2026-03-06"
             },
             {
@@ -244,13 +278,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Editing": [
-            {
-              "name": "MTRX_PAKT_B1_AIMUP3_Ah",
-              "due": "2026-03-06"
-            }
-          ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_PAKT_B1_UGC1",
               "due": "2026-03-06"
@@ -342,64 +370,6 @@
           ]
         },
         "startDate": "2026-03-11"
-      },
-      {
-        "name": "First Day",
-        "active": 12,
-        "overdue": 12,
-        "statuses": {
-          "Not started": [
-            {
-              "name": "MTRX_FD_B1_AIPOD3",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIMUP2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD5",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIUGC2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIDEB1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD4",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIMUP1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIDEB2",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIVSL1",
-              "due": "2026-03-10"
-            },
-            {
-              "name": "MTRX_FD_B1_AIUGC1",
-              "due": "2026-03-10"
-            }
-          ]
-        },
-        "startDate": "2026-03-03"
       },
       {
         "name": "Metafit Pharma Solutions (TrimRX)",
@@ -533,64 +503,6 @@
             {
               "name": "MTRX_SE_B1_AIMUP1",
               "due": null
-            }
-          ]
-        },
-        "startDate": null
-      },
-      {
-        "name": "FD",
-        "active": 12,
-        "overdue": 12,
-        "statuses": {
-          "Not started": [
-            {
-              "name": "MTRX_FD_B1_AIPOD3",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIUGC2",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIVSL1",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD2",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD1",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD4",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIPOD5",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIDEB2",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIUGC1",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIMUP1",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIDEB1",
-              "due": "2026-03-11"
-            },
-            {
-              "name": "MTRX_FD_B1_AIMUP2",
-              "due": "2026-03-11"
             }
           ]
         },
@@ -1206,5 +1118,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-16T14:00:16.231Z"
+  "timestamp": "2026-03-16T19:00:13.711Z"
 }
