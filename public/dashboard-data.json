@@ -1,6 +1,6 @@
 {
   "ai": {
-    "active": 138,
+    "active": 132,
     "overdue": 103,
     "brands": [
       {
@@ -214,7 +214,7 @@
               "due": "2026-02-20"
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
@@ -266,7 +266,7 @@
               "due": "2026-03-06"
             }
           ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_PAKT_B1_UGC1",
               "due": "2026-03-06"
@@ -277,7 +277,7 @@
       },
       {
         "name": "Calo",
-        "active": 24,
+        "active": 18,
         "overdue": 8,
         "statuses": {
           "Video Needs Revision": [
@@ -290,62 +290,12 @@
               "due": "2026-03-15"
             },
             {
-              "name": "MTRX_CO_B1_AIMUP2",
+              "name": "MTRX_CO_B1_AIPOD2",
               "due": "2026-03-15"
             },
             {
               "name": "MTRX_CO_B1_AIUGC2",
               "due": "2026-03-15"
-            }
-          ],
-          "Not started": [
-            {
-              "name": "MTRX_CO_B1_AIPOD4",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD3",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIDEB2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIVSL1",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD5",
-              "due": "2026-03-05"
-            },
-            {
-              "name": "MTRX_CL_B1_AIDEB2",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIVSL1",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIUGC1",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIPOD5",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIPOD3",
-              "due": null
-            },
-            {
-              "name": "MTRX_CL_B1_AIPOD4",
-              "due": null
             }
           ],
           "Editing": [
@@ -358,9 +308,9 @@
               "due": "2026-03-05"
             }
           ],
-          "Video In Review": [
+          "Ready to Upload": [
             {
-              "name": "MTRX_CO_B1_AIPOD2",
+              "name": "MTRX_CO_B1_AIMUP2",
               "due": "2026-03-15"
             }
           ],
@@ -385,6 +335,30 @@
             },
             {
               "name": "MTRX_CL_B1_AIPOD1",
+              "due": null
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC3",
+              "due": null
+            },
+            {
+              "name": "MTRX_CO_B1_AIANIM1",
+              "due": null
+            },
+            {
+              "name": "MTRX_CL_B1_AIPOD2",
+              "due": null
+            },
+            {
+              "name": "MTRX_CO_B1_AIMUP4",
+              "due": null
+            },
+            {
+              "name": "MTRX_CL_B1_AIMUP2",
+              "due": null
+            },
+            {
+              "name": "MTRX_CO_B1_AISTAGE1",
               "due": null
             }
           ]
@@ -775,7 +749,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 23,
+      "total": 25,
       "submissions": [
         {
           "name": "Meryl Montgomery",
@@ -956,6 +930,21 @@
           "date": "2026-03-09",
           "summary": {
             "win": " N/A"
+          }
+        },
+        {
+          "name": "Assia Haque",
+          "date": "2026-03-09",
+          "summary": {
+            "workDetail": "18 DT scripts",
+            "win": "Honing into pattern interruptions for hooks that have worked well for TT organics and applying this different approach to DT"
+          }
+        },
+        {
+          "name": "Aleck Royce Bullag",
+          "date": "2026-03-09",
+          "summary": {
+            "win": "finish 9 concepts"
           }
         }
       ],
@@ -1231,5 +1220,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-15T19:00:16.386Z"
+  "timestamp": "2026-03-16T09:03:53.085Z"
 }
