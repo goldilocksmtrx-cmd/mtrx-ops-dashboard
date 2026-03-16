@@ -1,7 +1,7 @@
 {
   "ai": {
-    "active": 132,
-    "overdue": 103,
+    "active": 128,
+    "overdue": 99,
     "brands": [
       {
         "name": "Peak Footwear",
@@ -173,8 +173,8 @@
       },
       {
         "name": "Crumb",
-        "active": 10,
-        "overdue": 8,
+        "active": 9,
+        "overdue": 7,
         "statuses": {
           "Ready for Editing": [
             {
@@ -208,13 +208,7 @@
               "due": "2026-02-20"
             }
           ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_CR_B1_AIDEB1",
-              "due": "2026-02-20"
-            }
-          ],
-          "Video In Review": [
+          "Video Needs Revision": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
@@ -229,19 +223,9 @@
       },
       {
         "name": "Pearl West Group",
-        "active": 8,
-        "overdue": 8,
+        "active": 6,
+        "overdue": 6,
         "statuses": {
-          "Ready to Upload": [
-            {
-              "name": "MTRX_PAKT_B1_AIANIM2",
-              "due": "2026-03-06"
-            },
-            {
-              "name": "MTRX_PAKT_B1_AIMUP1",
-              "due": "2026-03-06"
-            }
-          ],
           "Ready for Editing": [
             {
               "name": "MTRX_PAKT_B1_AIQANDA1",
@@ -277,8 +261,8 @@
       },
       {
         "name": "Calo",
-        "active": 18,
-        "overdue": 8,
+        "active": 17,
+        "overdue": 7,
         "statuses": {
           "Video Needs Revision": [
             {
@@ -306,12 +290,6 @@
             {
               "name": "MTRX_CO_B1_AIUGC1",
               "due": "2026-03-05"
-            }
-          ],
-          "Ready to Upload": [
-            {
-              "name": "MTRX_CO_B1_AIMUP2",
-              "due": "2026-03-15"
             }
           ],
           "Scripting": [
@@ -749,7 +727,7 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 25,
+      "total": 26,
       "submissions": [
         {
           "name": "Meryl Montgomery",
@@ -945,6 +923,14 @@
           "date": "2026-03-09",
           "summary": {
             "win": "finish 9 concepts"
+          }
+        },
+        {
+          "name": "Ahmad Amiri",
+          "date": "2026-03-09",
+          "summary": {
+            "blockerDetail": "I wasn’t able to get approvals by Friday and instead received them over the weekend. Last week I worked on 3 concepts for Nominal and 2 for a new brand called Crumb.\nFor Nominal, my V1s were submitted between Monday and Tuesday. The Crumb concepts took longer because I needed some time to understand the brand — reviewing their app, website, and social media to get a better sense of their direction. I also received a large amount of video assets, which required filtering before deciding on the direction of the edits.\nOverall, I’m confident in the quality of the videos, but the approvals came later than expected. In the future, I’ll dedicate more time earlier on to researching new brands so I can avoid delays like this.",
+            "win": "My edits are improving better than before. My round of revisions are becoming less also. My crumb concepts didn't take more than 1 round of reviews because I understood the brief and communicated well with my cs about the scripts. "
           }
         }
       ],
@@ -1220,5 +1206,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-16T09:03:53.085Z"
+  "timestamp": "2026-03-16T14:00:16.231Z"
 }
