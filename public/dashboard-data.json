@@ -208,13 +208,13 @@
               "due": "2026-02-20"
             }
           ],
-          "Video In Review": [
+          "Ready to Upload": [
             {
               "name": "MTRX_CR_B1_AIPOD1",
               "due": null
             }
           ],
-          "Video Needs Revision": [
+          "Video In Review": [
             {
               "name": "MTRX_CR_B1_AIANIM1",
               "due": null
@@ -300,14 +300,6 @@
             {
               "name": "MTRX_CO_B1_AIMUP1",
               "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIPOD2",
-              "due": "2026-03-15"
-            },
-            {
-              "name": "MTRX_CO_B1_AIUGC2",
-              "due": "2026-03-15"
             }
           ],
           "Editing": [
@@ -318,6 +310,16 @@
             {
               "name": "MTRX_CO_B1_AIUGC1",
               "due": "2026-03-05"
+            }
+          ],
+          "Video In Review": [
+            {
+              "name": "MTRX_CO_B1_AIPOD2",
+              "due": "2026-03-15"
+            },
+            {
+              "name": "MTRX_CO_B1_AIUGC2",
+              "due": "2026-03-15"
             }
           ],
           "Scripting": [
@@ -639,25 +641,8 @@
   "forms": [
     {
       "name": "Check In Tracker",
-      "total": 26,
+      "total": 24,
       "submissions": [
-        {
-          "name": "Meryl Montgomery",
-          "date": "2026-03-06",
-          "summary": {
-            "workDetail": "Auri Nutriton ",
-            "blockerDetail": "Tina management took a lot of time and energy this week. Felt like it impacted my deliverables as there were some sloppy edits and notion hygiene on my end. I think the high volume of concepts in review + tina added some friction to the week. ",
-            "win": "Got new Auri concepts scripted to push format of HP "
-          }
-        },
-        {
-          "name": "Adarsh Mishra",
-          "date": "2026-03-01",
-          "summary": {
-            "blockerDetail": "For one of my TC UGC, the creator actually pronounced the perfume name wrong and It didn't really work out with AI so had to wait for reshoot. For another concept, the creator actually used the word \"euros\" instead of \"pounds\", which was fixed with AI.",
-            "win": "This week, I had a PQ concept with Pixar animation avatar and B-rolls, It was fun working on that and I learned a lot."
-          }
-        },
         {
           "name": "Kenneth Bryan Bartolome",
           "date": "2026-03-13",
@@ -848,14 +833,6 @@
       ],
       "wins": [
         {
-          "source": "Meryl Montgomery",
-          "text": "Got new Auri concepts scripted to push format of HP "
-        },
-        {
-          "source": "Adarsh Mishra",
-          "text": "This week, I had a PQ concept with Pixar animation avatar and B-rolls, It was fun working on that and I learned a lot."
-        },
-        {
           "source": "Abdullah Rasool ",
           "text": "N/A"
         },
@@ -878,17 +855,17 @@
         {
           "source": "Don Jasper Deodora",
           "text": "Communicate!"
+        },
+        {
+          "source": "Meryl Montgomery",
+          "text": "Hit my script PR at 21! Stayed super locked in and organized. Helps that it's for PQ, so was able to save time on research "
+        },
+        {
+          "source": "Kaylee Phillips",
+          "text": "Learned so much about systems and open communication expectations from 1-1 with Ramia"
         }
       ],
       "issues": [
-        {
-          "source": "Meryl Montgomery",
-          "text": "Tina management took a lot of time and energy this week. Felt like it impacted my deliverables as there were some sloppy edits and notion hygiene on my end. I think the high volume of concepts in review + tina added some friction to the week. "
-        },
-        {
-          "source": "Adarsh Mishra",
-          "text": "For one of my TC UGC, the creator actually pronounced the perfume name wrong and It didn't really work out with AI so had to wait for reshoot. For another concept, the creator actually used the word \"euros\" instead of \"pounds\", which was fixed with AI."
-        },
         {
           "source": "Kenneth Bryan Bartolome",
           "text": "N/A"
@@ -912,6 +889,14 @@
         {
           "source": "Abdullah Rasool ",
           "text": "I had internet issues, with the speed being down, and encountered many problems while generating AI b-rolls. However, I still achieved a 100% completion rate."
+        },
+        {
+          "source": "Tina",
+          "text": "Feeling sick on FRIDAY  :("
+        },
+        {
+          "source": "Ahmad Amiri",
+          "text": "I wasn’t able to get approvals by Friday and instead received them over the weekend. Last week I worked on 3 concepts for Nominal and 2 for a new brand called Crumb.\nFor Nominal, my V1s were submitted between Monday and Tuesday. The Crumb concepts took longer because I needed some time to understand the brand — reviewing their app, website, and social media to get a better sense of their direction. I also received a large amount of video assets, which required filtering before deciding on the direction of the edits.\nOverall, I’m confident in the quality of the videos, but the approvals came later than expected. In the future, I’ll dedicate more time earlier on to researching new brands so I can avoid delays like this."
         }
       ]
     },
@@ -1063,19 +1048,8 @@
     },
     {
       "name": "Head of CS",
-      "total": 2,
+      "total": 1,
       "submissions": [
-        {
-          "name": "New submission",
-          "date": "2026-03-06",
-          "summary": {
-            "working": "Research is showing up on scripts and new loom process is rolled out with positive client feedback so far. ",
-            "notWorking": "Tina not able to keep up with AI prompts and process without it being a distraction or time suck ",
-            "needsAttention": "tina + marzook ",
-            "standingOut": "Assia really stood out on last batch of research + loom",
-            "nextPriority": "Prepping for time off (3/18 - 2/20), getting marzook caught up on research process, making sure 100% of team (including myself) finishes scripts this week\n"
-          }
-        },
         {
           "name": "New submission",
           "date": "2026-03-13",
@@ -1091,22 +1065,10 @@
       "wins": [
         {
           "source": "New submission",
-          "text": "Working: Research is showing up on scripts and new loom process is rolled out with positive client feedback so far. "
-        },
-        {
-          "source": "New submission",
           "text": "Working: tbh, this week i didn't have the time to dive into teams research or be as diligent with tina performance. (but i did get 21 scripts banged out, so he"
         }
       ],
       "issues": [
-        {
-          "source": "New submission",
-          "text": "Not Working: Tina not able to keep up with AI prompts and process without it being a distraction or time suck "
-        },
-        {
-          "source": "New submission",
-          "text": "Needs Attention: tina + marzook "
-        },
         {
           "source": "New submission",
           "text": "Not Working: It's not that research isn't working, but now that research is more steady, i want to start pushing different research and analytics. such as how to a"
@@ -1118,5 +1080,5 @@
       ]
     }
   ],
-  "timestamp": "2026-03-16T19:00:13.711Z"
+  "timestamp": "2026-03-17T09:00:27.537Z"
 }
